@@ -1,0 +1,29 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0109
+}
+StartDrag
+If loc0021
+Jump loc007a
+loc0021:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}." , "{invalid_utf8=136}(" , "\x04" , "pressXHelp" , "helpText1" , "scroll" , "helpText0" , "{invalid_utf8=153}\x02" , "\x0e" , "{invalid_utf8=136}\x07"  {
+Jump loc0109
+loc007a:ConstantPool "pressXHelp", "helpText1", "scroll", "helpText0"
+}
+DefineFunction2 "windowClose", 0, 2, true, false, true, false, true, false, true, false, false {
+Push 0, register1, "\x02\x01"
+CallMethod
+Pop
+}
+DefineFunction "helpWindowUpdateScroll", 0 {
+Push constant1
+GetVariable
+Push constant2, constant3
+GetVariable
+Push constant2
+GetMember
+SetMember
+}
+}
+loc0109:

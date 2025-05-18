@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+StringExtract
+Jump loc001e
+}
+Extends
+GetVariable
+CharToAscii
+WaitForFrame2 1
+}
+loc001e:

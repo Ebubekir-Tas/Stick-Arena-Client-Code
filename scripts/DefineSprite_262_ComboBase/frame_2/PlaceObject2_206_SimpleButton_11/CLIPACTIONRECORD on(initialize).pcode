@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+Extends
+BitURShift
+NewMethod
+BitURShift
+BitURShift
+BitLShift
+Extends
+Jump loc001f
+}
+BitURShift
+AsciiToChar
+loc001f:}

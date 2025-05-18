@@ -1,0 +1,2992 @@
+ConstantPool "\x01\x02\x03", "\x01\x02\x03", "noInputTime", "run", "char0MC", "fqqZCx", "gotoAndStop", "char1MC", "credText0", "text", "credText1", "player", "vwFMff", "formatNumber", "h0Text0", "h0Text1", "profileText", "h1Text0", "h1Text1", "editorText", "kkswbu", "Boolean", "purchased", "labPassMC", "daysToPassExpiry", "passExpiryDialogueThreshhold", "passExpiryUrgentText", "passExpiryText1", "shopText", "passExpiryText0", "notPurchased", "initializeColorPickerCrossHairs", "updatePlayerIndicatorsShop", "updatePlayerPetsShop", "pressTabPetsShop", "tabSystemInactiveMC", "_visible", "sendGetOwnedItemList", "getCredWin", "buySlotBTNMC", "credMapSlotMC", "ballistickRequiredMapSlotsMC", "mapCredText0", "mapCredText1", "", "i", "maxMapSlots", "mapsSlotMC", "uName", "APISendMapListRequest", "mapSlotCosts", "vwcTCi", "numFreeMapSlots", "mapListCustom", "empty", "open", "lockedEmpty", "lockedOpen", "closed", "lockedClosed", "crossHairMC0X", "crossHairMC0", "_x", "colorPickerMC0", "_width", "crossHairMC0Y", "_y", "_height", "crossHairMC1X", "crossHairMC1", "colorPickerMC1", "crossHairMC1Y", "indicatorMC", "selectedShopSpinner", "padStr", "indicatorTopShopMC", "attachMovie", "_xscale", "_yscale", "cB", "cG", "cR", "subIndicatorMC", "colorMC1", "colorMC0", "setCustomObject2Colors", "petTitle0", "petTitle1", "spinnerText", "petText0", "petText1", "spinnerPetCredText0", "spinnerPetCredText1", "spinnerCosts", "ballistickRequiredMC", "numFreeSpinners", "bMC", "petBehavior", "selectedShopPet", "MC", "petTopShopMC", "petMC", "subPetMC", "petScale", "petText", "petCosts", "shop", "spinnersMC", "maxShopSpinners", "spnMC", "subSpinnersMC", "_alpha", "deselectedSliderElementAlpha", "lockMC", "spinnersMC.subSpinnersMC.indicatorMC", "play", "spinnersMC.subSpinnersMC.lockMC", "updateCustomizationArrows", "petsMC", "maxShopPets", "shopPetSpacing", "kill", "petsMC.subSpinnersMC.petMC", "setPetAnimation", "petsMC.subSpinnersMC.lockMC", "currentCustomizationTab", "_pets", "shopButtonsEnabled", "selectCustomizationTab", "clearSpinnersCustomization", "initializePetsShop", "_spinners", "clearPetsCustomization", "initializeSpinnersShop", "idle", "onEnterFrame", "targetX", "Math", "abs", "stop", "crossHairMCPointer", "crossHairMC", "num", "colorPickerMCPointer", "colorPickerMC", "init", "image_bitmap0", "getPixel", "temp", "image_bitmap1", "indicatorTopShopMC.indicatorMC.subIndicatorMC.colorMC", "setCustomObjectColor", "petTopShopMC.bMC.subPetMC.petMC.colorMC", "validatePurchaseClientSide", "purchaseSuccessMessage", "\r", "shopPurchaseType", "_shopSpinnerType", "window304ShopGetaPassMessageMC", "displayShopMessage", "_shopPetType", "_shopMapSlotType", "window304ShopMessageMC", "shopPurchaseCost", "window304ShopConfirmMessageMC", "toString", "window304ShopNotEnoughCredMessageMC", "spinners", "length", "red0", "green0", "blue0", "red1", "green1", "blue1", "sendBuyItem", "pets", "updateMapSlotsShop", "window2MC", "cacheAsBitmap", "optionUseBitmapCaching", "windowShow", "zqggLX", "msgText0", "msgText1", "showShopButtons", "performShopPurchase", "manageAccountBTNMC", "buyBTNMC", "arrowRightMC", "arrowLeftMC", "tabSystemMC", "tabRightMC", "tabLeftMC", "currentTab", "ticketWaiting", "noGlow", "tabShopMC", "tabShopGlowMC", "sendCredWinRequest", "ticketMC", "ticketParentMC", "cachedPrizeValue", "prizes", "windowMC", "msg2Text0", "msg2Text1", "prizeMC", "prizeTextMC", "prizeText", "concat", "KONGREGATE.COM", "domainName", "indexOf", "performKongregateTicketStatsSubmission", "_shop", "cleanUpTicket", "removeMovieClip", "unloadMovie", "ballistickAdMC", "frameNum", "frameArray", "animateCount", "initializeShop", "Array", "flash", "display", "BitmapData", "draw", "clickColorPickerShop"
+DefineFunction "initializeShop", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "run", 1, "char0MC"
+GetVariable
+Push "fqqZCx"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "run", 1, "char1MC"
+GetVariable
+Push "fqqZCx"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "credText0"
+GetVariable
+Push "text", "credText1"
+GetVariable
+Push "text", "player"
+GetVariable
+Push "vwFMff"
+GetMember
+Push 1, "formatNumber"
+CallFunction
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "h0Text0"
+GetVariable
+Push "text", "h0Text1"
+GetVariable
+Push "text", "profileText"
+GetVariable
+Push 3
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "h1Text0"
+GetVariable
+Push "text", "h1Text1"
+GetVariable
+Push "text", "editorText"
+GetVariable
+Push 48
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc0deb
+Push "purchased", 1, "labPassMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "daysToPassExpiry"
+GetVariable
+Push "passExpiryDialogueThreshhold"
+GetVariable
+Greater
+Not
+Not
+If loc0da3
+Push "daysToPassExpiry"
+GetVariable
+Push 1
+Equals2
+Not
+If loc0d5b
+Push "labPassMC"
+GetVariable
+Push "passExpiryUrgentText"
+GetMember
+Push "text", "labPassMC"
+GetVariable
+Push "passExpiryText1"
+GetMember
+Push "text", "daysToPassExpiry"
+GetVariable
+Push "shopText"
+GetVariable
+Push 22
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Jump loc0d9e
+loc0d5b:Push "labPassMC"
+GetVariable
+Push "passExpiryUrgentText"
+GetMember
+Push "text", "labPassMC"
+GetVariable
+Push "passExpiryText1"
+GetMember
+Push "text", "daysToPassExpiry"
+GetVariable
+Push "shopText"
+GetVariable
+Push 23
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc0d9e:Jump loc0de6
+loc0da3:Push "labPassMC"
+GetVariable
+Push "passExpiryText0"
+GetMember
+Push "text", "labPassMC"
+GetVariable
+Push "passExpiryText1"
+GetMember
+Push "text", "daysToPassExpiry"
+GetVariable
+Push "shopText"
+GetVariable
+Push 23
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc0de6:Jump loc0e05
+loc0deb:Push "notPurchased", 1, "labPassMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc0e05:Push 0, "initializeColorPickerCrossHairs"
+CallFunction
+Pop
+Push 0, "updatePlayerIndicatorsShop"
+CallFunction
+Pop
+Push 0, "updatePlayerPetsShop"
+CallFunction
+Pop
+Push 0, "pressTabPetsShop"
+CallFunction
+Pop
+Push "tabSystemInactiveMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push 0, "player"
+GetVariable
+Push "sendGetOwnedItemList"
+CallMethod
+Pop
+Push 0, "getCredWin"
+CallFunction
+Pop
+Push "buySlotBTNMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "credMapSlotMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "ballistickRequiredMapSlotsMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "mapCredText0"
+GetVariable
+Push "text", "mapCredText1"
+GetVariable
+Push "text", ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "i", 0
+DefineLocal
+loc0edd:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc0f1a
+Push "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "_visible", false
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc0edd
+loc0f1a:Push "uName"
+GetVariable
+Push 1, "APISendMapListRequest"
+CallFunction
+Pop
+}
+DefineFunction "recieveOwnedItemListShop", 0 {
+}
+DefineFunction "updateMapSlotsShop", 0 {
+Push "h1Text0"
+GetVariable
+Push "text", "h1Text1"
+GetVariable
+Push "text", "shopText"
+GetVariable
+Push 0
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "mapCredText0"
+GetVariable
+Push "text", "mapCredText1"
+GetVariable
+Push "text", "mapSlotCosts"
+GetVariable
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "credMapSlotMC"
+GetVariable
+Push "_visible", "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push "maxMapSlots"
+GetVariable
+Less2
+SetMember
+Push "buySlotBTNMC"
+GetVariable
+Push "_visible", "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+Push "maxMapSlots"
+GetVariable
+Less2
+Push 1, "Boolean"
+CallFunction
+SetMember
+Push "ballistickRequiredMapSlotsMC"
+GetVariable
+Push "_visible", "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push "numFreeMapSlots"
+GetVariable
+Less2
+Not
+PushDuplicate
+Not
+If loc1057
+Pop
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push "maxMapSlots"
+GetVariable
+Less2
+loc1057:SetMember
+Push "i", 0
+DefineLocal
+loc1066:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc1222
+Push "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "_visible", true
+SetMember
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push "i"
+GetVariable
+Greater
+Not
+If loc11a9
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc113a
+Push "mapListCustom"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "editorText"
+GetVariable
+Push 49
+GetMember
+Equals2
+Not
+If loc1114
+Push "empty", 1, "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc1135
+loc1114:Push "open", 1, "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc1135:Jump loc11a4
+loc113a:Push "mapListCustom"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "editorText"
+GetVariable
+Push 49
+GetMember
+Equals2
+Not
+If loc1183
+Push "lockedEmpty", 1, "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc11a4
+loc1183:Push "lockedOpen", 1, "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc11a4:Jump loc1210
+loc11a9:Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc11ef
+Push "closed", 1, "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc1210
+loc11ef:Push "lockedClosed", 1, "mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc1210:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1066
+}
+loc1222:DefineFunction "initializeColorPickerCrossHairs", 0 {
+Push "crossHairMC0X"
+GetVariable
+Push -1
+Equals2
+Not
+If loc1292
+Push "crossHairMC0"
+GetVariable
+Push "_x", "colorPickerMC0"
+GetVariable
+Push "_width"
+GetMember
+Push 2
+Subtract
+RandomNumber
+Push "colorPickerMC0"
+GetVariable
+Push "_x"
+GetMember
+Add2
+SetMember
+Jump loc12a4
+loc1292:Push "crossHairMC0"
+GetVariable
+Push "_x", "crossHairMC0X"
+GetVariable
+SetMember
+loc12a4:Push "crossHairMC0Y"
+GetVariable
+Push -1
+Equals2
+Not
+If loc12ed
+Push "crossHairMC0"
+GetVariable
+Push "_y", "colorPickerMC0"
+GetVariable
+Push "_height"
+GetMember
+Push 2
+Subtract
+RandomNumber
+Push "colorPickerMC0"
+GetVariable
+Push "_y"
+GetMember
+Add2
+SetMember
+Jump loc12ff
+loc12ed:Push "crossHairMC0"
+GetVariable
+Push "_y", "crossHairMC0Y"
+GetVariable
+SetMember
+loc12ff:Push "crossHairMC1X"
+GetVariable
+Push -1
+Equals2
+Not
+If loc1348
+Push "crossHairMC1"
+GetVariable
+Push "_x", "colorPickerMC1"
+GetVariable
+Push "_width"
+GetMember
+Push 2
+Subtract
+RandomNumber
+Push "colorPickerMC1"
+GetVariable
+Push "_x"
+GetMember
+Add2
+SetMember
+Jump loc135a
+loc1348:Push "crossHairMC1"
+GetVariable
+Push "_x", "crossHairMC1X"
+GetVariable
+SetMember
+loc135a:Push "crossHairMC1Y"
+GetVariable
+Push -1
+Equals2
+Not
+If loc13a3
+Push "crossHairMC1"
+GetVariable
+Push "_y", "colorPickerMC1"
+GetVariable
+Push "_height"
+GetMember
+Push 2
+Subtract
+RandomNumber
+Push "colorPickerMC1"
+GetVariable
+Push "_y"
+GetMember
+Add2
+SetMember
+Jump loc13b5
+loc13a3:Push "crossHairMC1"
+GetVariable
+Push "_y", "crossHairMC1Y"
+GetVariable
+SetMember
+}
+loc13b5:DefineFunction2 "updatePlayerIndicatorsShop", 0, 2, false, false, true, false, true, false, true, false, false {
+Push 1, "indicatorMC", "indicatorMC", 2, "selectedShopSpinner"
+GetVariable
+Push 2, "padStr"
+CallFunction
+Add2
+Push 3, "indicatorTopShopMC"
+GetVariable
+Push "attachMovie"
+CallMethod
+StoreRegister 1
+Pop
+Push register1, "_xscale", register1, "_yscale", 167.8
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 75, "cB"
+GetVariable
+Push 1
+GetMember
+Push "cG"
+GetVariable
+Push 1
+GetMember
+Push "cR"
+GetVariable
+Push 1
+GetMember
+Push "cB"
+GetVariable
+Push 0
+GetMember
+Push "cG"
+GetVariable
+Push 0
+GetMember
+Push "cR"
+GetVariable
+Push 0
+GetMember
+Push "indicatorTopShopMC"
+GetVariable
+Push "indicatorMC"
+GetMember
+Push "subIndicatorMC"
+GetMember
+Push "colorMC1"
+GetMember
+Push "indicatorTopShopMC"
+GetVariable
+Push "indicatorMC"
+GetMember
+Push "subIndicatorMC"
+GetMember
+Push "colorMC0"
+GetMember
+Push 9, "setCustomObject2Colors"
+CallFunction
+Pop
+Push "petTitle0"
+GetVariable
+Push "text", "petTitle1"
+GetVariable
+Push "text", "spinnerText"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "petText0"
+GetVariable
+Push "text", "petText1"
+GetVariable
+Push "text", ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "spinnerPetCredText0"
+GetVariable
+Push "text", "spinnerPetCredText1"
+GetVariable
+Push "text", "spinnerCosts"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "ballistickRequiredMC"
+GetVariable
+Push "_visible", "selectedShopSpinner"
+GetVariable
+ToNumber
+Push "numFreeSpinners"
+GetVariable
+ToNumber
+Less2
+Not
+SetMember
+}
+DefineFunction2 "updatePlayerPetsShop", 0, 2, false, false, true, false, true, false, true, false, false {
+Push 1, "bMC", "petBehavior", "petBehavior"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+ToNumber
+Push 1
+Add2
+GetMember
+Add2
+Push "MC"
+Add2
+Push 3, "petTopShopMC"
+GetVariable
+Push "attachMovie"
+CallMethod
+Pop
+Push 1, "petMC", "petMC", 2, "selectedShopPet"
+GetVariable
+Push 1
+Add2
+Push 2, "padStr"
+CallFunction
+Add2
+Push 3, "petTopShopMC"
+GetVariable
+Push "bMC"
+GetMember
+Push "subPetMC"
+GetMember
+Push "attachMovie"
+CallMethod
+StoreRegister 1
+Pop
+Push true, 100, "cB"
+GetVariable
+Push 1
+GetMember
+Push "cG"
+GetVariable
+Push 1
+GetMember
+Push "cR"
+GetVariable
+Push 1
+GetMember
+Push "cB"
+GetVariable
+Push 0
+GetMember
+Push "cG"
+GetVariable
+Push 0
+GetMember
+Push "cR"
+GetVariable
+Push 0
+GetMember
+Push register1, "colorMC1"
+GetMember
+Push register1, "colorMC0"
+GetMember
+Push 10, "setCustomObject2Colors"
+CallFunction
+Pop
+Push register1, "_xscale", register1, "_yscale", "petScale"
+GetVariable
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "petTitle0"
+GetVariable
+Push "text", "petTitle1"
+GetVariable
+Push "text", "petText"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+Push 2
+Multiply
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "petText0"
+GetVariable
+Push "text", "petText1"
+GetVariable
+Push "text", "petText"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+Push 2
+Multiply
+Push 1
+Add2
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "spinnerPetCredText0"
+GetVariable
+Push "text", "spinnerPetCredText1"
+GetVariable
+Push "text", "petCosts"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "ballistickRequiredMC"
+GetVariable
+Push "_visible", true
+SetMember
+}
+DefineFunction "initializeSpinnersShop", 0 {
+Push "shop", 1, "spinnersMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "i", 0
+DefineLocal
+loc17fa:Push "i"
+GetVariable
+Push "maxShopSpinners"
+GetVariable
+Less2
+Not
+If loc1a99
+Push "spnMC", "i"
+GetVariable
+Push 2
+Multiply
+Push 1
+Add2
+Push "indicatorMC", "i"
+GetVariable
+Add2
+Push "indicatorMC", 2, "i"
+GetVariable
+Push 2, "padStr"
+CallFunction
+Add2
+Push 3, "spinnersMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "attachMovie"
+CallMethod
+DefineLocal
+Push "i"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+Equals2
+Not
+Not
+If loc18a4
+Push 1, 1, "spnMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc18a4:Push "spnMC"
+GetVariable
+Push "_xscale", "spnMC"
+GetVariable
+Push "_yscale", 62.5
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "spnMC"
+GetVariable
+Push "_x", "i"
+GetVariable
+Push 50
+Multiply
+SetMember
+Push "spnMC"
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push 75, "cB"
+GetVariable
+Push 1
+GetMember
+Push "cG"
+GetVariable
+Push 1
+GetMember
+Push "cR"
+GetVariable
+Push 1
+GetMember
+Push "cB"
+GetVariable
+Push 0
+GetMember
+Push "cG"
+GetVariable
+Push 0
+GetMember
+Push "cR"
+GetVariable
+Push 0
+GetMember
+Push "spnMC"
+GetVariable
+Push "subIndicatorMC"
+GetMember
+Push "colorMC1"
+GetMember
+Push "spnMC"
+GetVariable
+Push "subIndicatorMC"
+GetMember
+Push "colorMC0"
+GetMember
+Push 9, "setCustomObject2Colors"
+CallFunction
+Pop
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+PushDuplicate
+Not
+If loc19c5
+Pop
+Push "i"
+GetVariable
+Push "numFreeSpinners"
+GetVariable
+ToNumber
+Less2
+Not
+loc19c5:Not
+If loc1a87
+Push "lockMC", "i"
+GetVariable
+Push 2
+Multiply
+Push 2
+Add2
+Push "lockMC", "i"
+GetVariable
+Add2
+Push "lockMC", 3, "spinnersMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "attachMovie"
+CallMethod
+DefineLocal
+Push "lockMC"
+GetVariable
+Push "_xscale", "lockMC"
+GetVariable
+Push "_yscale", 66
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "lockMC"
+GetVariable
+Push "_x", "i"
+GetVariable
+Push 50
+Multiply
+Push 20
+Add2
+SetMember
+Push "lockMC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "lockMC"
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+loc1a87:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc17fa
+loc1a99:Push 0, "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "play"
+CallMethod
+Pop
+Push "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "spinnersMC.subSpinnersMC.lockMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "spinnersMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "_x", 0, "selectedShopSpinner"
+GetVariable
+Subtract
+Push 50
+Multiply
+SetMember
+Push "maxShopSpinners"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+Push 2, "updateCustomizationArrows"
+CallFunction
+Pop
+Push "spinnerPetCredText0"
+GetVariable
+Push "text", "spinnerPetCredText1"
+GetVariable
+Push "text", "spinnerCosts"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "ballistickRequiredMC"
+GetVariable
+Push "_visible", "selectedShopSpinner"
+GetVariable
+ToNumber
+Push "numFreeSpinners"
+GetVariable
+ToNumber
+Less2
+Not
+SetMember
+}
+DefineFunction "initializePetsShop", 0 {
+Push "shop", 1, "petsMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "i", 0
+DefineLocal
+loc1bbc:Push "i"
+GetVariable
+Push "maxShopPets"
+GetVariable
+Push 1
+Subtract
+Less2
+Not
+If loc1e4b
+Push "petMC", "i"
+GetVariable
+Push 2
+Multiply
+Push 1
+Add2
+Push "petMC", "i"
+GetVariable
+Add2
+Push "petMC", 2, "i"
+GetVariable
+Push 1
+Add2
+Push 2, "padStr"
+CallFunction
+Add2
+Push 3, "petsMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "attachMovie"
+CallMethod
+DefineLocal
+Push "i"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+Equals2
+Not
+Not
+If loc1c78
+Push 1, 1, "petMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc1c78:Push "petMC"
+GetVariable
+Push "_xscale", "petMC"
+GetVariable
+Push "_yscale", 37.5
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "petMC"
+GetVariable
+Push "_x", "i"
+GetVariable
+Push "shopPetSpacing"
+GetVariable
+Multiply
+SetMember
+Push "petMC"
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push true, 100, "cB"
+GetVariable
+Push 1
+GetMember
+Push "cG"
+GetVariable
+Push 1
+GetMember
+Push "cR"
+GetVariable
+Push 1
+GetMember
+Push "cB"
+GetVariable
+Push 0
+GetMember
+Push "cG"
+GetVariable
+Push 0
+GetMember
+Push "cR"
+GetVariable
+Push 0
+GetMember
+Push "petMC"
+GetVariable
+Push "colorMC1"
+GetMember
+Push "petMC"
+GetVariable
+Push "colorMC0"
+GetMember
+Push 10, "setCustomObject2Colors"
+CallFunction
+Pop
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+Not
+If loc1e39
+Push "lockMC", "i"
+GetVariable
+Push 2
+Multiply
+Push 2
+Add2
+Push "lockMC", "i"
+GetVariable
+Add2
+Push "lockMC", 3, "petsMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "attachMovie"
+CallMethod
+DefineLocal
+Push "lockMC"
+GetVariable
+Push "_xscale", "lockMC"
+GetVariable
+Push "_yscale", 66
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "lockMC"
+GetVariable
+Push "_x", "i"
+GetVariable
+Push "shopPetSpacing"
+GetVariable
+Multiply
+Push 20
+Add2
+SetMember
+Push "lockMC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "lockMC"
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+loc1e39:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1bbc
+loc1e4b:Push "kill", "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+Push 2, "setPetAnimation"
+CallFunction
+Pop
+Push "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "petsMC.subSpinnersMC.lockMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "petsMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "_x", 0, "selectedShopPet"
+GetVariable
+Subtract
+Push "shopPetSpacing"
+GetVariable
+Multiply
+SetMember
+Push "maxShopPets"
+GetVariable
+Push 1
+Subtract
+Push "selectedShopPet"
+GetVariable
+Push 2, "updateCustomizationArrows"
+CallFunction
+Pop
+Push "spinnerPetCredText0"
+GetVariable
+Push "text", "spinnerPetCredText1"
+GetVariable
+Push "text", "petCosts"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "ballistickRequiredMC"
+GetVariable
+Push "_visible", true
+SetMember
+}
+DefineFunction "pressTabPetsShop", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "currentCustomizationTab"
+GetVariable
+Push "_pets"
+GetVariable
+Equals2
+Not
+PushDuplicate
+Not
+If loc1f6e
+Pop
+Push "shopButtonsEnabled"
+GetVariable
+loc1f6e:Not
+If loc1ffa
+Push "petTopShopMC"
+GetVariable
+Push "_visible", true
+SetMember
+Push "indicatorTopShopMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "char1MC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "char0MC"
+GetVariable
+Push "_visible", true
+SetMember
+Push "_pets"
+GetVariable
+Push 1, "selectCustomizationTab"
+CallFunction
+Pop
+Push 0, "clearSpinnersCustomization"
+CallFunction
+Pop
+Push 0, "initializePetsShop"
+CallFunction
+Pop
+Push 0, "updatePlayerPetsShop"
+CallFunction
+Pop
+}
+loc1ffa:DefineFunction "pressTabSpinnersShop", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "currentCustomizationTab"
+GetVariable
+Push "_spinners"
+GetVariable
+Equals2
+Not
+PushDuplicate
+Not
+If loc2040
+Pop
+Push "shopButtonsEnabled"
+GetVariable
+loc2040:Not
+If loc20cc
+Push "petTopShopMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "indicatorTopShopMC"
+GetVariable
+Push "_visible", true
+SetMember
+Push "char0MC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "char1MC"
+GetVariable
+Push "_visible", true
+SetMember
+Push "_spinners"
+GetVariable
+Push 1, "selectCustomizationTab"
+CallFunction
+Pop
+Push 0, "clearPetsCustomization"
+CallFunction
+Pop
+Push 0, "initializeSpinnersShop"
+CallFunction
+Pop
+Push 0, "updatePlayerIndicatorsShop"
+CallFunction
+Pop
+}
+loc20cc:DefineFunction "pressArrowLeftShop", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "currentCustomizationTab"
+GetVariable
+Push "_pets"
+GetVariable
+Equals2
+Not
+If loc22da
+Push "selectedShopPet"
+GetVariable
+Push 0
+Greater
+Not
+If loc22d5
+Push "idle", "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+Push 2, "setPetAnimation"
+CallFunction
+Pop
+Push "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "petsMC.subSpinnersMC.lockMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "selectedShopPet", "selectedShopPet"
+GetVariable
+Push 1
+Subtract
+SetVariable
+Push "kill", "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+Push 2, "setPetAnimation"
+CallFunction
+Pop
+Push "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "petsMC.subSpinnersMC.lockMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push 0, "updatePlayerPetsShop"
+CallFunction
+Pop
+Push "maxShopPets"
+GetVariable
+Push 1
+Subtract
+Push "selectedShopPet"
+GetVariable
+Push 2, "updateCustomizationArrows"
+CallFunction
+Pop
+Push "petsMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "onEnterFrame"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push "targetX", 0, "selectedShopPet"
+GetVariable
+Subtract
+Push "shopPetSpacing"
+GetVariable
+Multiply
+SetVariable
+Push "targetX"
+GetVariable
+Push register1, "_x"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+Push 0.1
+Less2
+Not
+If loc22a2
+Push register1, "_x", "targetX"
+GetVariable
+SetMember
+Push register1, "onEnterFrame", null
+SetMember
+Jump loc22d4
+loc22a2:Push register1, "_x", register1, "_x"
+GetMember
+Push "targetX"
+GetVariable
+Push register1, "_x"
+GetMember
+Subtract
+Push 4
+Divide
+Add2
+SetMember
+}
+loc22d4:SetMember
+loc22d5:Jump loc2499
+loc22da:Push "selectedShopSpinner"
+GetVariable
+Push 0
+Greater
+Not
+If loc2499
+Push 0, "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "spinnersMC.subSpinnersMC.lockMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "selectedShopSpinner", "selectedShopSpinner"
+GetVariable
+Push 1
+Subtract
+SetVariable
+Push 0, "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "play"
+CallMethod
+Pop
+Push "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "spinnersMC.subSpinnersMC.lockMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push 0, "updatePlayerIndicatorsShop"
+CallFunction
+Pop
+Push "maxShopSpinners"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+Push 2, "updateCustomizationArrows"
+CallFunction
+Pop
+Push "spinnersMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "onEnterFrame"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push "targetX", 0, "selectedShopSpinner"
+GetVariable
+Subtract
+Push 50
+Multiply
+SetVariable
+Push "targetX"
+GetVariable
+Push register1, "_x"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+Push 0.1
+Less2
+Not
+If loc2466
+Push register1, "_x", "targetX"
+GetVariable
+SetMember
+Push register1, "onEnterFrame", null
+SetMember
+Jump loc2498
+loc2466:Push register1, "_x", register1, "_x"
+GetMember
+Push "targetX"
+GetVariable
+Push register1, "_x"
+GetMember
+Subtract
+Push 4
+Divide
+Add2
+SetMember
+}
+loc2498:SetMember
+}
+loc2499:DefineFunction "pressArrowRightShop", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "currentCustomizationTab"
+GetVariable
+Push "_pets"
+GetVariable
+Equals2
+Not
+If loc26af
+Push "selectedShopPet"
+GetVariable
+Push "maxShopPets"
+GetVariable
+Push 2
+Subtract
+Less2
+Not
+If loc26aa
+Push "idle", "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+Push 2, "setPetAnimation"
+CallFunction
+Pop
+Push "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "petsMC.subSpinnersMC.lockMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "selectedShopPet", "selectedShopPet"
+GetVariable
+Push 1
+Add2
+SetVariable
+Push "kill", "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+Push 2, "setPetAnimation"
+CallFunction
+Pop
+Push "petsMC.subSpinnersMC.petMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "petsMC.subSpinnersMC.lockMC", "selectedShopPet"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push 0, "updatePlayerPetsShop"
+CallFunction
+Pop
+Push "maxShopPets"
+GetVariable
+Push 1
+Subtract
+Push "selectedShopPet"
+GetVariable
+Push 2, "updateCustomizationArrows"
+CallFunction
+Pop
+Push "petsMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "onEnterFrame"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push "targetX", 0, "selectedShopPet"
+GetVariable
+Subtract
+Push "shopPetSpacing"
+GetVariable
+Multiply
+SetVariable
+Push "targetX"
+GetVariable
+Push register1, "_x"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+Push 0.1
+Less2
+Not
+If loc2677
+Push register1, "_x", "targetX"
+GetVariable
+SetMember
+Push register1, "onEnterFrame", null
+SetMember
+Jump loc26a9
+loc2677:Push register1, "_x", register1, "_x"
+GetMember
+Push register1, "_x"
+GetMember
+Push "targetX"
+GetVariable
+Subtract
+Push 4
+Divide
+Subtract
+SetMember
+}
+loc26a9:SetMember
+loc26aa:Jump loc2875
+loc26af:Push "selectedShopSpinner"
+GetVariable
+Push "maxShopSpinners"
+GetVariable
+Push 1
+Subtract
+Less2
+Not
+If loc2875
+Push 0, "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "spinnersMC.subSpinnersMC.lockMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", "deselectedSliderElementAlpha"
+GetVariable
+SetMember
+Push "selectedShopSpinner", "selectedShopSpinner"
+GetVariable
+Push 1
+Add2
+SetVariable
+Push 0, "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "play"
+CallMethod
+Pop
+Push "spinnersMC.subSpinnersMC.indicatorMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push "spinnersMC.subSpinnersMC.lockMC", "selectedShopSpinner"
+GetVariable
+Add2
+GetVariable
+Push "_alpha", 100
+SetMember
+Push 0, "updatePlayerIndicatorsShop"
+CallFunction
+Pop
+Push "maxShopSpinners"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+Push 2, "updateCustomizationArrows"
+CallFunction
+Pop
+Push "spinnersMC"
+GetVariable
+Push "subSpinnersMC"
+GetMember
+Push "onEnterFrame"
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push "targetX", 0, "selectedShopSpinner"
+GetVariable
+Subtract
+Push 50
+Multiply
+SetVariable
+Push "targetX"
+GetVariable
+Push register1, "_x"
+GetMember
+Subtract
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+Push 0.1
+Less2
+Not
+If loc2842
+Push register1, "_x", "targetX"
+GetVariable
+SetMember
+Push register1, "onEnterFrame", null
+SetMember
+Jump loc2874
+loc2842:Push register1, "_x", register1, "_x"
+GetMember
+Push register1, "_x"
+GetMember
+Push "targetX"
+GetVariable
+Subtract
+Push 4
+Divide
+Subtract
+SetMember
+}
+loc2874:SetMember
+}
+loc2875:DefineFunction "clickColorPickerShop", 2, "init" , "num"  {
+Push "noInputTime", 0
+SetVariable
+Push "crossHairMCPointer", "crossHairMC", "num"
+GetVariable
+Add2
+GetVariable
+DefineLocal
+Push "colorPickerMCPointer", "colorPickerMC", "num"
+GetVariable
+Add2
+GetVariable
+DefineLocal
+Push "init"
+GetVariable
+Not
+Not
+If loc2960
+Push "crossHairMCPointer"
+GetVariable
+Push "_x", "", 20
+GetProperty
+Push 1
+Subtract
+SetMember
+Push "crossHairMCPointer"
+GetVariable
+Push "_y", "", 21
+GetProperty
+SetMember
+Push "crossHairMC0X", "crossHairMC0"
+GetVariable
+Push "_x"
+GetMember
+SetVariable
+Push "crossHairMC0Y", "crossHairMC0"
+GetVariable
+Push "_y"
+GetMember
+SetVariable
+Push "crossHairMC1X", "crossHairMC1"
+GetVariable
+Push "_x"
+GetMember
+SetVariable
+Push "crossHairMC1Y", "crossHairMC1"
+GetVariable
+Push "_y"
+GetMember
+SetVariable
+loc2960:Push "num"
+GetVariable
+Push 0
+Equals2
+Not
+If loc2a39
+Push "cR"
+GetVariable
+Push "num"
+GetVariable
+Push "crossHairMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push "crossHairMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 2, "image_bitmap0"
+GetVariable
+Push "getPixel"
+CallMethod
+Push 16
+BitRShift
+SetMember
+Push "temp", "crossHairMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push "crossHairMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 2, "image_bitmap0"
+GetVariable
+Push "getPixel"
+CallMethod
+Push "cR"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push 16
+BitLShift
+BitXor
+DefineLocal
+Jump loc2b0d
+loc2a39:Push "num"
+GetVariable
+Push 1
+Equals2
+Not
+If loc2b0d
+Push "cR"
+GetVariable
+Push "num"
+GetVariable
+Push "crossHairMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push "crossHairMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 2, "image_bitmap1"
+GetVariable
+Push "getPixel"
+CallMethod
+Push 16
+BitRShift
+SetMember
+Push "temp", "crossHairMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push "crossHairMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Push "colorPickerMCPointer"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 2, "image_bitmap1"
+GetVariable
+Push "getPixel"
+CallMethod
+Push "cR"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push 16
+BitLShift
+BitXor
+DefineLocal
+loc2b0d:Push "cG"
+GetVariable
+Push "num"
+GetVariable
+Push "temp"
+GetVariable
+Push 8
+BitRShift
+SetMember
+Push "cB"
+GetVariable
+Push "num"
+GetVariable
+Push "temp"
+GetVariable
+Push "cG"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push 8
+BitLShift
+BitXor
+SetMember
+Push 75, "cB"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push "cG"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push "cR"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push "indicatorTopShopMC.indicatorMC.subIndicatorMC.colorMC", "num"
+GetVariable
+Add2
+GetVariable
+Push 5, "setCustomObjectColor"
+CallFunction
+Pop
+Push true, 100, "cB"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push "cG"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push "cR"
+GetVariable
+Push "num"
+GetVariable
+GetMember
+Push "petTopShopMC.bMC.subPetMC.petMC.colorMC", "num"
+GetVariable
+Add2
+GetVariable
+Push 6, "setCustomObjectColor"
+CallFunction
+Pop
+Push "currentCustomizationTab"
+GetVariable
+Push "_spinners"
+GetVariable
+Equals2
+Not
+If loc2c15
+Push 0, "initializeSpinnersShop"
+CallFunction
+Pop
+Jump loc2c37
+loc2c15:Push "currentCustomizationTab"
+GetVariable
+Push "_pets"
+GetVariable
+Equals2
+Not
+If loc2c37
+Push 0, "initializePetsShop"
+CallFunction
+Pop
+}
+loc2c37:DefineFunction "pressBuySpinnerPet", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "currentCustomizationTab"
+GetVariable
+Push "_spinners"
+GetVariable
+Equals2
+Not
+If loc2d65
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+PushDuplicate
+If loc2ca2
+Pop
+Push "selectedShopSpinner"
+GetVariable
+ToNumber
+Push "numFreeSpinners"
+GetVariable
+ToNumber
+Less2
+loc2ca2:Not
+If loc2d18
+Push "spinnerCosts"
+GetVariable
+Push "selectedShopSpinner"
+GetVariable
+GetMember
+ToNumber
+Push 1, "validatePurchaseClientSide"
+CallFunction
+Not
+If loc2d13
+Push "purchaseSuccessMessage", "\r", "shopText"
+GetVariable
+Push 7
+GetMember
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "shopText"
+GetVariable
+Push 8
+GetMember
+Add2
+SetVariable
+Push "shopPurchaseType", "_shopSpinnerType"
+GetVariable
+SetVariable
+loc2d13:Jump loc2d60
+loc2d18:Push true, "window304ShopGetaPassMessageMC", "shopText"
+GetVariable
+Push 4
+GetMember
+Push "shopText"
+GetVariable
+Push 5
+GetMember
+Add2
+Push "shopText"
+GetVariable
+Push 6
+GetMember
+Add2
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+loc2d60:Jump loc2e50
+loc2d65:Push "currentCustomizationTab"
+GetVariable
+Push "_pets"
+GetVariable
+Equals2
+Not
+If loc2e50
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc2e08
+Push "petCosts"
+GetVariable
+Push "selectedShopPet"
+GetVariable
+GetMember
+ToNumber
+Push 1, "validatePurchaseClientSide"
+CallFunction
+Not
+If loc2e03
+Push "purchaseSuccessMessage", "\r", "shopText"
+GetVariable
+Push 9
+GetMember
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "shopText"
+GetVariable
+Push 10
+GetMember
+Add2
+SetVariable
+Push "shopPurchaseType", "_shopPetType"
+GetVariable
+SetVariable
+loc2e03:Jump loc2e50
+loc2e08:Push true, "window304ShopGetaPassMessageMC", "shopText"
+GetVariable
+Push 4
+GetMember
+Push "shopText"
+GetVariable
+Push 5
+GetMember
+Add2
+Push "shopText"
+GetVariable
+Push 6
+GetMember
+Add2
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+}
+loc2e50:DefineFunction "pressBuyMapSlot", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc2f72
+Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc2f25
+Push "mapSlotCosts"
+GetVariable
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+GetMember
+Push 1, "validatePurchaseClientSide"
+CallFunction
+Not
+If loc2f20
+Push "purchaseSuccessMessage", "\r", "shopText"
+GetVariable
+Push 11
+GetMember
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "shopText"
+GetVariable
+Push 12
+GetMember
+Add2
+SetVariable
+Push "shopPurchaseType", "_shopMapSlotType"
+GetVariable
+SetVariable
+loc2f20:Jump loc2f6d
+loc2f25:Push true, "window304ShopGetaPassMessageMC", "shopText"
+GetVariable
+Push 4
+GetMember
+Push "shopText"
+GetVariable
+Push 5
+GetMember
+Add2
+Push "shopText"
+GetVariable
+Push 6
+GetMember
+Add2
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+loc2f6d:Jump loc2fd9
+loc2f72:Push true, "window304ShopMessageMC", "\r", "shopText"
+GetVariable
+Push 1
+GetMember
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "shopText"
+GetVariable
+Push 13
+GetMember
+Add2
+Push "maxMapSlots"
+GetVariable
+Add2
+Push "shopText"
+GetVariable
+Push 2
+GetMember
+Add2
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+}
+loc2fd9:DefineFunction2 "validatePurchaseClientSide", 1, 2, false, false, true, false, true, false, true, false, false, 1, "purchaseCost" {
+Push "player"
+GetVariable
+Push "vwFMff"
+GetMember
+ToNumber
+Push register1
+Less2
+Not
+Not
+If loc3089
+Push "shopPurchaseCost", register1
+SetVariable
+Push true, "window304ShopConfirmMessageMC", "\r", "shopText"
+GetVariable
+Push 20
+GetMember
+Add2
+Push 0, register1, "toString"
+CallMethod
+Add2
+Push "shopText"
+GetVariable
+Push 21
+GetMember
+Add2
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+Push true
+Return
+loc3089:Push true, "window304ShopNotEnoughCredMessageMC", "shopText"
+GetVariable
+Push 31
+GetMember
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+Push false
+Return
+}
+DefineFunction2 "performShopPurchase", 0, 1, false, false, true, false, true, false, true, false, false {
+Push "shopPurchaseType"
+GetVariable
+Push "_shopSpinnerType"
+GetVariable
+Equals2
+Not
+If loc3216
+Push "player"
+GetVariable
+Push "spinners"
+GetMember
+Push "player"
+GetVariable
+Push "spinners"
+GetMember
+Push "length"
+GetMember
+Push "num", "selectedShopSpinner"
+GetVariable
+Push "red0", "cR"
+GetVariable
+Push 0
+GetMember
+Push "green0", "cG"
+GetVariable
+Push 0
+GetMember
+Push "blue0", "cB"
+GetVariable
+Push 0
+GetMember
+Push "red1", "cR"
+GetVariable
+Push 1
+GetMember
+Push "green1", "cG"
+GetVariable
+Push 1
+GetMember
+Push "blue1", "cB"
+GetVariable
+Push 1
+GetMember
+Push 7
+InitObject
+SetMember
+Push "cB"
+GetVariable
+Push 1
+GetMember
+Push "cG"
+GetVariable
+Push 1
+GetMember
+Push "cR"
+GetVariable
+Push 1
+GetMember
+Push "cB"
+GetVariable
+Push 0
+GetMember
+Push "cG"
+GetVariable
+Push 0
+GetMember
+Push "cR"
+GetVariable
+Push 0
+GetMember
+Push 100, "selectedShopSpinner"
+GetVariable
+Add2
+Push 7, "player"
+GetVariable
+Push "sendBuyItem"
+CallMethod
+Pop
+Jump loc33fa
+loc3216:Push "shopPurchaseType"
+GetVariable
+Push "_shopPetType"
+GetVariable
+Equals2
+Not
+If loc3369
+Push "player"
+GetVariable
+Push "pets"
+GetMember
+Push "player"
+GetVariable
+Push "pets"
+GetMember
+Push "length"
+GetMember
+Push "num", "selectedShopPet"
+GetVariable
+Push 1
+Add2
+Push "red0", "cR"
+GetVariable
+Push 0
+GetMember
+Push "green0", "cG"
+GetVariable
+Push 0
+GetMember
+Push "blue0", "cB"
+GetVariable
+Push 0
+GetMember
+Push "red1", "cR"
+GetVariable
+Push 1
+GetMember
+Push "green1", "cG"
+GetVariable
+Push 1
+GetMember
+Push "blue1", "cB"
+GetVariable
+Push 1
+GetMember
+Push 7
+InitObject
+SetMember
+Push "cB"
+GetVariable
+Push 1
+GetMember
+Push "cG"
+GetVariable
+Push 1
+GetMember
+Push "cR"
+GetVariable
+Push 1
+GetMember
+Push "cB"
+GetVariable
+Push 0
+GetMember
+Push "cG"
+GetVariable
+Push 0
+GetMember
+Push "cR"
+GetVariable
+Push 0
+GetMember
+Push 200, "selectedShopPet"
+GetVariable
+Add2
+Push 1
+Add2
+Push 7, "player"
+GetVariable
+Push "sendBuyItem"
+CallMethod
+Pop
+Jump loc33fa
+loc3369:Push "shopPurchaseType"
+GetVariable
+Push "_shopMapSlotType"
+GetVariable
+Equals2
+Not
+If loc33fa
+Push "player"
+GetVariable
+Push "vwcTCi", "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push 1
+Add2
+SetMember
+Push 0, "updateMapSlotsShop"
+CallFunction
+Pop
+Push 0, 0, 0, 0, 0, 0, 240, 7, "player"
+GetVariable
+Push "sendBuyItem"
+CallMethod
+Pop
+loc33fa:Push "player"
+GetVariable
+Push "vwFMff", "player"
+GetVariable
+Push "vwFMff"
+GetMember
+ToNumber
+Push "shopPurchaseCost"
+GetVariable
+Subtract
+SetMember
+Push "credText0"
+GetVariable
+Push "text", "credText1"
+GetVariable
+Push "text", "player"
+GetVariable
+Push "vwFMff"
+GetMember
+Push 1, "formatNumber"
+CallFunction
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push true, "window304ShopMessageMC", "purchaseSuccessMessage"
+GetVariable
+Push 3, "displayShopMessage"
+CallFunction
+Pop
+}
+DefineFunction2 "displayShopMessage", 3, 7, false, true, true, false, true, false, true, false, false, 5, "msg", 4, "windowExportName", 6, "hideButtons" {
+Push "_x", 123, "_y", 75, 2
+InitObject
+Push 200001, "window2MC", register4, 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "cacheAsBitmap", "optionUseBitmapCaching"
+GetVariable
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register5
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register6
+Not
+If loc357b
+Push false, 1, "showShopButtons"
+CallFunction
+Pop
+}
+loc357b:DefineFunction "closeShopMessage", 0 {
+Push true, 1, "showShopButtons"
+CallFunction
+Pop
+}
+DefineFunction "confirmShopPurchase", 0 {
+Push 0, "performShopPurchase"
+CallFunction
+Pop
+Push true, 1, "showShopButtons"
+CallFunction
+Pop
+}
+DefineFunction "cancelShopPurchase", 0 {
+Push true, 1, "showShopButtons"
+CallFunction
+Pop
+}
+DefineFunction2 "showShopButtons", 1, 2, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "shopButtonsEnabled", register1
+SetVariable
+Push "manageAccountBTNMC"
+GetVariable
+Push "_visible", "buyBTNMC"
+GetVariable
+Push "_visible", "arrowRightMC"
+GetVariable
+Push "_visible", "arrowLeftMC"
+GetVariable
+Push "_visible", "tabSystemMC"
+GetVariable
+Push "_visible", "tabRightMC"
+GetVariable
+Push "_visible", "tabLeftMC"
+GetVariable
+Push "_visible", register1
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "tabSystemInactiveMC"
+GetVariable
+Push "_visible", register1
+Not
+SetMember
+Push "currentTab"
+GetVariable
+Push 1
+Add2
+Push 1, "tabSystemInactiveMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "buySlotBTNMC"
+GetVariable
+Push "_visible", register1
+PushDuplicate
+Not
+If loc372b
+Pop
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+Push "maxMapSlots"
+GetVariable
+Less2
+loc372b:SetMember
+}
+DefineFunction "getCredWin", 0 {
+Push "ticketWaiting"
+GetVariable
+Not
+If loc3790
+Push "ticketWaiting", false
+SetVariable
+Push "noGlow", 1, "tabSystemMC"
+GetVariable
+Push "tabShopMC"
+GetMember
+Push "tabShopGlowMC"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push 0, "player"
+GetVariable
+Push "sendCredWinRequest"
+CallMethod
+Pop
+}
+loc3790:DefineFunction2 "showTicket", 1, 2, false, false, true, false, true, false, true, false, false, 1, "prizeNumber" {
+Push "petsMC"
+GetVariable
+Push "_visible", "spinnersMC"
+GetVariable
+Push "_visible", "char0MC"
+GetVariable
+Push "_visible", "char1MC"
+GetVariable
+Push "_visible", "petTopShopMC"
+GetVariable
+Push "_visible", false
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push false, 1, "showShopButtons"
+CallFunction
+Pop
+Push 100000, "ticketMC", "ticketParentMC", 3, "attachMovie"
+CallFunction
+Pop
+Push "ticketMC"
+GetVariable
+Push "_x", 281
+SetMember
+Push "ticketMC"
+GetVariable
+Push "_y", 202
+SetMember
+Push "cachedPrizeValue", "prizes"
+GetVariable
+Push register1
+GetMember
+ToNumber
+SetVariable
+Push "ticketMC"
+GetVariable
+Push "windowMC"
+GetMember
+Push "msgText0"
+GetMember
+Push "text", "ticketMC"
+GetVariable
+Push "windowMC"
+GetMember
+Push "msgText1"
+GetMember
+Push "text", "shopText"
+GetVariable
+Push 14
+GetMember
+Push "cachedPrizeValue"
+GetVariable
+Push 1, "formatNumber"
+CallFunction
+Add2
+Push "shopText"
+GetVariable
+Push 15
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "ticketMC"
+GetVariable
+Push "windowMC"
+GetMember
+Push "msg2Text0"
+GetMember
+Push "text", "ticketMC"
+GetVariable
+Push "windowMC"
+GetMember
+Push "msg2Text1"
+GetMember
+Push "text", "shopText"
+GetVariable
+Push 18
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, 1
+Add2
+Push 1, "ticketMC"
+GetVariable
+Push "ticketMC"
+GetMember
+Push "prizeMC"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "ticketMC"
+GetVariable
+Push "ticketMC"
+GetMember
+Push "prizeTextMC"
+GetMember
+Push "prizeText"
+GetMember
+Push "text", "shopText"
+GetVariable
+Push 17
+GetMember
+Push 1, 0, "cachedPrizeValue"
+GetVariable
+Push "toString"
+CallMethod
+Push "concat"
+CallMethod
+SetMember
+Push "KONGREGATE.COM", 1, "domainName"
+GetVariable
+Push "indexOf"
+CallMethod
+Push -1
+Equals2
+Not
+Not
+If loc39f8
+Push "cachedPrizeValue"
+GetVariable
+Push 1, "performKongregateTicketStatsSubmission"
+CallFunction
+Pop
+}
+loc39f8:DefineFunction "awardTicketValue", 0 {
+Push "player"
+GetVariable
+Push "vwFMff", "player"
+GetVariable
+Push "vwFMff"
+GetMember
+ToNumber
+Push "cachedPrizeValue"
+GetVariable
+Add2
+SetMember
+Push "currentTab"
+GetVariable
+Push "_shop"
+GetVariable
+Equals2
+Not
+If loc3a7e
+Push "credText0"
+GetVariable
+Push "text", "credText1"
+GetVariable
+Push "text", "player"
+GetVariable
+Push "vwFMff"
+GetMember
+Push 1, "formatNumber"
+CallFunction
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc3a7e:DefineFunction "closeTicket", 0 {
+Push 0, "cleanUpTicket"
+CallFunction
+Pop
+Push 0, "ticketMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0, "ticketMC"
+GetVariable
+Push "unloadMovie"
+CallMethod
+Pop
+Push true, 1, "showShopButtons"
+CallFunction
+Pop
+}
+DefineFunction "cleanUpTicket", 0 {
+Push "petsMC"
+GetVariable
+Push "_visible", "spinnersMC"
+GetVariable
+Push "_visible", "char0MC"
+GetVariable
+Push "_visible", "petTopShopMC"
+GetVariable
+Push "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 0, "labPassMC"
+GetVariable
+Push "ballistickAdMC"
+GetMember
+Push "play"
+CallMethod
+Pop
+}
+Push "currentCustomizationTab", -1
+SetVariable
+Push "frameNum", "frameArray"
+GetVariable
+Push "length"
+GetMember
+RandomNumber
+SetVariable
+Push "animateCount", 60
+DefineLocal
+Push "shopButtonsEnabled", true
+DefineLocal
+Push "deselectedSliderElementAlpha", 25
+DefineLocal
+Push "shopPetSpacing", 65
+DefineLocal
+Push "purchaseSuccessMessage"
+DefineLocal2
+Push "shopPurchaseCost"
+DefineLocal2
+Push "shopPurchaseType"
+DefineLocal2
+Push "cachedPrizeValue"
+DefineLocal2
+Push "_shopSpinnerType", 0
+DefineLocal
+Push "_shopPetType", 1
+DefineLocal
+Push "_shopMapSlotType", 2
+DefineLocal
+Push 0, "initializeShop"
+CallFunction
+Pop
+Push "cR", 255, 255, 2, "Array"
+NewObject
+DefineLocal
+Push "cG", 255, 255, 2, "Array"
+NewObject
+DefineLocal
+Push "cB", 255, 255, 2, "Array"
+NewObject
+DefineLocal
+Push "image_bitmap0", "colorPickerMC0"
+GetVariable
+Push "_height"
+GetMember
+Push "colorPickerMC0"
+GetVariable
+Push "_width"
+GetMember
+Push 2, "flash"
+GetVariable
+Push "display"
+GetMember
+Push "BitmapData"
+NewMethod
+DefineLocal
+Push "image_bitmap1", "colorPickerMC1"
+GetVariable
+Push "_height"
+GetMember
+Push "colorPickerMC1"
+GetVariable
+Push "_width"
+GetMember
+Push 2, "flash"
+GetVariable
+Push "display"
+GetMember
+Push "BitmapData"
+NewMethod
+DefineLocal
+Push "colorPickerMC0"
+GetVariable
+Push 1, "image_bitmap0"
+GetVariable
+Push "draw"
+CallMethod
+Pop
+Push "colorPickerMC1"
+GetVariable
+Push 1, "image_bitmap1"
+GetVariable
+Push "draw"
+CallMethod
+Pop
+Push 0, true, 2, "clickColorPickerShop"
+CallFunction
+Pop
+Push 1, true, 2, "clickColorPickerShop"
+CallFunction
+Pop

@@ -1,0 +1,13 @@
+click a player's 
+--- RECORDSEPARATOR ---
+name
+--- RECORDSEPARATOR ---
+ to display 
+--- RECORDSEPARATOR ---
+their 
+--- RECORDSEPARATOR ---
+game stats
+--- RECORDSEPARATOR ---
+ 
+--- RECORDSEPARATOR ---
+below.

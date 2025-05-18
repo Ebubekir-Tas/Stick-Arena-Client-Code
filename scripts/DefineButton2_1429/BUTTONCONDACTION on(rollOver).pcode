@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0028
+}
+GotoFrame2 false, false, 
+AsciiToChar
+AsciiToChar
+AsciiToChar
+With {
+Jump loc0028
+}
+CallMethod
+loc0028:}

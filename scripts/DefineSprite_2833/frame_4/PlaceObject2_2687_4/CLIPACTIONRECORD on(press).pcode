@@ -1,0 +1,26 @@
+StrictMode 213
+Less2
+Try {
+Divide
+RandomNumber
+MBStringLength
+CharToAscii
+AsciiToChar
+GetTime
+MBStringExtract
+MBCharToAscii
+MBAsciiToChar
+SetTarget2
+Divide
+BitAnd
+StringAdd
+NewObject
+SetProperty
+CloneSprite
+RemoveSprite
+Trace
+Throw
+}
+BitAnd
+Equals
+}

@@ -1,0 +1,471 @@
+StrictMode 213
+Less2
+Try {
+Jump loc08c2
+}
+loc0016:StoreRegister 0
+Push null
+Equals2
+If loc015f
+Push register0
+StoreRegister 6
+Pop
+Push register1, register6
+GetMember
+StoreRegister 2
+Pop
+Push register2, constant27
+GetMember
+Push register1
+Equals2
+Not
+If loc015a
+Push register2, constant28
+GetMember
+Push register5
+Equals2
+Not
+Not
+If loc015a
+Push register2, constant23
+GetMember
+Push register3
+Equals2
+PushDuplicate
+If loc00b0
+Pop
+Push register2, constant23
+GetMember
+Push undefined
+Equals2
+Not
+PushDuplicate
+Not
+If loc00b0
+Pop
+Push register2, constant23
+GetMember
+TypeOf
+Push constant37
+Equals2
+loc00b0:PushDuplicate
+If loc00c1
+Pop
+Push register3, undefined
+Equals2
+loc00c1:Not
+If loc0127
+Push register2, constant29
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0102
+Push register2, constant29
+GetMember
+Push register4
+Delete
+Pop
+Push register2, constant29
+GetMember
+Push constant30
+Delete
+Pop
+loc0102:Push register2, constant38
+Delete
+Pop
+Push register4, 1, register2, constant31
+CallMethod
+Pop
+loc0127:Push register7, register4, register3, 3, register2, constant26
+CallMethod
+Pop
+Push register2, constant28, register5
+SetMember
+loc015a:Jump loc0016
+loc015f:SetMember
+Push register2, constant21
+DefineFunction2 "", 2, 14, false, false, true, false, true, false, false, true, true, 4, "styleProp", 3, "newValue" {
+Push register1, constant29
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc01c5
+Push register1, constant29
+GetMember
+Push register4
+Delete
+Pop
+Push register1, constant29
+GetMember
+Push constant30
+Delete
+Pop
+loc01c5:Push register1, register4, register3
+SetMember
+Push register4, 1, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant14
+CallMethod
+Not
+If loc0502
+Push register3, 1, constant10
+CallFunction
+Not
+If loc0268
+Push register3, 1, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant11
+CallMethod
+StoreRegister 3
+Pop
+Push register1, register4, register3
+SetMember
+Push register3, undefined
+Equals2
+Not
+If loc0268
+Push undefined
+Return
+loc0268:Push register4, constant15
+Equals2
+Not
+If loc0408
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant16
+GetMember
+Push constant17
+GetMember
+StoreRegister 10
+Pop
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant16
+GetMember
+Push constant18
+GetMember
+StoreRegister 9
+Pop
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant16
+GetMember
+Push constant19
+GetMember
+StoreRegister 11
+Pop
+Push 0
+InitObject
+StoreRegister 6
+Pop
+Push register6, register10, 12188666
+SetMember
+Push register6, register9, 13500353
+SetMember
+Push register6, register11, 16766319
+SetMember
+Push 0
+InitObject
+StoreRegister 7
+Pop
+Push register7, register10, 13958653
+SetMember
+Push register7, register9, 14942166
+SetMember
+Push register7, register11, 16772787
+SetMember
+Push register6, register3
+GetMember
+StoreRegister 12
+Pop
+Push register7, register3
+GetMember
+StoreRegister 13
+Pop
+Push register12, undefined
+Equals2
+Not
+If loc03b2
+Push register3
+StoreRegister 12
+Pop
+loc03b2:Push register13, undefined
+Equals2
+Not
+If loc03cc
+Push register3
+StoreRegister 13
+Pop
+loc03cc:Push register12, constant20, 2, register1, constant21
+CallMethod
+Pop
+Push register13, constant22, 2, register1, constant21
+CallMethod
+Pop
+loc0408:Push register1, constant33
+GetMember
+TypeOf
+Push constant34
+Equals2
+Not
+If loc04a5
+Push register1, constant33
+GetMember
+Push register4
+Equals2
+Not
+If loc04a0
+Push register4, constant9
+Equals2
+Not
+If loc0487
+Push register1, constant29
+GetMember
+Push constant30
+GetMember
+Push constant9
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc0487
+Push register1, constant29
+GetMember
+Push constant30
+GetMember
+Push constant9, register3
+SetMember
+loc0487:Push register3, 1, register1, constant36
+CallMethod
+Pop
+loc04a0:Jump loc04db
+loc04a5:Push register1, constant33
+GetMember
+Push register4
+GetMember
+Push undefined
+Equals2
+Not
+Not
+If loc04db
+Push register4, 1, register1, constant31
+CallMethod
+Pop
+loc04db:Push register3, register4, undefined, 3, register1, constant24
+CallMethod
+Pop
+Jump loc0596
+loc0502:Push register4, constant25
+Equals2
+PushDuplicate
+Not
+If loc0528
+Pop
+Push register3, 1, constant10
+CallFunction
+loc0528:Not
+If loc057d
+Push register3, 1, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant11
+CallMethod
+StoreRegister 3
+Pop
+Push register1, register4, register3
+SetMember
+Push register3, undefined
+Equals2
+Not
+If loc057d
+Push undefined
+Return
+loc057d:Push register4, 1, register1, constant31
+CallMethod
+Pop
+loc0596:Push register4, 1, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+GetMember
+Push constant39
+CallMethod
+PushDuplicate
+If loc05cd
+Pop
+Push register4, constant23
+Equals2
+loc05cd:Not
+If loc068f
+Push undefined
+StoreRegister 8
+Pop
+Push register3
+StoreRegister 5
+Pop
+Push register4, constant23
+Equals2
+Not
+If loc066d
+Push register3
+TypeOf
+Push constant34
+Equals2
+If loc0612
+Push register5
+Jump loc0623
+loc0612:Push register2, constant3
+GetMember
+Push register3
+GetMember
+loc0623:StoreRegister 8
+Pop
+Push register8, constant15
+GetMember
+StoreRegister 5
+Pop
+Push register5, undefined
+Equals2
+Not
+Not
+If loc066d
+Push register8, constant22, register8, constant20, register5
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc066d:Push register3, register4, undefined, 3, register1, constant26
+CallMethod
+Pop
+}
+loc068f:SetMember
+Push register1, constant40
+DefineFunction "", 0 {
+}
+SetMember
+Push register1, constant41
+DefineFunction2 "", 0, 5, false, false, true, false, true, false, true, false, true {
+Push constant42
+GetVariable
+Push constant5
+GetMember
+StoreRegister 2
+Pop
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+StoreRegister 3
+Pop
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant43
+GetMember
+Push constant5
+GetMember
+Push constant21, register3, constant6
+GetMember
+SetMember
+Push register2, constant13, register3, constant13
+GetMember
+SetMember
+Push register2, constant24, register3, constant24
+GetMember
+SetMember
+Push register2, constant26, register3, constant26
+GetMember
+SetMember
+Push register2, constant21, register3, constant21
+GetMember
+SetMember
+Push 1, constant13, register2, 3, register1, constant44
+CallMethod
+Pop
+Push 1, constant24, register2, 3, register1, constant44
+CallMethod
+Pop
+Push 1, constant26, register2, 3, register1, constant44
+CallMethod
+Pop
+Push 1, constant21, register2, 3, register1, constant44
+CallMethod
+Pop
+Push constant45
+GetVariable
+Push constant5
+GetMember
+StoreRegister 4
+Pop
+Push register4, constant21, register2, constant21
+GetMember
+SetMember
+Push register4, constant13, register3, constant13
+GetMember
+SetMember
+Push true
+Return
+}
+SetMember
+Push register1, constant46, 0, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+CallMethod
+SetMember
+Push register1, constant47, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant43
+GetMember
+SetMember
+Push 1, null, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push 3, constant44
+CallFunction
+Pop
+loc08c2:}

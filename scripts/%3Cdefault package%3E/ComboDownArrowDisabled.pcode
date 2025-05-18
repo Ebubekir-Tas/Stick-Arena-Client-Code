@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+DefineLocal2
+TypeOf
+GetMember
+BitOr
+BitURShift
+}
+}

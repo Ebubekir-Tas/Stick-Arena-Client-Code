@@ -1,0 +1,19 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+BitOr
+Greater
+BitURShift
+StackSwap
+InitObject
+Jump loc0032
+}
+Try {
+Jump loc0032
+}
+}
+Jump loc0032
+}
+PrevFrame
+loc0032:}

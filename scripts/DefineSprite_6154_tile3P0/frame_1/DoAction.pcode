@@ -1,0 +1,34 @@
+StrictMode 213
+Less2
+Try {
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+Jump loc0032
+}
+MBStringExtract
+MBCharToAscii
+MBAsciiToChar
+Delete
+InitObject
+TypeOf
+TargetPath
+Enumerate
+Add2
+Less2
+Equals2
+ToNumber
+NewMethod
+InstanceOf
+Enumerate2
+BitLShift
+BitRShift
+BitURShift
+StrictEquals
+Greater
+StringGreater
+Extends
+loc0032:}

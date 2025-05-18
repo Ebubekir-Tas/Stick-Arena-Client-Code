@@ -1,0 +1,145 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0059
+loc0016:StoreRegister 0
+Push null
+Equals2
+If loc00bf
+Push register0
+StoreRegister 2
+Pop
+Push register6
+PushDuplicate
+If loc0058
+Pop
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant8
+GetMember
+Push constant9
+GetMember
+Push register2
+GetMember
+loc0058:Not
+loc0059:If loc00ba
+Push register4, register2
+GetMember
+Push undefined
+Equals2
+Not
+If loc00ba
+Push register1, constant7
+GetMember
+Push register2
+GetMember
+StoreRegister 3
+Pop
+Push register3, undefined
+Equals2
+Not
+Not
+If loc00b0
+Push register4, register2, register3
+SetMember
+Jump loc00ba
+loc00b0:Push true
+StoreRegister 5
+Pop
+loc00ba:Jump loc0016
+loc00bf:Push register5
+Return
+}
+Subtract
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "styleName" {
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant10
+GetMember
+Push register1
+GetMember
+Push true
+Equals2
+Return
+}
+SetMember
+Push register1, constant12
+DefineFunction2 "", 2, 3, false, false, true, false, true, false, true, false, false, 2, "colorName", 1, "colorValue" {
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant13
+GetMember
+Push register2, register1
+SetMember
+}
+SetMember
+Push register1, constant14
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "colorName" {
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant13
+GetMember
+Push register1
+GetMember
+Push undefined
+Equals2
+Not
+Return
+}
+SetMember
+Push register1, constant15
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "colorName" {
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant13
+GetMember
+Push register1
+GetMember
+Return
+}
+SetMember
+Push register1, constant7, constant16, true, constant17, true, constant18, true, constant19, true, constant20, true, constant21, true, constant22, true, constant23, true, 8
+InitObject
+SetMember
+Push register1, constant10, constant24, true, constant25, true, constant26, true, constant27, true, constant16, true, constant28, true, constant29, true, constant30, true, constant31, true, constant32, true, constant33, true, constant34, true, constant35, true, constant36, true, constant37, true, constant38, true, constant39, true, constant40, true, constant41, true, constant42, true, constant43, true, constant44, true, constant45, true, constant46, true, 24
+InitObject
+SetMember
+Push register1, constant13, constant47, 0, constant48, 16777215, constant49, 16711680, constant50, 65280, constant51, 255, constant52, 16711935, constant53, 16776960, constant54, 65535, constant55, 8453965, constant56, 2881013, constant57, 16761344, 11
+InitObject
+SetMember
+Push register1, constant58, constant59, true, constant60, true, constant16, true, constant61, false, constant62, false, constant63, true, constant64, true, constant65, true, constant66, true, constant67, false, constant68, false, 11
+InitObject
+SetMember
+Push register1, constant69, constant22, true, constant21, true, constant16, true, constant18, true, constant23, true, constant20, true, constant70, true, constant71, true, constant72, true, constant19, true, constant73, true, constant68, true, 12
+InitObject
+SetMember
+Push 1, null, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push 3, constant74
+CallFunction
+Pop
+}

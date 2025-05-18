@@ -1,0 +1,26 @@
+StrictMode 213
+Less2
+Try {
+Push "buttonFX"
+CallMethod
+Pop
+Push "__f_itemRollOver"
+GetVariable
+Push "itemRollOver", 2, "this"
+GetVariable
+Push "addEventListener"
+CallMethod
+Pop
+Jump loc009b
+}
+Push constant1
+GetMember
+Push constant2
+CallMethod
+Pop
+Push 0, constant3
+GetVariable
+Push constant4
+CallMethod
+Pop
+loc009b:}

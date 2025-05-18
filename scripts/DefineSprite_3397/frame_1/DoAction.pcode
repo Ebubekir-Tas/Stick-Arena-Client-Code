@@ -1,0 +1,87 @@
+StrictMode 213
+Less2
+Try {
+Push 0
+Equals2
+Not
+If loc00a9
+Push constant20, 1, register2, constant7
+CallMethod
+Pop
+Push 0, register1, constant21
+CallMethod
+Pop
+Push register1, constant11
+Delete
+Pop
+Push register1, constant14, register2, constant13
+GetMember
+Push constant8
+GetVariable
+Push constant9
+GetMember
+Push 9
+Divide
+Multiply
+SetMember
+Push 40, 1, register1, constant12
+CallMethod
+Pop
+loc00a9:StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push constant2
+GetVariable
+Push constant12
+DefineFunction2 "", 1, 2, true, false, true, false, true, false, true, false, false, 0, "brt" {
+Push 1, constant22, constant23, register1, constant13
+GetMember
+Add2
+Push constant24
+Add2
+Push 3, constant25
+GetVariable
+Push constant26
+CallMethod
+Pop
+}
+SetMember
+Push constant2
+GetVariable
+Push constant27
+DefineFunction2 "", 0, 3, true, false, true, false, true, false, false, true, false {
+Push register2, constant4
+GetMember
+Push constant5
+GetMember
+Push 0
+Equals2
+Not
+If loc015f
+Push 40, 1, register1, constant12
+CallMethod
+Pop
+}
+loc015f:SetMember
+Push constant2
+GetVariable
+Push constant28
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0, 1, register1, constant12
+CallMethod
+Pop
+}
+SetMember
+Push 0, 1, constant2
+GetVariable
+Push constant12
+CallMethod
+Pop
+Jump loc01c1
+}
+BitXor
+Extends
+StackSwap
+InitObject
+loc01c1:}

@@ -1,0 +1,13 @@
+StrictMode 213
+Less2
+Try {
+With {
+Jump loc0020
+}
+GetProperty
+Add
+Add2
+ToString
+EndDrag
+loc0020:}
+}

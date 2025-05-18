@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+BitOr
+TargetPath
+BitRShift
+Extends
+loc001a:}

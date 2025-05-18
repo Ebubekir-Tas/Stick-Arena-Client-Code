@@ -1,0 +1,40 @@
+StrictMode 213
+Less2
+Try {
+StopSounds
+GetMember
+GetMember
+Add2
+Push register1, constant21
+GetMember
+Push 31
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+DefineFunction "windowOK", 0 {
+Push 0, constant23
+CallFunction
+Pop
+}
+Push constant24
+GetVariable
+Push constant0
+GetMember
+Push constant25
+Equals2
+Not
+If loc009d
+Push constant15
+GetVariable
+Push constant16, constant17
+GetVariable
+Push constant16, 0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc009d:}

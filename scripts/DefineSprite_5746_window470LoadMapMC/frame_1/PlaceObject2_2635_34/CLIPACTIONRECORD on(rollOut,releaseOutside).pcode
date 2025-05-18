@@ -1,0 +1,13 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc004a
+}
+GetVariable
+Push "load", 2, "this"
+GetVariable
+Push "addEventListener"
+CallMethod
+Pop
+loc004a:}

@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+Greater
+Jump loc001c
+}
+If loc001c
+}
+loc001c:

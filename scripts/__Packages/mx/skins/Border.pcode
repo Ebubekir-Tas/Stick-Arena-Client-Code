@@ -1,0 +1,16 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+Extends
+CallMethod
+BitURShift
+BitLShift
+InitArray
+BitRShift
+BitURShift
+Jump loc0020
+}
+BitURShift
+Equals2
+loc0020:}

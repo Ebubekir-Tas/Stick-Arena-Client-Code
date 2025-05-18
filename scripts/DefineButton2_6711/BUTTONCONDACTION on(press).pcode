@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "_parent", "windowBGMC", "this", "over", "zqggLX"
+Push "_parent"
+GetVariable
+Push "windowBGMC"
+GetMember
+Push "this"
+GetVariable
+Push "over", 3, "_parent"
+GetVariable
+Push "zqggLX"
+CallMethod
+Pop
+}
+}

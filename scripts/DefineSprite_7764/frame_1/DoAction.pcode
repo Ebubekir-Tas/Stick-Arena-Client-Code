@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+Add
+Enumerate
+DefineLocal2
+Decrement
+loc001a:}

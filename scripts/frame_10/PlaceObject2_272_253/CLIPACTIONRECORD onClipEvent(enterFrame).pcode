@@ -1,0 +1,167 @@
+StrictMode 213
+Less2
+Try {
+InstanceOf
+BitURShift
+Jump loc025f
+loc0018:Push constant25
+GetVariable
+Push 6
+Less2
+Not
+If loc00b9
+Push constant26, 0
+DefineLocal
+loc003f:Push constant26
+GetVariable
+Push 5
+Less2
+Not
+If loc00a7
+Push constant27, constant28, constant25
+GetVariable
+Add2
+SetVariable
+Push constant27
+GetVariable
+Push constant26
+GetVariable
+Add2
+GetVariable
+With {
+Push constant16
+}
+Push constant28
+GetVariable
+Push constant25
+GetVariable
+Push 9
+Add2
+GetMember
+SetVariable
+}
+Push constant26, constant26
+GetVariable
+Increment
+SetVariable
+Jump loc003f
+loc00a7:Push constant25, constant25
+GetVariable
+Increment
+SetVariable
+Jump loc0018
+loc00b9:Push constant29
+GetVariable
+Push constant30
+GetMember
+Push constant31, constant5
+GetVariable
+Push 34
+Multiply
+SetMember
+Push constant32
+GetVariable
+Push constant30
+GetMember
+Push constant31, constant33
+GetVariable
+SetMember
+Push constant34
+GetVariable
+Push constant30
+GetMember
+Push constant31, constant6
+GetVariable
+Push constant34
+GetVariable
+Push constant35
+GetMember
+Push constant36
+GetMember
+Push 2
+Divide
+Multiply
+SetMember
+Push constant37
+GetVariable
+Push constant30
+GetMember
+Push constant31, constant38
+GetVariable
+Push constant37
+GetVariable
+Push constant35
+GetMember
+Push constant36
+GetMember
+Multiply
+SetMember
+Push constant39
+GetVariable
+Push constant30
+GetMember
+Push constant31, constant40
+GetVariable
+Push constant39
+GetVariable
+Push constant35
+GetMember
+Push constant36
+GetMember
+Multiply
+SetMember
+Push constant41
+GetVariable
+Push constant30
+GetMember
+Push constant31, constant42
+GetVariable
+Push constant41
+GetVariable
+Push constant35
+GetMember
+Push constant36
+GetMember
+Push 9
+Divide
+Multiply
+SetMember
+Push constant43
+GetVariable
+Not
+Not
+If loc0217
+Push constant44
+GetVariable
+Push constant1, 0
+SetMember
+Push constant45
+GetVariable
+Push constant46, constant45
+GetVariable
+Push constant46
+GetMember
+Push 10
+Add2
+SetMember
+Push constant47
+GetVariable
+Push constant46, constant47
+GetVariable
+Push constant46
+GetMember
+Push 10
+Subtract
+SetMember
+loc0217:Push constant48, 19, constant49
+SetProperty
+Push constant0
+GetVariable
+Push constant1, 0
+SetMember
+Push constant13, null
+DefineLocal
+Push 0, constant50
+CallFunction
+Pop
+loc025f:}

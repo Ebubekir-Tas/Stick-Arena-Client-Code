@@ -1,0 +1,36 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0085
+}
+ToggleQuality
+GetVariable
+Push constant2
+GetMember
+Push constant3
+NewMethod
+DefineLocal
+Push constant0
+GetVariable
+Push constant4, 1
+SetMember
+Push constant0
+GetVariable
+Push constant5, constant6
+GetVariable
+Push constant7
+GetVariable
+Multiply
+SetMember
+Push constant0
+GetVariable
+Push constant8, 0
+SetMember
+Push constant9
+GetVariable
+Push constant2, constant0
+GetVariable
+Push 1
+InitArray
+SetMember
+loc0085:}

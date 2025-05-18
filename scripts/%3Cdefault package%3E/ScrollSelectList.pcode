@@ -1,0 +1,33 @@
+StrictMode 213
+Less2
+Try {
+Push constant0
+GetVariable
+Push constant1
+GetMember
+Push constant2
+GetMember
+Push 1, constant3
+CallFunction
+Push constant4
+GetMember
+Push 1, constant0
+GetVariable
+Push constant1
+GetMember
+Push constant5
+GetMember
+Push constant6
+GetMember
+Push constant7
+CallMethod
+Pop
+Push "mx.controls.ComboBase"
+GetVariable
+Push constant2, 2, constant3
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+}
+}

@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "\x01\x02\x03"
+Stop
+Jump loc0027
+}
+BitXor
+BitURShift
+Increment
+BitOr
+BitLShift
+BitURShift
+BitURShift
+loc0027:}

@@ -1,0 +1,19 @@
+StrictMode 213
+Less2
+Try {
+EndDrag
+Jump loc002f
+}
+Or
+StrictMode 213
+Less2
+Try {
+Extends
+BitRShift
+InitArray
+Add2
+StackSwap
+InitObject
+}
+loc002f:}
+}

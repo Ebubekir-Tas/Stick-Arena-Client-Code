@@ -1,0 +1,77 @@
+StrictMode 213
+Less2
+Try {
+If loc0024
+ConstantPool "\x01\x02\x03"
+Jump loc0029
+loc0024:Jump loc0220
+loc0029:ConstantPool "bright", "fade", "myColor", "_parent", "Color", "myColorTransform", "Object", "ra", "100", "rb", "0", "ga", "gb", "ba", "bb", "aa", "ab", "Math", "max", "setTransform", "this", "removeMovieClip"
+Push "bright", "bright"
+GetVariable
+Push "fade"
+GetVariable
+Add2
+SetVariable
+Push "myColor", "_parent"
+GetVariable
+Push 1, "Color"
+NewObject
+SetVariable
+Push "myColorTransform", 0, "Object"
+NewObject
+SetVariable
+Push "myColorTransform", "ra", "100", "rb", "0", "ga", "100", "gb", "0", "ba", "100", "bb", "0", "aa", "100", "ab", "0", 8
+InitObject
+SetVariable
+Push "bright", 0, "bright"
+GetVariable
+Push "fade"
+GetVariable
+Push 2
+Divide
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetVariable
+Push "myColorTransform"
+GetVariable
+Push "rb", "bright"
+GetVariable
+SetMember
+Push "myColorTransform"
+GetVariable
+Push "gb", "bright"
+GetVariable
+SetMember
+Push "myColorTransform"
+GetVariable
+Push "bb", "bright"
+GetVariable
+SetMember
+Push "myColorTransform"
+GetVariable
+Push 1, "myColor"
+GetVariable
+Push "setTransform"
+CallMethod
+Pop
+Push "bright"
+GetVariable
+Push 0
+Greater
+Not
+Not
+If loc0215
+Push 0, "this"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+loc0215:Jump loc0220
+}
+Jump loc0220
+}
+CloneSprite
+loc0220:

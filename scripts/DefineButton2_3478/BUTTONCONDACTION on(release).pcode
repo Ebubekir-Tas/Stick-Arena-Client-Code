@@ -1,0 +1,95 @@
+StrictMode 213
+Less2
+Try {
+Greater
+Greater
+PushDuplicate
+Jump loc01b6
+}
+GetMember
+Push constant11, register1, constant13
+GetMember
+Push 1
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, constant40
+GetMember
+Push constant51
+GetMember
+Push constant11, register1, constant40
+GetMember
+Push constant52
+GetMember
+Push constant11, register1, constant13
+GetMember
+Push 20
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, constant40
+GetMember
+Push constant53
+GetMember
+Push constant11, register1, constant40
+GetMember
+Push constant54
+GetMember
+Push constant11, register1, constant13
+GetMember
+Push 17
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, constant40
+GetMember
+Push constant55
+GetMember
+Push constant11, register1, constant40
+GetMember
+Push constant56
+GetMember
+Push constant11, register1, constant13
+GetMember
+Push 18
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, constant40
+GetMember
+Push constant57
+GetMember
+Push constant11, register1, constant40
+GetMember
+Push constant58
+GetMember
+Push constant11, register1, constant13
+GetMember
+Push 19
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push false, 1, register1, constant59
+CallMethod
+Pop
+Push register1, constant60
+GetMember
+Push 1, constant61
+GetVariable
+Push constant62
+CallMethod
+Pop
+Push 0, constant63
+CallFunction
+Pop
+loc01b6:}

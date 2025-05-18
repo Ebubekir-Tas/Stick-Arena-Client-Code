@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Play
+Less
+Jump loc001a
+}
+BitURShift
+StringExtract
+loc001a:}

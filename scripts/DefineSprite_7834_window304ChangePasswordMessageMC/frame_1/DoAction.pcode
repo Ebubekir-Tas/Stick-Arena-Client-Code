@@ -1,0 +1,22 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0026
+}
+TargetPath
+Enumerate
+Add2
+Less2
+Equals2
+ToNumber
+NewMethod
+InstanceOf
+Enumerate2
+BitLShift
+BitRShift
+BitURShift
+StrictEquals
+Greater
+StringGreater
+Extends
+loc0026:}

@@ -1,0 +1,61 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0125
+}
+Push constant6
+GetMember
+Not
+If loc00df
+Push 0, constant32
+NewObject
+StoreRegister 3
+Pop
+Push 0
+StoreRegister 2
+Pop
+loc004a:Push register2, register1, constant8
+GetMember
+Push constant17
+GetMember
+Less2
+Not
+If loc00d9
+Push register3, register2, register1, constant10
+GetMember
+Push register1, constant9
+GetMember
+Push register2
+GetMember
+Push register1, constant8
+GetMember
+Push register2
+GetMember
+Subtract
+Push register1, constant8
+GetMember
+Push register2
+GetMember
+Push register4, 4, register1, constant33
+CallMethod
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc004a
+loc00d9:Push register3
+Return
+loc00df:Push register1, constant10
+GetMember
+Push register1, constant9
+GetMember
+Push register1, constant8
+GetMember
+Subtract
+Push register1, constant8
+GetMember
+Push register4, 4, register1, constant33
+CallMethod
+Return
+loc0125:}

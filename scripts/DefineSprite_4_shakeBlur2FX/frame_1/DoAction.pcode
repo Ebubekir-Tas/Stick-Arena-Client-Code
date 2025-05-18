@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+Jump loc002a
+}
+StrictMode 213
+Less2
+Try {
+ToggleQuality
+NextFrame
+Stop
+}
+loc002a:}
+}

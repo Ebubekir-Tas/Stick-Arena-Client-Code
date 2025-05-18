@@ -1,0 +1,19 @@
+StrictMode 213
+Less2
+Try {
+Jump loc009a
+}
+If loc0020
+Push false
+loc0020:If loc002a
+Jump loc0071
+loc002a:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}{invalid_utf8=238}\x11{invalid_utf8=150}\x0b" , "" , "badgeSQMC" , "\x1c{invalid_utf8=150}\x13" , "" , "_visible" , "\x06" , "" , "" , ""  {
+Jump loc009a
+loc0071:Push "badgeSQMC"
+GetVariable
+Push "_visible"
+}
+Push 0
+SetMember
+loc009a:}

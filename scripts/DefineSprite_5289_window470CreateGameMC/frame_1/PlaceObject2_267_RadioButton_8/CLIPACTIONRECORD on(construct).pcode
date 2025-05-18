@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+Return
+}
+GetVariable
+Push "itemRollOut", 2, "this"
+GetVariable
+Push "addEventListener"
+CallMethod
+Pop
+}

@@ -1,0 +1,1255 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Not
+StringAdd
+MBStringLength
+DefineLocal2
+Play
+StringEquals
+Decrement
+BitOr
+Stop
+GetProperty
+StringLength
+CharToAscii
+GotoFrame 8968
+Jump loc1523
+}
+Push register1, constant62, constant136
+GetVariable
+SetMember
+Push register1, constant135, null
+SetMember
+SetMember
+DefineFunction "clickColorPickerShop", 2, "init" , "num"  {
+Push constant2, 0
+SetVariable
+Push constant140, constant141, constant142
+GetVariable
+Add2
+GetVariable
+DefineLocal
+Push constant143, constant144, constant142
+GetVariable
+Add2
+GetVariable
+DefineLocal
+Push constant145
+GetVariable
+Not
+Not
+If loc0134
+Push constant140
+GetVariable
+Push constant62, constant44, 20
+GetProperty
+Push 1
+Subtract
+SetMember
+Push constant140
+GetVariable
+Push constant66, constant44, 21
+GetProperty
+SetMember
+Push constant60, constant61
+GetVariable
+Push constant62
+GetMember
+SetVariable
+Push constant65, constant61
+GetVariable
+Push constant66
+GetMember
+SetVariable
+Push constant68, constant69
+GetVariable
+Push constant62
+GetMember
+SetVariable
+Push constant71, constant69
+GetVariable
+Push constant66
+GetMember
+SetVariable
+loc0134:Push constant142
+GetVariable
+Push 0
+Equals2
+Not
+If loc020d
+Push constant81
+GetVariable
+Push constant142
+GetVariable
+Push constant140
+GetVariable
+Push constant66
+GetMember
+Push constant143
+GetVariable
+Push constant66
+GetMember
+Subtract
+Push constant140
+GetVariable
+Push constant62
+GetMember
+Push constant143
+GetVariable
+Push constant62
+GetMember
+Subtract
+Push 2, constant146
+GetVariable
+Push constant147
+CallMethod
+Push 16
+BitRShift
+SetMember
+Push constant148, constant140
+GetVariable
+Push constant66
+GetMember
+Push constant143
+GetVariable
+Push constant66
+GetMember
+Subtract
+Push constant140
+GetVariable
+Push constant62
+GetMember
+Push constant143
+GetVariable
+Push constant62
+GetMember
+Subtract
+Push 2, constant146
+GetVariable
+Push constant147
+CallMethod
+Push constant81
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push 16
+BitLShift
+BitXor
+DefineLocal
+Jump loc02e1
+loc020d:Push constant142
+GetVariable
+Push 1
+Equals2
+Not
+If loc02e1
+Push constant81
+GetVariable
+Push constant142
+GetVariable
+Push constant140
+GetVariable
+Push constant66
+GetMember
+Push constant143
+GetVariable
+Push constant66
+GetMember
+Subtract
+Push constant140
+GetVariable
+Push constant62
+GetMember
+Push constant143
+GetVariable
+Push constant62
+GetMember
+Subtract
+Push 2, constant149
+GetVariable
+Push constant147
+CallMethod
+Push 16
+BitRShift
+SetMember
+Push constant148, constant140
+GetVariable
+Push constant66
+GetMember
+Push constant143
+GetVariable
+Push constant66
+GetMember
+Subtract
+Push constant140
+GetVariable
+Push constant62
+GetMember
+Push constant143
+GetVariable
+Push constant62
+GetMember
+Subtract
+Push 2, constant149
+GetVariable
+Push constant147
+CallMethod
+Push constant81
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push 16
+BitLShift
+BitXor
+DefineLocal
+loc02e1:Push constant80
+GetVariable
+Push constant142
+GetVariable
+Push constant148
+GetVariable
+Push 8
+BitRShift
+SetMember
+Push constant79
+GetVariable
+Push constant142
+GetVariable
+Push constant148
+GetVariable
+Push constant80
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push 8
+BitLShift
+BitXor
+SetMember
+Push 75, constant79
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push constant80
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push constant81
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push constant150, constant142
+GetVariable
+Add2
+GetVariable
+Push 5, constant151
+CallFunction
+Pop
+Push true, 100, constant79
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push constant80
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push constant81
+GetVariable
+Push constant142
+GetVariable
+GetMember
+Push constant152, constant142
+GetVariable
+Add2
+GetVariable
+Push 6, constant151
+CallFunction
+Pop
+Push constant125
+GetVariable
+Push constant131
+GetVariable
+Equals2
+Not
+If loc03e9
+Push 0, constant133
+CallFunction
+Pop
+Jump loc040b
+loc03e9:Push constant125
+GetVariable
+Push constant126
+GetVariable
+Equals2
+Not
+If loc040b
+Push 0, constant130
+CallFunction
+Pop
+}
+loc040b:DefineFunction "pressBuySpinnerPet", 0 {
+Push constant2, 0
+SetVariable
+Push constant125
+GetVariable
+Push constant131
+GetVariable
+Equals2
+Not
+If loc0539
+Push constant11
+GetVariable
+Push constant20
+GetMember
+Push 1, constant21
+CallFunction
+PushDuplicate
+If loc0476
+Pop
+Push constant73
+GetVariable
+ToNumber
+Push constant95
+GetVariable
+ToNumber
+Less2
+loc0476:Not
+If loc04ec
+Push constant93
+GetVariable
+Push constant73
+GetVariable
+GetMember
+ToNumber
+Push 1, constant153
+CallFunction
+Not
+If loc04e7
+Push constant154, constant155, constant28
+GetVariable
+Push 7
+GetMember
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant28
+GetVariable
+Push 8
+GetMember
+Add2
+SetVariable
+Push constant156, constant157
+GetVariable
+SetVariable
+loc04e7:Jump loc0534
+loc04ec:Push true, constant158, constant28
+GetVariable
+Push 4
+GetMember
+Push constant28
+GetVariable
+Push 5
+GetMember
+Add2
+Push constant28
+GetVariable
+Push 6
+GetMember
+Add2
+Push 3, constant159
+CallFunction
+Pop
+loc0534:Jump loc0624
+loc0539:Push constant125
+GetVariable
+Push constant126
+GetVariable
+Equals2
+Not
+If loc0624
+Push constant11
+GetVariable
+Push constant20
+GetMember
+Push 1, constant21
+CallFunction
+Not
+If loc05dc
+Push constant105
+GetVariable
+Push constant98
+GetVariable
+GetMember
+ToNumber
+Push 1, constant153
+CallFunction
+Not
+If loc05d7
+Push constant154, constant155, constant28
+GetVariable
+Push 9
+GetMember
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant28
+GetVariable
+Push 10
+GetMember
+Add2
+SetVariable
+Push constant156, constant160
+GetVariable
+SetVariable
+loc05d7:Jump loc0624
+loc05dc:Push true, constant158, constant28
+GetVariable
+Push 4
+GetMember
+Push constant28
+GetVariable
+Push 5
+GetMember
+Add2
+Push constant28
+GetVariable
+Push 6
+GetMember
+Add2
+Push 3, constant159
+CallFunction
+Pop
+}
+loc0624:DefineFunction "pressBuyMapSlot", 0 {
+Push constant2, 0
+SetVariable
+Push constant11
+GetVariable
+Push constant51
+GetMember
+ToNumber
+Push constant46
+GetVariable
+Less2
+Not
+If loc0746
+Push constant11
+GetVariable
+Push constant20
+GetMember
+Push 1, constant21
+CallFunction
+Not
+If loc06f9
+Push constant50
+GetVariable
+Push constant11
+GetVariable
+Push constant51
+GetMember
+ToNumber
+GetMember
+Push 1, constant153
+CallFunction
+Not
+If loc06f4
+Push constant154, constant155, constant28
+GetVariable
+Push 11
+GetMember
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant28
+GetVariable
+Push 12
+GetMember
+Add2
+SetVariable
+Push constant156, constant161
+GetVariable
+SetVariable
+loc06f4:Jump loc0741
+loc06f9:Push true, constant158, constant28
+GetVariable
+Push 4
+GetMember
+Push constant28
+GetVariable
+Push 5
+GetMember
+Add2
+Push constant28
+GetVariable
+Push 6
+GetMember
+Add2
+Push 3, constant159
+CallFunction
+Pop
+loc0741:Jump loc07ad
+loc0746:Push true, constant162, constant155, constant28
+GetVariable
+Push 1
+GetMember
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant155
+Add2
+Push constant28
+GetVariable
+Push 13
+GetMember
+Add2
+Push constant46
+GetVariable
+Add2
+Push constant28
+GetVariable
+Push 2
+GetMember
+Add2
+Push 3, constant159
+CallFunction
+Pop
+}
+loc07ad:DefineFunction2 "validatePurchaseClientSide", 1, 2, false, false, true, false, true, false, true, false, false, 1, "purchaseCost" {
+Push constant11
+GetVariable
+Push constant12
+GetMember
+ToNumber
+Push register1
+Less2
+Not
+Not
+If loc085d
+Push constant163, register1
+SetVariable
+Push true, constant164, constant155, constant28
+GetVariable
+Push 20
+GetMember
+Add2
+Push 0, register1, constant165
+CallMethod
+Add2
+Push constant28
+GetVariable
+Push 21
+GetMember
+Add2
+Push 3, constant159
+CallFunction
+Pop
+Push true
+Return
+loc085d:Push true, constant166, constant28
+GetVariable
+Push 31
+GetMember
+Push 3, constant159
+CallFunction
+Pop
+Push false
+Return
+}
+DefineFunction2 "performShopPurchase", 0, 1, false, false, true, false, true, false, true, false, false {
+Push constant156
+GetVariable
+Push constant157
+GetVariable
+Equals2
+Not
+If loc09ea
+Push constant11
+GetVariable
+Push constant167
+GetMember
+Push constant11
+GetVariable
+Push constant167
+GetMember
+Push constant168
+GetMember
+Push constant142, constant73
+GetVariable
+Push constant169, constant81
+GetVariable
+Push 0
+GetMember
+Push constant170, constant80
+GetVariable
+Push 0
+GetMember
+Push constant171, constant79
+GetVariable
+Push 0
+GetMember
+Push constant172, constant81
+GetVariable
+Push 1
+GetMember
+Push constant173, constant80
+GetVariable
+Push 1
+GetMember
+Push constant174, constant79
+GetVariable
+Push 1
+GetMember
+Push 7
+InitObject
+SetMember
+Push constant79
+GetVariable
+Push 1
+GetMember
+Push constant80
+GetVariable
+Push 1
+GetMember
+Push constant81
+GetVariable
+Push 1
+GetMember
+Push constant79
+GetVariable
+Push 0
+GetMember
+Push constant80
+GetVariable
+Push 0
+GetMember
+Push constant81
+GetVariable
+Push 0
+GetMember
+Push 100, constant73
+GetVariable
+Add2
+Push 7, constant11
+GetVariable
+Push constant175
+CallMethod
+Pop
+Jump loc0bce
+loc09ea:Push constant156
+GetVariable
+Push constant160
+GetVariable
+Equals2
+Not
+If loc0b3d
+Push constant11
+GetVariable
+Push constant176
+GetMember
+Push constant11
+GetVariable
+Push constant176
+GetMember
+Push constant168
+GetMember
+Push constant142, constant98
+GetVariable
+Push 1
+Add2
+Push constant169, constant81
+GetVariable
+Push 0
+GetMember
+Push constant170, constant80
+GetVariable
+Push 0
+GetMember
+Push constant171, constant79
+GetVariable
+Push 0
+GetMember
+Push constant172, constant81
+GetVariable
+Push 1
+GetMember
+Push constant173, constant80
+GetVariable
+Push 1
+GetMember
+Push constant174, constant79
+GetVariable
+Push 1
+GetMember
+Push 7
+InitObject
+SetMember
+Push constant79
+GetVariable
+Push 1
+GetMember
+Push constant80
+GetVariable
+Push 1
+GetMember
+Push constant81
+GetVariable
+Push 1
+GetMember
+Push constant79
+GetVariable
+Push 0
+GetMember
+Push constant80
+GetVariable
+Push 0
+GetMember
+Push constant81
+GetVariable
+Push 0
+GetMember
+Push 200, constant98
+GetVariable
+Add2
+Push 1
+Add2
+Push 7, constant11
+GetVariable
+Push constant175
+CallMethod
+Pop
+Jump loc0bce
+loc0b3d:Push constant156
+GetVariable
+Push constant161
+GetVariable
+Equals2
+Not
+If loc0bce
+Push constant11
+GetVariable
+Push constant51, constant11
+GetVariable
+Push constant51
+GetMember
+ToNumber
+Push 1
+Add2
+SetMember
+Push 0, constant177
+CallFunction
+Pop
+Push 0, 0, 0, 0, 0, 0, 240, 7, constant11
+GetVariable
+Push constant175
+CallMethod
+Pop
+loc0bce:Push constant11
+GetVariable
+Push constant12, constant11
+GetVariable
+Push constant12
+GetMember
+ToNumber
+Push constant163
+GetVariable
+Subtract
+SetMember
+Push constant8
+GetVariable
+Push constant9, constant10
+GetVariable
+Push constant9, constant11
+GetVariable
+Push constant12
+GetMember
+Push 1, constant13
+CallFunction
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push true, constant162, constant154
+GetVariable
+Push 3, constant159
+CallFunction
+Pop
+}
+DefineFunction2 "displayShopMessage", 3, 7, false, true, true, false, true, false, true, false, false, 5, "msg", 4, "windowExportName", 6, "hideButtons" {
+Push constant62, 123, constant66, 75, 2
+InitObject
+Push 200001, constant178, register4, 4, register1, constant76
+CallMethod
+Pop
+Push constant178
+GetVariable
+Push constant179, constant180
+GetVariable
+SetMember
+Push constant178
+GetVariable
+Push constant181, 2, constant182
+CallFunction
+Pop
+Push constant178
+GetVariable
+Push constant183
+GetMember
+Push constant9, constant178
+GetVariable
+Push constant184
+GetMember
+Push constant9, register5
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register6
+Not
+If loc0d4f
+Push false, 1, constant185
+CallFunction
+Pop
+}
+loc0d4f:DefineFunction "closeShopMessage", 0 {
+Push true, 1, constant185
+CallFunction
+Pop
+}
+DefineFunction "confirmShopPurchase", 0 {
+Push 0, constant186
+CallFunction
+Pop
+Push true, 1, constant185
+CallFunction
+Pop
+}
+DefineFunction "cancelShopPurchase", 0 {
+Push true, 1, constant185
+CallFunction
+Pop
+}
+DefineFunction2 "showShopButtons", 1, 2, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push constant127, register1
+SetVariable
+Push constant187
+GetVariable
+Push constant36, constant188
+GetVariable
+Push constant36, constant189
+GetVariable
+Push constant36, constant190
+GetVariable
+Push constant36, constant191
+GetVariable
+Push constant36, constant192
+GetVariable
+Push constant36, constant193
+GetVariable
+Push constant36, register1
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push constant35
+GetVariable
+Push constant36, register1
+Not
+SetMember
+Push constant194
+GetVariable
+Push 1
+Add2
+Push 1, constant35
+GetVariable
+Push constant6
+CallMethod
+Pop
+Push constant39
+GetVariable
+Push constant36, register1
+PushDuplicate
+Not
+If loc0eff
+Pop
+Push constant11
+GetVariable
+Push constant51
+GetMember
+Push constant46
+GetVariable
+Less2
+loc0eff:SetMember
+}
+DefineFunction "getCredWin", 0 {
+Push constant195
+GetVariable
+Not
+If loc0f64
+Push constant195, false
+SetVariable
+Push constant196, 1, constant191
+GetVariable
+Push constant197
+GetMember
+Push constant198
+GetMember
+Push constant6
+CallMethod
+Pop
+Push 0, constant11
+GetVariable
+Push constant199
+CallMethod
+Pop
+}
+loc0f64:DefineFunction2 "showTicket", 1, 2, false, false, true, false, true, false, true, false, false, 1, "prizeNumber" {
+Push constant118
+GetVariable
+Push constant36, constant107
+GetVariable
+Push constant36, constant4
+GetVariable
+Push constant36, constant7
+GetVariable
+Push constant36, constant100
+GetVariable
+Push constant36, false
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push false, 1, constant185
+CallFunction
+Pop
+Push 100000, constant200, constant201, 3, constant76
+CallFunction
+Pop
+Push constant200
+GetVariable
+Push constant62, 281
+SetMember
+Push constant200
+GetVariable
+Push constant66, 202
+SetMember
+Push constant202, constant203
+GetVariable
+Push register1
+GetMember
+ToNumber
+SetVariable
+Push constant200
+GetVariable
+Push constant204
+GetMember
+Push constant183
+GetMember
+Push constant9, constant200
+GetVariable
+Push constant204
+GetMember
+Push constant184
+GetMember
+Push constant9, constant28
+GetVariable
+Push 14
+GetMember
+Push constant202
+GetVariable
+Push 1, constant13
+CallFunction
+Add2
+Push constant28
+GetVariable
+Push 15
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push constant200
+GetVariable
+Push constant204
+GetMember
+Push constant205
+GetMember
+Push constant9, constant200
+GetVariable
+Push constant204
+GetMember
+Push constant206
+GetMember
+Push constant9, constant28
+GetVariable
+Push 18
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push register1, 1
+Add2
+Push 1, constant200
+GetVariable
+Push constant200
+GetMember
+Push constant207
+GetMember
+Push constant6
+CallMethod
+Pop
+Push constant200
+GetVariable
+Push constant200
+GetMember
+Push constant208
+GetMember
+Push constant209
+GetMember
+Push constant9, constant28
+GetVariable
+Push 17
+GetMember
+Push 1, 0, constant202
+GetVariable
+Push constant165
+CallMethod
+Push constant210
+CallMethod
+SetMember
+Push constant211, 1, constant212
+GetVariable
+Push constant213
+CallMethod
+Push -1
+Equals2
+Not
+Not
+If loc11cc
+Push constant202
+GetVariable
+Push 1, constant214
+CallFunction
+Pop
+}
+loc11cc:DefineFunction "awardTicketValue", 0 {
+Push constant11
+GetVariable
+Push constant12, constant11
+GetVariable
+Push constant12
+GetMember
+ToNumber
+Push constant202
+GetVariable
+Add2
+SetMember
+Push constant194
+GetVariable
+Push constant215
+GetVariable
+Equals2
+Not
+If loc1252
+Push constant8
+GetVariable
+Push constant9, constant10
+GetVariable
+Push constant9, constant11
+GetVariable
+Push constant12
+GetMember
+Push 1, constant13
+CallFunction
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc1252:DefineFunction "closeTicket", 0 {
+Push 0, constant216
+CallFunction
+Pop
+Push 0, constant200
+GetVariable
+Push constant217
+CallMethod
+Pop
+Push 0, constant200
+GetVariable
+Push constant218
+CallMethod
+Pop
+Push true, 1, constant185
+CallFunction
+Pop
+}
+DefineFunction "cleanUpTicket", 0 {
+Push constant118
+GetVariable
+Push constant36, constant107
+GetVariable
+Push constant36, constant4
+GetVariable
+Push constant36, constant100
+GetVariable
+Push constant36, true
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 0, constant23
+GetVariable
+Push constant219
+GetMember
+Push constant115
+CallMethod
+Pop
+}
+Push constant125, -1
+SetVariable
+Push constant220, constant221
+GetVariable
+Push constant168
+GetMember
+RandomNumber
+SetVariable
+Push constant222, 60
+DefineLocal
+Push constant127, true
+DefineLocal
+Push constant112, 25
+DefineLocal
+Push constant120, 65
+DefineLocal
+Push constant154
+DefineLocal2
+Push constant163
+DefineLocal2
+Push constant156
+DefineLocal2
+Push constant202
+DefineLocal2
+Push constant157, 0
+DefineLocal
+Push constant160, 1
+DefineLocal
+Push constant161, 2
+DefineLocal
+Push 0, constant223
+CallFunction
+Pop
+Push constant81, 255, 255, 2, constant224
+NewObject
+DefineLocal
+Push constant80, 255, 255, 2, constant224
+NewObject
+DefineLocal
+Push constant79, 255, 255, 2, constant224
+NewObject
+DefineLocal
+Push constant146, constant63
+GetVariable
+Push constant67
+GetMember
+Push constant63
+GetVariable
+Push constant64
+GetMember
+Push 2, constant225
+GetVariable
+Push constant226
+GetMember
+Push constant227
+NewMethod
+DefineLocal
+Push constant149, constant70
+GetVariable
+Push constant67
+GetMember
+Push constant70
+GetVariable
+Push constant64
+GetMember
+Push 2, constant225
+GetVariable
+Push constant226
+GetMember
+Push constant227
+NewMethod
+DefineLocal
+Push constant63
+GetVariable
+Push 1, constant146
+GetVariable
+Push constant228
+CallMethod
+Pop
+Push constant70
+GetVariable
+Push 1, constant149
+GetVariable
+Push constant228
+CallMethod
+Pop
+Push 0, true, 2, constant229
+CallFunction
+Pop
+Push 1, true, 2, constant229
+CallFunction
+Pop
+loc1523:}

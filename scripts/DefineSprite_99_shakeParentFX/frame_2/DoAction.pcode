@@ -1,0 +1,8 @@
+StrictMode 213
+Less2
+Try {
+ToggleQuality
+Jump loc0018
+}
+Less
+loc0018:}

@@ -1,0 +1,20 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0034
+}
+Or
+StrictMode 213
+Less2
+Try {
+Jump loc0034
+}
+BitOr
+BitURShift
+TypeOf
+BitURShift
+DefineLocal2
+BitOr
+BitLShift
+loc0034:}
+}

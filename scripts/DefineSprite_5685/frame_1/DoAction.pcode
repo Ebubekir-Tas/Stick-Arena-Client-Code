@@ -1,0 +1,13 @@
+StrictMode 213
+Less2
+Try {
+Enumerate
+BitOr
+BitURShift
+InitArray
+Jump loc001d
+}
+MBStringExtract
+Enumerate2
+Greater
+loc001d:}

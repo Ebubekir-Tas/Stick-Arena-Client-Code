@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "\x02\x01"
+DefineFunction2 "\x11{invalid_utf8=150}\x02", 8, 28, true, false, false, true, false, true, true, false, false, 0, "\b", 78, "{invalid_utf8=150}\x02", 8, "", 78, "{invalid_utf8=150}\x02", 8, "\x01N{invalid_utf8=150}\x04", 8, "\x02\b", 28, "{invalid_utf8=150}\x02", 8, "" {
+Jump loc004e
+}
+Jump loc004f
+}
+}
+loc004e:ToNumber
+loc004f:

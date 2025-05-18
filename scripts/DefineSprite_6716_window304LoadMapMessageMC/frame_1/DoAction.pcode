@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+GoToLabel ""
+Jump loc001d
+}
+NextFrame
+CallMethod
+Pop
+loc001d:}

@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0029
+}
+Try {
+Play
+NewObject
+Jump loc0029
+}
+}
+Finally {
+Stop
+}
+loc0029:

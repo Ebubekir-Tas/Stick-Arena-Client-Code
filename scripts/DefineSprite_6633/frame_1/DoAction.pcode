@@ -1,0 +1,8 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001c
+}
+GotoFrame 0
+Play
+loc001c:}

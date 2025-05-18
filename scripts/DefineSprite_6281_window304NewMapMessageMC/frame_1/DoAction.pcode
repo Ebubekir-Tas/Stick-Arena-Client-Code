@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "this", "press", "_parent", "zqggLX"
+Push null, "this"
+GetVariable
+Push "press", 3, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "zqggLX"
+CallMethod
+Pop
+}
+}

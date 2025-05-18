@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Pop
+Jump loc001a
+}
+BitURShift
+SetMember
+BitXor
+loc001a:}

@@ -1,0 +1,91 @@
+StrictMode 213
+Less2
+Try {
+CallMethod
+Pop
+DefineFunction2 "windowOK", 0, 2, true, false, true, false, true, false, true, false, false {
+Push 0, register1, "reportUserPressOK"
+CallMethod
+Pop
+}
+Jump loc01a4
+}
+loc0054:Push constant16, constant1
+GetVariable
+Add2
+GetVariable
+Push null
+Equals2
+Not
+Not
+If loc00ee
+Push constant16, constant1
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, constant12
+CallFunction
+Pop
+}
+Push constant17, constant1
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, constant12
+CallFunction
+Pop
+}
+Push constant18, constant1
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, constant12
+CallFunction
+Pop
+}
+Push constant1, constant1
+GetVariable
+Increment
+SetVariable
+Jump loc0054
+loc00ee:Push constant19
+GetVariable
+With {
+Push 0, constant12
+CallFunction
+Pop
+}
+Push constant20
+GetVariable
+Push 1, constant21
+CallFunction
+Pop
+Push constant22, 19, constant23
+SetProperty
+Push constant24
+GetVariable
+Push constant25
+GetMember
+Push 1
+Add2
+Push 1, constant26
+GetVariable
+Push constant27
+CallMethod
+Pop
+Push 0, constant28
+CallFunction
+Pop
+Push constant14
+GetVariable
+Not
+If loc01a4
+Push 1000, constant15, constant15, 3, constant29
+GetVariable
+Push constant30
+CallMethod
+Pop
+loc01a4:}

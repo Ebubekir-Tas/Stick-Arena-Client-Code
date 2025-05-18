@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+Call
+Jump loc001a
+}
+Play
+}
+loc001a:

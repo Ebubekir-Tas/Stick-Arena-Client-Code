@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+NextFrame
+Jump loc001e
+}
+Greater
+WaitForFrame 46395, 1
+}
+loc001e:

@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+Divide
+InitObject
+BitXor
+InstanceOf
+StringGreater
+BitURShift
+BitURShift
+InitObject
+MBStringLength
+}
+}

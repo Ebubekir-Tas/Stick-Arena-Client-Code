@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+StringLength
+And
+TargetPath
+Jump loc001a
+}
+And
+loc001a:}

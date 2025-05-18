@@ -1,0 +1,44 @@
+StrictMode 213
+Less2
+Try {
+Play
+PrevFrame
+Play
+Stop
+Stop
+Play
+ToggleQuality
+Add
+And
+Add
+Add
+StopSounds
+StopSounds
+Add
+StringLength
+Equals
+Less
+Multiply
+And
+Pop
+StringLength
+ToInteger
+ToInteger
+Pop
+StringLength
+SetVariable
+RemoveSprite
+SetProperty
+GetVariable
+SetTarget2
+ImplementsOp
+SetTarget2
+SetProperty
+Trace
+StartDrag
+StringLess
+Throw
+}
+Pop
+GoToLabel "{invalid_utf8=244}{invalid_utf8=224}{invalid_utf8=66}{invalid_utf8=61}T{invalid_utf8=183}_{invalid_utf8=251}\b\x1eA\x14{invalid_utf8=226}9{invalid_utf8=179}I{invalid_utf8=244}\x04\\{invalid_utf8=245}B{invalid_utf8=142}{invalid_utf8=176}"
+}

@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+BitOr
+StringGreater
+StackSwap
+InitObject
+Jump loc001b
+}
+NewObject
+loc001b:}

@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+Stop
+ToggleQuality
+StopSounds
+Add
+Subtract
+Jump loc001c
+}
+StartDrag
+loc001c:}

@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "myColor2", "_parent", "Color", "myColorTransform2", "Object", "ra", "100", "rb", "255", "ga", "gb", "0", "ba", "bb", "aa", "ab"
+Push "myColor2", "_parent"
+GetVariable
+Push 1, "Color"
+NewObject
+SetVariable
+Push "myColorTransform2", 0, "Object"
+NewObject
+SetVariable
+Push "myColorTransform2", "ra", "100", "rb", "255", "ga", "100", "gb", "0", "ba", "100", "bb", "0", "aa", "100", "ab", "0", 8
+InitObject
+SetVariable
+}
+}

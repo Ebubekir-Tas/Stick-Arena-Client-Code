@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+Push "mx.controls.SimpleButton"
+GetVariable
+Push "SimpleButton", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+}
+}

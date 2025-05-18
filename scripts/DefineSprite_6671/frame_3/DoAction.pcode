@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+BitAnd
+NewObject
+Jump loc0019
+}
+StringEquals
+loc0019:}

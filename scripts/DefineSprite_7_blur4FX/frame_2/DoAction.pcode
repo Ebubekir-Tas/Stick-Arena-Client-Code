@@ -1,0 +1,28 @@
+StrictMode 213
+Less2
+Try {
+CallMethod
+Pop
+Push constant4
+GetVariable
+Push constant5, constant6
+GetVariable
+Push constant0
+GetVariable
+Multiply
+SetMember
+Push constant4
+GetVariable
+Push constant7, 0
+SetMember
+Push constant8
+GetVariable
+Push constant9, constant4
+GetVariable
+Push 1
+InitArray
+SetMember
+Jump loc0065
+}
+Play
+loc0065:}

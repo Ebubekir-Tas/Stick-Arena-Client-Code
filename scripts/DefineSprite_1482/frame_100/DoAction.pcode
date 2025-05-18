@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc001f
+}
+NextFrame
+PrevFrame
+Play
+Stop
+ToggleQuality
+StopSounds
+Add
+Subtract
+loc001f:}

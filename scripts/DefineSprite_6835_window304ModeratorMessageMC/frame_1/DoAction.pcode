@@ -1,0 +1,21 @@
+StrictMode 213
+Less2
+Try {
+GetMember
+BitURShift
+StackSwap
+BitOr
+BitOr
+StackSwap
+BitURShift
+BitOr
+Greater
+BitURShift
+StackSwap
+InitObject
+Jump loc0028
+}
+ToggleQuality
+StoreRegister 123
+ToNumber
+loc0028:}

@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0025
+}
+BitOr
+StringEquals
+GetProperty
+CharToAscii
+GotoFrame 37186
+RemoveSprite
+Trace
+StartDrag
+EndDrag
+StringLess
+Throw
+loc0025:}

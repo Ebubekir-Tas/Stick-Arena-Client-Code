@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001b
+}
+StrictEquals
+BitRShift
+StrictEquals
+BitURShift
+Greater
+loc001b:}

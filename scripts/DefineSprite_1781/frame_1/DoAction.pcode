@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+ToInteger
+ToggleQuality
+StringEquals
+Jump loc001c
+}
+GetVariable
+InstanceOf
+BitXor
+loc001c:}

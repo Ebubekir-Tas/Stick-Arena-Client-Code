@@ -1,0 +1,32 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0030
+}
+StopSounds
+StopSounds
+Add
+StringLength
+Equals
+Less
+Multiply
+And
+Pop
+StringLength
+ToInteger
+ToInteger
+Pop
+StringLength
+SetVariable
+RemoveSprite
+SetProperty
+GetVariable
+SetTarget2
+ImplementsOp
+SetTarget2
+SetProperty
+Trace
+StartDrag
+StringLess
+Throw
+loc0030:}

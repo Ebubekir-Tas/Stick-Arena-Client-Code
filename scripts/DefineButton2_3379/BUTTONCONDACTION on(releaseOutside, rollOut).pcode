@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+GetMember
+Push constant4
+CallMethod
+Pop
+Jump loc001f
+}
+ToggleQuality
+loc001f:}

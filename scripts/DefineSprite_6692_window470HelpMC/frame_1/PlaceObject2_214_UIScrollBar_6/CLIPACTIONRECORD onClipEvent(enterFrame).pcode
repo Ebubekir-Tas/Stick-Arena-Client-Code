@@ -1,0 +1,19 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+BitURShift
+Jump loc0023
+}
+StringGreater
+BitOr
+Extends
+InitObject
+Extends
+BitLShift
+BitURShift
+NewMethod
+BitOr
+StackSwap
+InitObject
+loc0023:}

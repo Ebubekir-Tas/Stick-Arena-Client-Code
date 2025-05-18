@@ -1,0 +1,28 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0071
+}
+Push 3, 1, constant0
+GetVariable
+Push constant0
+GetMember
+Push constant1
+CallMethod
+Pop
+Push constant0
+GetVariable
+Push constant2
+GetMember
+Push constant0
+GetVariable
+Push constant3
+GetMember
+Push constant4, 3, constant0
+GetVariable
+Push constant0
+GetMember
+Push constant5
+CallMethod
+Pop
+loc0071:}

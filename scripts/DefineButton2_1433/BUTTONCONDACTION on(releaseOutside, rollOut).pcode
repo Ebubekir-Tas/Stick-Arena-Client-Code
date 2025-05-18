@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+StringGreater
+Jump loc001d
+}
+GotoFrame 51201
+loc001d:}

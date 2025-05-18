@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc001b
+}
+BitURShift
+InitObject
+StrictEquals
+Extends
+loc001b:}

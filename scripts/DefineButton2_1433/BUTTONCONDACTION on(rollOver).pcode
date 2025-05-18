@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "\x01\x02\x03"
+Stop
+Jump loc0025
+}
+GetVariable
+Modulo
+Call
+}
+loc0025:

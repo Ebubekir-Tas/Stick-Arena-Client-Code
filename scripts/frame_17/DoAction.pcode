@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Play
+Jump loc001a
+}
+DefineLocal
+PrevFrame
+Divide
+loc001a:}

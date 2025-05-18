@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+BitOr
+BitLShift
+StringGreater
+StackSwap
+Extends
+BitURShift
+Jump loc0021
+}
+ToNumber
+GotoFrame2 false, false, 
+loc0021:}

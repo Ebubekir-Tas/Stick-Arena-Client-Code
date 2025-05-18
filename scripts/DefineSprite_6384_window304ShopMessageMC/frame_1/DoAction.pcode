@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+RandomNumber
+Jump loc001a
+}
+StringGreater
+Add2
+loc001a:}

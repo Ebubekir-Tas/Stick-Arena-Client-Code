@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Try {
+InstanceOf
+BitURShift
+RandomNumber
+Jump loc002e
+}
+Jump loc002e
+}
+BitLShift
+BitURShift
+StackSwap
+InitObject
+loc002e:}
+}

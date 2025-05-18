@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001c
+}
+CharToAscii
+GotoFrame 8968
+}
+loc001c:

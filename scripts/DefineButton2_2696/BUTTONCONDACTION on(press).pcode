@@ -1,0 +1,37 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "_parent", "_modeTileSets", "rollOverEditorButton", "bgEditorMC", "this", "over", "zqggLX"
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_modeTileSets"
+GetMember
+Push 1, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "rollOverEditorButton"
+CallMethod
+Pop
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "bgEditorMC"
+GetMember
+Push "this"
+GetVariable
+Push "over", 3, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "zqggLX"
+CallMethod
+Pop
+Jump loc00c8
+}
+PrevFrame
+}
+loc00c8:

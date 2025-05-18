@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+RandomNumber
+MBStringExtract
+Jump loc001e
+}
+Extends
+BitRShift
+InitArray
+Add2
+StackSwap
+InitObject
+loc001e:}

@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+Multiply
+Jump loc001f
+}
+BitURShift
+Increment
+BitURShift
+StrictEquals
+BitURShift
+BitURShift
+BitLShift
+BitURShift
+loc001f:}

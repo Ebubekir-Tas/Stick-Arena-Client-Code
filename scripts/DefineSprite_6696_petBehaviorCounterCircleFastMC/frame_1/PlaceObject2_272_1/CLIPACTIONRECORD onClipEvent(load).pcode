@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0019
+}
+SetMember
+Delete
+Extends
+loc0019:}

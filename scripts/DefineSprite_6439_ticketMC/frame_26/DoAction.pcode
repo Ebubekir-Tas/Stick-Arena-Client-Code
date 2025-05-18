@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+InstanceOf
+Extends
+BitLShift
+BitURShift
+NewMethod
+BitLShift
+BitOr
+BitLShift
+StringGreater
+CharToAscii
+Jump loc0021
+}
+InstanceOf
+loc0021:}

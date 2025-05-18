@@ -1,0 +1,56 @@
+StrictMode 213
+Less2
+Try {
+NextFrame
+PrevFrame
+StopSounds
+Play
+PrevFrame
+PrevFrame
+PrevFrame
+PrevFrame
+Subtract
+ToggleQuality
+ToggleQuality
+Play
+StopSounds
+Divide
+Subtract
+Divide
+Divide
+Divide
+Subtract
+Multiply
+Multiply
+Equals
+And
+StringLength
+Or
+Equals
+Less
+StringEquals
+Less
+Multiply
+Multiply
+Not
+ToInteger
+Not
+StringEquals
+StringExtract
+Pop
+Pop
+Pop
+Equals
+Or
+StringLength
+Pop
+With {
+Jump loc004f
+}
+GotoFrame2 false, false, 
+Jump loc0052
+loc004f:InstanceOf
+StackSwap
+BitURShift
+loc0052:}
+}

@@ -1,0 +1,79 @@
+StrictMode 213
+Less2
+Try {
+Jump loc01bb
+}
+Push constant39
+GetMember
+Push undefined
+Equals2
+Not
+If loc004e
+Push register1, constant40
+GetMember
+Push 3, 2, register1, constant41
+CallMethod
+Pop
+loc004e:SetMember
+Push register2, constant42
+DefineFunction2 "", 0, 3, false, false, false, true, true, false, false, true, false {
+Push 0, register2, constant42
+CallMethod
+Pop
+Push 0, register1, constant43
+CallMethod
+Push register1, constant39
+GetMember
+Push constant44
+GetMember
+Subtract
+Push 2
+Divide
+Push 0, register1, constant45
+CallMethod
+Push register1, constant39
+GetMember
+Push constant46
+GetMember
+Subtract
+Push 2
+Divide
+Push 2, register1, constant39
+GetMember
+Push constant47
+CallMethod
+Pop
+}
+SetMember
+Push register1, constant48, constant1
+GetVariable
+Push constant6
+GetMember
+Push constant7
+GetMember
+Push constant48
+GetMember
+SetMember
+Push register2, constant49, constant5
+SetMember
+Push register2, constant50, 0
+SetMember
+Push register2, constant51, false
+SetMember
+Push register2, constant52, constant39, constant53, constant54, constant55, 4, constant56
+NewObject
+SetMember
+Push 1, null, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push constant8
+GetMember
+Push 3, constant57
+CallFunction
+Pop
+loc01bb:}

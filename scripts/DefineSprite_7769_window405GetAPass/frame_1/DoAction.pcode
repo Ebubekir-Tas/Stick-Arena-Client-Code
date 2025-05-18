@@ -1,0 +1,19 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0060
+}
+ConstantPool "_parent", "faqText1", "scroll", "faqText0"
+Push "_parent"
+GetVariable
+Push "faqText1"
+GetMember
+Push "scroll", "_parent"
+GetVariable
+Push "faqText0"
+GetMember
+Push "scroll"
+GetMember
+SetMember
+}
+loc0060:

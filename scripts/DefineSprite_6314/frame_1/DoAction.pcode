@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+BitAnd
+InitArray
+ToNumber
+Enumerate
+loc001a:}

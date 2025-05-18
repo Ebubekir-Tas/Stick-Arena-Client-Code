@@ -1,0 +1,61 @@
+StrictMode 213
+Less2
+Try {
+GetVariable
+WaitForFrame 25216, 54
+Jump loc0055
+}
+NextFrame
+NextFrame
+PrevFrame
+ToggleQuality
+PrevFrame
+PrevFrame
+NextFrame
+NextFrame
+PrevFrame
+Add
+Stop
+Stop
+Play
+ToggleQuality
+Multiply
+Add
+Multiply
+Multiply
+Subtract
+Add
+Subtract
+Subtract
+Divide
+Equals
+Not
+And
+Divide
+Equals
+Or
+Equals
+Subtract
+Subtract
+And
+And
+Or
+StringEquals
+StringLength
+StringExtract
+StringExtract
+StringExtract
+Multiply
+Less
+Pop
+ToInteger
+StringLength
+ToInteger
+Not
+StringLength
+StringExtract
+StringLength
+With {
+}
+Throw
+loc0055:}

@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Play
+PrevFrame
+Jump loc001e
+}
+StrictMode 19
+SetVariable
+Delete
+loc001e:}

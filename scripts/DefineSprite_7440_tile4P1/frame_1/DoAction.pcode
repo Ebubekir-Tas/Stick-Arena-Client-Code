@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001b
+}
+Trace
+StartDrag
+EndDrag
+StringLess
+Throw
+loc001b:}

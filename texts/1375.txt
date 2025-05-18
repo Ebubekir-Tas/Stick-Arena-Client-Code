@@ -1,0 +1,15 @@
+to 
+--- RECORDSEPARATOR ---
+create
+--- RECORDSEPARATOR ---
+ your own game, click '
+--- RECORDSEPARATOR ---
+create 
+--- RECORDSEPARATOR ---
+game
+--- RECORDSEPARATOR ---
+' and enter a name.
+--- RECORDSEPARATOR ---
+set options as desired and click 'ok' to 
+--- RECORDSEPARATOR ---
+start the game!

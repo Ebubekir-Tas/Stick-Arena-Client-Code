@@ -1,0 +1,25 @@
+StrictMode 213
+Less2
+Try {
+If loc001b
+Jump loc006e
+loc001b:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}+" , "{invalid_utf8=136}%" , "\x05" , "_parent" , "windowBGMC" , "this" , "out" , "zqggLX" , "{invalid_utf8=153}\x02" , "\x0e"  {
+Jump loc00c8
+loc006e:ConstantPool "_parent", "windowBGMC", "this", "out", "zqggLX"
+Push "_parent"
+GetVariable
+Push "windowBGMC"
+GetMember
+Push "this"
+GetVariable
+Push "out", 3, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "zqggLX"
+CallMethod
+Pop
+}
+}
+loc00c8:

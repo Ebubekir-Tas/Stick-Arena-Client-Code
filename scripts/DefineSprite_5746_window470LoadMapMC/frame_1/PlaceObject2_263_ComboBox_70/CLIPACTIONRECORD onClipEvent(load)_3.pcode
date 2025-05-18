@@ -1,0 +1,82 @@
+StrictMode 213
+Less2
+Try {
+Jump loc01c4
+}
+Push constant26, constant28, constant29, constant30, constant31, constant32, constant29, constant33, constant31, constant34, constant29, constant35, constant31, constant36, constant29, constant37, constant31, 8
+InitObject
+SetVariable
+Push constant38, constant8
+GetVariable
+Push 1, constant39
+NewObject
+SetVariable
+Push constant26
+GetVariable
+Push 1, constant38
+GetVariable
+Push constant40
+CallMethod
+Pop
+Push constant26
+GetVariable
+Push constant35, constant26
+GetVariable
+Push constant35
+GetMember
+Push register2
+Add2
+SetMember
+Push constant26
+GetVariable
+Push constant30, constant26
+GetVariable
+Push constant30
+GetMember
+Push register2
+Add2
+SetMember
+Push constant26
+GetVariable
+Push constant33, constant26
+GetVariable
+Push constant33
+GetMember
+Push register2
+Add2
+SetMember
+Push constant38, register1, 1, constant39
+NewObject
+SetVariable
+Push constant26
+GetVariable
+Push 1, constant38
+GetVariable
+Push constant40
+CallMethod
+Pop
+SetMember
+Push constant2
+GetVariable
+Push constant41
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 40, 1, register1, constant12
+CallMethod
+Pop
+}
+SetMember
+Push constant2
+GetVariable
+Push constant42
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0, 1, register1, constant12
+CallMethod
+Pop
+}
+SetMember
+Push 0, 1, constant2
+GetVariable
+Push constant12
+CallMethod
+Pop
+loc01c4:}

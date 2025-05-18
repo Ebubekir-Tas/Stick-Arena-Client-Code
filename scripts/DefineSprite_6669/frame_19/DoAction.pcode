@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+StrictMode 213
+Less2
+Try {
+Jump loc002d
+}
+Jump loc002d
+}
+NewObject
+}
+}
+loc002d:

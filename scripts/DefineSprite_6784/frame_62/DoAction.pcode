@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+NewObject
+Jump loc001f
+}
+BitXor
+Or
+WaitForFrame 21307, 1
+}
+loc001f:

@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+InitArray
+Extends
+BitOr
+Jump loc001a
+}
+InstanceOf
+loc001a:}

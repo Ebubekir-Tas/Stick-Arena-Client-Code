@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+NewMethod
+StringGreater
+Increment
+BitLShift
+StringGreater
+BitOr
+BitURShift
+Jump loc001f
+}
+TargetPath
+StringLength
+loc001f:}

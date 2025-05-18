@@ -1,0 +1,110 @@
+StrictMode 213
+Less2
+Try {
+Pop
+Jump loc01ee
+}
+Jump loc007b
+loc001c:Push register1, constant35
+GetVariable
+Push constant13
+GetMember
+Less2
+Not
+If loc01e8
+loc0034:Push constant35
+GetVariable
+Push register1
+GetMember
+Push 1, 0, register2, constant36
+CallMethod
+Push constant11
+CallMethod
+Push -1
+Equals2
+Not
+Not
+If loc01d8
+Push constant35
+Jump loc007c
+loc007b:SetProperty
+loc007c:GetVariable
+Push register1
+GetMember
+Push 1, 0, register2, constant36
+CallMethod
+Push constant11
+CallMethod
+Push 0, 2, register2, constant30
+CallMethod
+StoreRegister 4
+Pop
+Push 0
+StoreRegister 3
+Pop
+loc00d1:Push register3, constant35
+GetVariable
+Push register1
+GetMember
+Push constant13
+GetMember
+Less2
+Not
+If loc011c
+Push constant37, 1, register4, constant27
+CallMethod
+StoreRegister 4
+Pop
+Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc00d1
+loc011c:Push register2, constant13
+GetMember
+Push constant35
+GetVariable
+Push register1
+GetMember
+Push 1, 0, register2, constant36
+CallMethod
+Push constant11
+CallMethod
+Push constant35
+GetVariable
+Push register1
+GetMember
+Push constant13
+GetMember
+Add2
+Subtract
+Push constant35
+GetVariable
+Push register1
+GetMember
+Push 1, 0, register2, constant36
+CallMethod
+Push constant11
+CallMethod
+Push constant35
+GetVariable
+Push register1
+GetMember
+Push constant13
+GetMember
+Add2
+Push 2, register2, constant30
+CallMethod
+Push 1, register4, constant27
+CallMethod
+StoreRegister 2
+Pop
+Jump loc0034
+loc01d8:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc001c
+loc01e8:Push register2
+Return
+loc01ee:}

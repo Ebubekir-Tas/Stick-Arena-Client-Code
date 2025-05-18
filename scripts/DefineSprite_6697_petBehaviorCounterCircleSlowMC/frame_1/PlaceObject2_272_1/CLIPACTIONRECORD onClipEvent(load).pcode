@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001c
+}
+Extends
+BitRShift
+InitArray
+Add2
+StackSwap
+InitObject
+loc001c:}

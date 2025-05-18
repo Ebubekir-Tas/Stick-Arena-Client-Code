@@ -1,0 +1,48 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc0105
+}
+ConstantPool "bl", "blurY", "blurAmount", "xyMove", "blurX", "_parent", "filters", "this", "removeMovieClip", "xyAcc"
+Push "bl"
+GetVariable
+Push "blurY", "blurAmount"
+GetVariable
+Push "xyMove"
+GetVariable
+Multiply
+SetMember
+Push "bl"
+GetVariable
+Push "blurX", 0
+SetMember
+Push "_parent"
+GetVariable
+Push "filters", "bl"
+GetVariable
+Push 1
+InitArray
+SetMember
+Push "xyMove"
+GetVariable
+Push 0
+Greater
+Not
+Not
+If loc00ec
+Push 0, "this"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Jump loc0105
+loc00ec:Push "xyMove", "xyMove"
+GetVariable
+Push "xyAcc"
+GetVariable
+Add2
+SetVariable
+GotoFrame 1
+Play
+loc0105:}

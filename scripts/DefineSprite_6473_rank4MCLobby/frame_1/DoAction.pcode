@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Push "badgeSQMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Jump loc0040
+}
+And
+loc0040:}

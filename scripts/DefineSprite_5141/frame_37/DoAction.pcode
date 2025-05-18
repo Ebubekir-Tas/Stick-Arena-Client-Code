@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+StringGreater
+AsciiToChar
+InstanceOf
+BitURShift
+AsciiToChar
+Jump loc0021
+}
+StopSounds
+GetTime
+StringLength
+Extends
+NextFrame
+And
+loc0021:}

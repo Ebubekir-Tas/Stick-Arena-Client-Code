@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+InitObject
+BitURShift
+BitRShift
+NewMethod
+Extends
+TargetPath
+BitURShift
+BitURShift
+Jump loc001f
+}
+PrevFrame
+loc001f:}

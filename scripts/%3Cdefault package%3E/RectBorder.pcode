@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Less2
+Try {
+PrevFrame
+Jump loc002e
+}
+SetMember
+BitXor
+BitURShift
+BitLShift
+Jump loc002e
+}
+Stop
+loc002e:}
+}

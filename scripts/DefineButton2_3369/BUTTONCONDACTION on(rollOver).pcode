@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+CharToAscii
+NewObject
+Jump loc0019
+}
+MBStringLength
+loc0019:}

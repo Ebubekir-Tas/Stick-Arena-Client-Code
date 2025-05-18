@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Delete2
+Less
+NewObject
+Jump loc001b
+}
+Play
+PrevFrame
+loc001b:}

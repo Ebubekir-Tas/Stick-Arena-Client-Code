@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc0019
+}
+Extends
+DefineLocal2
+loc0019:}

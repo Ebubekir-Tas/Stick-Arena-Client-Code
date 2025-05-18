@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+Enumerate2
+ToInteger
+Jump loc0019
+}
+BitRShift
+loc0019:}

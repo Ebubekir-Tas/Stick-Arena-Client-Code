@@ -1,0 +1,22 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+RandomNumber
+Jump loc0026
+}
+Stop
+ToInteger
+Stop
+Stop
+Stop
+GetVariable
+Stop
+GetProperty
+Stop
+CloneSprite
+Stop
+StringLess
+Stop
+Throw
+loc0026:}

@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+BitURShift
+BitOr
+BitXor
+BitURShift
+BitRShift
+Jump loc001f
+}
+GetMember
+BitOr
+BitURShift
+loc001f:}

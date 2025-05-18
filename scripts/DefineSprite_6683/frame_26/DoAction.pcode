@@ -1,0 +1,20 @@
+StrictMode 213
+Less2
+Try {
+CallFunction
+GetProperty
+BitURShift
+StrictEquals
+GetProperty
+Return
+}
+Extends
+BitRShift
+GetTime
+MBAsciiToChar
+RandomNumber
+Less2
+BitURShift
+StackSwap
+InitObject
+}

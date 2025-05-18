@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+Add
+And
+Jump loc0019
+}
+StringGreater
+loc0019:}

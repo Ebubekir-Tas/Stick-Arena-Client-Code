@@ -1,0 +1,16 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc0038
+}
+GetMember
+Push constant2
+CallMethod
+Pop
+Push 0, constant3
+GetVariable
+Push constant4
+CallMethod
+Pop
+loc0038:}

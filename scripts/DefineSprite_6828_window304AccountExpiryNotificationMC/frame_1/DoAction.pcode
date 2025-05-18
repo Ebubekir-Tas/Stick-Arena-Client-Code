@@ -1,0 +1,22 @@
+StrictMode 213
+Less2
+Try {
+Add
+Jump loc0026
+}
+BitRShift
+AsciiToChar
+RandomNumber
+GetTime
+StackSwap
+BitRShift
+BitURShift
+BitOr
+StackSwap
+BitURShift
+BitOr
+Greater
+BitURShift
+StackSwap
+InitObject
+loc0026:}

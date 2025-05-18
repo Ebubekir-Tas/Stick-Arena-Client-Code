@@ -1,0 +1,149 @@
+StrictMode 213
+Less2
+Try {
+Play
+Jump loc027d
+}
+GetMember
+Push constant41
+GetMember
+Push undefined
+Equals2
+Not
+If loc0053
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41, 0, constant2
+NewObject
+SetMember
+loc0053:Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+GetMember
+Push constant42, register5
+SetMember
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+GetMember
+Push constant43, register4
+SetMember
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+GetMember
+Push constant28, register7
+SetMember
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+GetMember
+Push constant29, register6
+SetMember
+Push 0, register1, constant22
+GetMember
+Push constant44
+CallMethod
+Pop
+Push constant45, constant46, 1
+InitObject
+Push 1, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant47
+CallMethod
+Pop
+SetMember
+Push register1, constant48
+DefineFunction "", 0 {
+Push 0, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant6
+CallMethod
+Pop
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+GetMember
+Push undefined
+Equals2
+Not
+If loc01b1
+Push 0, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant27
+CallMethod
+Pop
+loc01b1:Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant41
+GetMember
+Return
+}
+SetMember
+Push register1, constant7, false
+SetMember
+Push register1, constant49, 0
+SetMember
+Push register1, constant50, false
+SetMember
+Push register1, constant51, 0, constant52
+NewObject
+SetMember
+DefineFunction "", 0 {
+}
+Push register1, constant48
+GetMember
+Push constant53, 3, register1, constant54
+CallMethod
+Push 1, null, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push 3, constant55
+CallFunction
+Pop
+loc027d:}

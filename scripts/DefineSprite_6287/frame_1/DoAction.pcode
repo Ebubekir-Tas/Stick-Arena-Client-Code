@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+BitURShift
+BitURShift
+BitOr
+BitURShift
+Jump loc001e
+}
+RemoveSprite
+BitXor
+Play
+Multiply
+loc001e:}

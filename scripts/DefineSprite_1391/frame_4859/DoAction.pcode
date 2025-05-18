@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+Greater
+Extends
+BitURShift
+InitObject
+BitOr
+Jump loc001e
+}
+BitOr
+Extends
+BitLShift
+loc001e:}

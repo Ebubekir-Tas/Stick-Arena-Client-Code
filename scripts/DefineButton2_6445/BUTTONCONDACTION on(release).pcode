@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc001a
+}
+BitRShift
+Stop
+CastOp
+loc001a:}

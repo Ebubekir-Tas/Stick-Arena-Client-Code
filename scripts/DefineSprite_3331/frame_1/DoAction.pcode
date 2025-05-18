@@ -1,0 +1,217 @@
+StrictMode 213
+Less2
+Try {
+NextFrame
+ToggleQuality
+Multiply
+CallMethod
+Pop
+Push register2, constant13, register1, constant14
+GetMember
+Push 100
+Multiply
+Push constant8
+GetVariable
+Push constant9
+GetMember
+Divide
+Push 1, constant15
+GetVariable
+Push constant16
+CallMethod
+SetMember
+Push register2, constant13
+GetMember
+Push 1, register2, constant17
+CallMethod
+Pop
+SetMember
+SetMember
+Push constant2
+GetVariable
+Push constant18, constant2
+GetVariable
+Push constant19
+DefineFunction2 "", 0, 3, true, false, true, false, true, false, false, true, false {
+Push register2, constant4
+GetMember
+Push constant5
+GetMember
+Push 0
+Equals2
+Not
+If loc0133
+Push constant20, 1, register2, constant7
+CallMethod
+Pop
+Push 0, register2, constant21
+GetMember
+Push constant22
+CallMethod
+Pop
+Push 0, register1, constant23
+CallMethod
+Pop
+Push register1, constant11
+Delete
+Pop
+Push 40, 1, register1, constant12
+CallMethod
+Pop
+}
+loc0133:StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push constant2
+GetVariable
+Push constant12
+DefineFunction2 "", 1, 4, true, false, true, false, true, false, false, true, false, 3, "brt" {
+Push constant24, 0, constant25
+NewObject
+SetVariable
+Push constant24, constant26, constant27, constant28, constant29, constant30, constant27, constant31, constant29, constant32, constant27, constant33, constant29, constant34, constant27, constant35, constant29, 8
+InitObject
+SetVariable
+Push constant24
+GetVariable
+Push constant33, register1, constant14
+GetMember
+Push constant8
+GetVariable
+Push constant9
+GetMember
+Divide
+Push 150
+Multiply
+Push 100
+Subtract
+SetMember
+Push constant24
+GetVariable
+Push constant28, 50, register1, constant14
+GetMember
+Push constant8
+GetVariable
+Push constant9
+GetMember
+Divide
+Push 255
+Multiply
+Subtract
+SetMember
+Push constant24
+GetVariable
+Push constant31, register1, constant14
+GetMember
+Push constant8
+GetVariable
+Push constant9
+GetMember
+Divide
+Push 50
+Multiply
+Push 50
+Subtract
+SetMember
+Push constant36, constant8
+GetVariable
+Push 1, constant37
+NewObject
+SetVariable
+Push constant24
+GetVariable
+Push 1, constant36
+GetVariable
+Push constant38
+CallMethod
+Pop
+Push constant24
+GetVariable
+Push constant33, constant24
+GetVariable
+Push constant33
+GetMember
+Push register3
+Add2
+SetMember
+Push constant24
+GetVariable
+Push constant28, constant24
+GetVariable
+Push constant28
+GetMember
+Push register3
+Add2
+SetMember
+Push constant24
+GetVariable
+Push constant31, constant24
+GetVariable
+Push constant31
+GetMember
+Push register3
+Add2
+SetMember
+Push constant36, register1, 1, constant37
+NewObject
+SetVariable
+Push constant24
+GetVariable
+Push 1, constant36
+GetVariable
+Push constant38
+CallMethod
+Pop
+Push constant36, constant39
+GetVariable
+Push 1, constant37
+NewObject
+SetVariable
+Push constant24
+GetVariable
+Push 1, constant36
+GetVariable
+Push constant38
+CallMethod
+Pop
+Push constant39
+GetVariable
+Push constant40
+GetMember
+Push constant41, constant39
+GetVariable
+Push constant42
+GetMember
+Push constant41, constant39
+GetVariable
+Push constant43
+GetMember
+Push constant41, constant39
+GetVariable
+Push constant44
+GetMember
+Push constant41, constant39
+GetVariable
+Push constant45
+GetMember
+Push constant41, register2, constant13
+GetMember
+Push constant46
+Add2
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+}
+}

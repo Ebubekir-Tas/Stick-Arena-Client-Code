@@ -1,0 +1,8 @@
+StrictMode 213
+Less2
+Try {
+Jump loc003f
+}
+StringEquals
+GetUrl "{invalid_utf8=248}{invalid_utf8=233}s\x04{invalid_utf8=250}>{invalid_utf8=148}#{invalid_utf8=158})X\\9!$\fG{invalid_utf8=201}{invalid_utf8=237}^9{invalid_utf8=255}", "\x0b{invalid_utf8=207}D\x1d<9hO{invalid_utf8=167}{invalid_utf8=246}-{invalid_utf8=183}{invalid_utf8=255}"
+loc003f:}

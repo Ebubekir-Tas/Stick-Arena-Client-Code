@@ -1,0 +1,7374 @@
+ConstantPool "\x01\x02\x03", "\x01\x02\x03", "_x", "_y", "windowMC", "window470MapEditorMC", "attachMovie", "windowShow", "zqggLX", "showHideEditorButtons", "editorHelpMode", "_modeNewOrLoad", "updateEditorHelpText", "btnXMC", "_visible", "btnHelpMC", "bgEditorMC", "tilesMC", "noInputTime", "removeMovieClip", "window470NewMapMC", "_modeNew", "player", "vwcTCi", "window2MC", "window304EditorNewMapWarnMessageMC", "msgText0", "text", "msgText1", "editorText", "userNameText", "i", "maxMapSlots", "windowMC.mapsSlotMC", "n", "windowMC.mapName", "toString", "", "showLoadMapTextBoxes", "mapName20", "mapName21", "h0Text0", "h0Text1", "APISendMapListRequest", "window470LoadMapMC", "_root", "userName0", "userName1", "currentEditorMapListUserName", "playerNameHeader0", "playerNameHeader1", "stockMapHeader0", "stockMapHeader1", "_modeLoad", "uName", "sFontName", "tDummy", "getTextFormat", "font", "FFF Astro", "fontFamily", "_global", "styles", "TextArea", "setStyle", "themeColor", "style", "objectList", "stockMapBox", "Array", "length", "windowMC.", "fontSize", "color", "0xA1CAFF", "embedFonts", "backgroundColor", "0x4E657B", "openDuration", "mapListCustom", "mapSlotNum", "mapIsStock", "editMode", "_modeSaveMap", "window304OverwriteConfirmationMC", "lastSelectedSaveSlot", "performSaveEditor", "localFilePath", "maps/", "mapVersionNum", "/", "mapList", "loadStockMapIntoEditor", "loadCustomMapIntoEditor", "displayLoadMapMessage", "selectedIndex", "getItemAt", "data", "pressMapSlotEditor", "showSaveMapTextBoxes", "replyDataAPI", "XML", "sendDataAPI", "LoadVars", "generateMapString", "apiCallString", "apiURL", "method=xgen.stickarena.maps.save&username=", "&password=", "uPass", "&slot_id=", "&name=", "editorMapName", "POST", "sendAndLoad", "onLoad", "quitOnSuccessfulSave", "exitMapEditor", "pressSaveMapX", "displaySaveMapMessage", "str", "inf=", " ", "mapWidth", "padWithChar", "mapHeight", "&tiles=\r", "earth", "\r&sp=", "editorPlayerSpawnsArray", "\r&ws=", "editorWeaponSpawnsArray", "\r&rt=", "\r&ts=", "editorTileSet", "kkswbu", "Boolean", "empty", "gotoAndStop", "open", "lockedEmpty", "lockedOpen", "closed", "lockedClosed", "cleanUpPopulateMapListBox", "replyDataMaps", "sendDataMaps", "nn", "numClassicMaps", "label", "ballistickOnlyMarker", "inf", "substring", "addItem", "populateStockMapListBox", "window304NewMapMessageMC", "window304LoadMapMessageMC", "window304SaveMapMessageMC", "showNewMapTextBoxes", "pressLoadMapX", "mapnameText", "heightSlider", "widthSlider", "themeBox", "btnOKMC", "cancelBTNMC", "mapsSlotMC0", "mapsSlotMC1", "mapsSlotMC2", "mapsSlotMC3", "mapsSlotMC4", "loadMapListBTNMC", "loadStockMapBTNMC", "userNameBoxMC", "initializeMapEditor", "_modeEditing", "_modeMoveMap", "changeEditMode", "toLowerCase", "currentTilePage", "themeStartingPages", "isLegalAccountString", "containsNoFilteredLanguage", "editorKeyListener", "Key", "addListener", "pressHandEditor", "editorSelectedTileCollision", "editorSelectedTileRotation", "editorSelectedTileMirror", "0F0", "0F1", "0", "editorSelectedTile", "2G0", "2G1", "2G2", "2G3", "2G4", "2G6", "2G5", "1E8", "1E9", "1F0", "3D0", "3D1", "4A0", "4A1", "4A2", "4A3", "4A4", "createTiles", "displayEarth", "vzlnjm", "fileName", "displayNewMapMessage", "editorLoadMapComplete", "windowHelpMC", "window470HelpMC", "_modeSave", "helpText0", "helpText1", "_modeMoveMapClosed", "dragXDif", "_xmouse", "dragYDif", "_ymouse", "onEnterFrame", "Math", "min", "max", "Stage", "width", "height", "toolBarExpanded", "editorModeTextMC", "xqbcnBIqnDg", "changeCursor", "_width", "_height", "_modeTileSets", "_modeObjectPlacement", "_modePaintBrush", "_modeEyeDropper", "_modeRotate", "_modeMirrorX", "_modeMirrorY", "editorToolBarMode", "_toolBarModeSpawns", "_modeSpawns", "_toolBarModeTiles", "_modeTiles", "_modeDelete", "customMapIsValid", "window470SaveMapMC", "window304EditorGeneralMessageMC", "_modeClose", "window304EditorQuitConfirmation", "clearEditorGarbage", "connectedToSever", "lastTab", "pressTab", "title", "\r", "qkewUQ", "pressXMapEditor", "tileSetsMC", "autoBrushIntervalID", "clearInterval", "cursorNormal", "initializeTileSets", "initializeSpawnsMode", "initializeTilesMode", "spawnsFrame", "tilesFrame", "maxTilePage", "h1Text0", "h1Text1", "subTilesMC", "tileSetsHeight", "tileSetsWidth", "tilesArray", "tilesArrayRot", "tilesArrayMirror", "tilesArrayCol", "rootDepthCount", "createEmptyMovieClip", "tempDepthCount", "val", "tile", "x", "y", "getTileName", "_xscale", "_yscale", "g", "getTileGraphicName", "graphic", "_rotation", "calculateTileMirror", "removeTile", "loadTile", "positionAndScaleTile", ".tile", "concat", "replyData", "sendData", "ts", "rt", "ws", "sp", "tiles", "loadMapIntoEditor", "method=xgen.stickarena.maps.get&username=", "childNodes", "firstChild", "indexOf", "&", "substr", "tiles=", "sp=", "ws=", "rt=", "ts=", "chunk", "round", "playerSpawn", "editorSpawnMC", "pickup", "weapons", "attackAnim", "MC", "editorWeaponSpawn", "tilePointerMC", "dir", "over", "_modeHelp", "setCustomObjectColor", "tX", "tY", "lastTY", "lastTX", "rollTile", "kU", "isDown", "moveMapYVel", "moveMapMaxVel", "moveMapAcc", "kD", "kL", "moveMapXVel", "kR", "moveMapElasticity", "moveMapElasticFriction", "moveMapFriction", "abs", "clearSpawnsForTile", "reloadTileEditor", "SFXBTNeditor1", "start", "xx", "yy", "tilesMC.editorWeaponSpawn", "tilesMC.playerSpawn", "kkbdAf", "window3MC", "editorStandardWeaponSpawnTimes", "_modeSpawnBat", "_modeSpawnKatana", "_modeSpawnGlock", "_modeSpawnAK47", "_modeSpawnShotgun", "_modeSpawnSledge", "_modeSpawnFlamethrower", "_modeSpawnRailgun", "_modeSpawnChainsaw", "_modeSpawnLasersword", "_modeSpawnHelmet", "_modeSpawnChaingun", "_modeSpawnPlayer", "kkBQxl", "mapScale", "area", "lastRequestedMapListUserName", "Object", "onKeyDown", "pressedKey", "getAscii", "toggleLoadMapUsernameBox", "pressSaveEditor", "pressSpawnsEditor", "pressTilesEditor", "pressDeleteEditor", "bgScrollMC", "frameFunction", "onPress", "this", "SFXBTNeditor0", "rotationModifiedFlipMode", "SFXBTNeditor2", "autoBrush", "setInterval", "foundSpawn", "editorWeaponIndex", "editorPlayerIndex", "SFXTicketScratch23", "0A0", "4", "firstFreeArrayIndex", "foundFreeSpawnIndex", "foundSpawnCollision", "tempBaseDepth", "spawnPointerMC", "SFXspawn", "adjustAndPlaySound", "SFXBTNerror", "weaponType", "mcName", "SFX", "Pickup", "onRelease", "onReleaseOutside"
+DefineFunction2 "initializeMapEditor", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "_x", 175, "_y", 140, 2
+InitObject
+Push 200000, "windowMC", "window470MapEditorMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push false, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push "editorHelpMode", "_modeNewOrLoad"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+}
+DefineFunction2 "showHideEditorButtons", 1, 2, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "btnXMC"
+GetVariable
+Push "_visible", "btnHelpMC"
+GetVariable
+Push "_visible", "bgEditorMC"
+GetVariable
+Push "_visible", "tilesMC"
+GetVariable
+Push "_visible", register1
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "pressNewMapEditor", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "noInputTime", 0
+SetVariable
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 200000, "windowMC", "window470NewMapMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "_x", 40
+SetMember
+Push "windowMC"
+GetVariable
+Push "_y", 78
+SetMember
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "editorHelpMode", "_modeNew"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push 0
+Equals2
+Not
+If loc166d
+Push 200001, "window2MC", "window304EditorNewMapWarnMessageMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "_x", 123
+SetMember
+Push "window2MC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 63
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+loc166d:DefineFunction "loadDifferentPlayersMapList", 0 {
+Push "windowMC"
+GetVariable
+Push "userNameText"
+GetMember
+Push "_visible"
+GetMember
+Push true
+Equals2
+Not
+If loc184d
+Push "i", 0
+DefineLocal
+loc16bc:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc176e
+Push "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "_visible", false
+SetMember
+Push "n", 0
+DefineLocal
+loc16f5:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc175c
+Push "windowMC.mapName", 0, "i"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 0, "n"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+GetVariable
+With {
+Push "text", ""
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc16f5
+loc175c:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc16bc
+loc176e:Push false, 1, "showLoadMapTextBoxes"
+CallFunction
+Pop
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 48
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 2
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "userNameText"
+GetMember
+Push "text"
+GetMember
+Push 1, "APISendMapListRequest"
+CallFunction
+Pop
+}
+loc184d:DefineFunction "pressLoadMapEditor", 0 {
+Push "noInputTime", 0
+SetVariable
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 200000, "windowMC", "window470LoadMapMC", 3, "_root"
+GetVariable
+Push "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "_x", 40
+SetMember
+Push "windowMC"
+GetVariable
+Push "_y", 28
+SetMember
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "i", 0
+DefineLocal
+loc1901:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc19b3
+Push "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "_visible", false
+SetMember
+Push "n", 0
+DefineLocal
+loc193a:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc19a1
+Push "windowMC.mapName", 0, "i"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 0, "n"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+GetVariable
+With {
+Push "text", ""
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc193a
+loc19a1:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1901
+loc19b3:Push false, 1, "showLoadMapTextBoxes"
+CallFunction
+Pop
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 48
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 2
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "userName0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "userName1"
+GetMember
+Push "text", "currentEditorMapListUserName"
+GetVariable
+Push "editorText"
+GetVariable
+Push 65
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "playerNameHeader0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "playerNameHeader1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 67
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "stockMapHeader0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "stockMapHeader1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 68
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "userNameText"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 66
+GetMember
+SetMember
+Push "editorHelpMode", "_modeLoad"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+Push "uName"
+GetVariable
+Push 1, "APISendMapListRequest"
+CallFunction
+Pop
+Push "sFontName", 1, 0, 2, "tDummy"
+GetVariable
+Push "getTextFormat"
+CallMethod
+Push "font"
+GetMember
+DefineLocal
+Push "tDummy"
+GetVariable
+Push "_visible", 0
+SetMember
+Push "FFF Astro", "fontFamily", 2, "_global"
+GetVariable
+Push "styles"
+GetMember
+Push "TextArea"
+GetMember
+Push "setStyle"
+CallMethod
+Pop
+Push 11260150, "themeColor", 2, "_global"
+GetVariable
+Push "style"
+GetMember
+Push "setStyle"
+CallMethod
+Pop
+Push "objectList", "stockMapBox", 1, "Array"
+NewObject
+DefineLocal
+Push "i", 0
+DefineLocal
+loc1c3b:Push "i"
+GetVariable
+Push "objectList"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc1ccb
+Push "windowMC.", "objectList"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Add2
+GetVariable
+With {
+Push "fontSize", 8
+SetVariable
+Push "color", "0xA1CAFF"
+SetVariable
+Push true, "embedFonts", 2, "setStyle"
+CallFunction
+Pop
+Push "sFontName"
+GetVariable
+Push "fontFamily", 2, "setStyle"
+CallFunction
+Pop
+}
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1c3b
+loc1ccb:Push "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "backgroundColor", "0x4E657B"
+SetMember
+Push "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "openDuration", 150
+SetMember
+}
+DefineFunction "pressMapSlotEditor", 2, "mapSlotNum" , "mapIsStock"  {
+Push "noInputTime", 0
+SetVariable
+Push "mapListCustom"
+GetVariable
+Push "length"
+GetMember
+Push "mapSlotNum"
+GetVariable
+Greater
+PushDuplicate
+If loc1d5a
+Pop
+Push "mapIsStock"
+GetVariable
+loc1d5a:Not
+If loc202a
+Push "editMode"
+GetVariable
+Push "_modeSaveMap"
+GetVariable
+Equals2
+Not
+If loc1e7b
+Push "mapListCustom"
+GetVariable
+Push "mapSlotNum"
+GetVariable
+GetMember
+Push "editorText"
+GetVariable
+Push 49
+GetMember
+Equals2
+Not
+Not
+If loc1e61
+Push false, 1, "showLoadMapTextBoxes"
+CallFunction
+Pop
+Push 200001, "window2MC", "window304OverwriteConfirmationMC", 3, "_root"
+GetVariable
+Push "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "_x", 80
+SetMember
+Push "window2MC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 56
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "lastSelectedSaveSlot", "mapSlotNum"
+GetVariable
+SetVariable
+Jump loc1e76
+loc1e61:Push "mapSlotNum"
+GetVariable
+Push 1, "performSaveEditor"
+CallFunction
+Pop
+loc1e76:Jump loc202a
+loc1e7b:Push false, 1, "showLoadMapTextBoxes"
+CallFunction
+Pop
+Push "mapIsStock"
+GetVariable
+Not
+If loc1ee4
+Push "localFilePath"
+GetVariable
+Push "maps/"
+Add2
+Push 0, "mapVersionNum"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push "/"
+Add2
+Push "mapList"
+GetVariable
+Push "mapSlotNum"
+GetVariable
+GetMember
+Add2
+Push 1, "loadStockMapIntoEditor"
+CallFunction
+Pop
+Jump loc202a
+loc1ee4:Push "mapListCustom"
+GetVariable
+Push "mapSlotNum"
+GetVariable
+GetMember
+Push "editorText"
+GetVariable
+Push 49
+GetMember
+Equals2
+Not
+Not
+If loc200c
+Push "i", 0
+DefineLocal
+loc1f16:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc1fb0
+Push "n", 0
+DefineLocal
+loc1f37:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc1f9e
+Push "windowMC.mapName", 0, "i"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 0, "n"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+GetVariable
+With {
+Push "text", ""
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc1f37
+loc1f9e:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc1f16
+loc1fb0:Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 48
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "currentEditorMapListUserName"
+GetVariable
+Push "mapSlotNum"
+GetVariable
+Push 2, "loadCustomMapIntoEditor"
+CallFunction
+Pop
+Jump loc202a
+loc200c:Push "editorText"
+GetVariable
+Push 50
+GetMember
+Push 1, "displayLoadMapMessage"
+CallFunction
+Pop
+}
+loc202a:DefineFunction2 "pressLoadStockMapEditor", 0, 2, false, false, true, false, true, false, true, false, false {
+Push "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "selectedIndex"
+GetMember
+Push 1, "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "getItemAt"
+CallMethod
+Push "data"
+GetMember
+StoreRegister 1
+Pop
+Push true, register1, 2, "pressMapSlotEditor"
+CallFunction
+Pop
+}
+DefineFunction "editorOverwriteConfirm", 1, "mapSlotNum"  {
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 55
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "lastSelectedSaveSlot"
+GetVariable
+Push 1, "performSaveEditor"
+CallFunction
+Pop
+}
+DefineFunction "editorOverwriteCancel", 1, "mapSlotNum"  {
+Push true, 1, "showSaveMapTextBoxes"
+CallFunction
+Pop
+}
+DefineFunction "performSaveEditor", 1, "mapSlotNum"  {
+Push false, 1, "showSaveMapTextBoxes"
+CallFunction
+Pop
+Push "i", 0
+DefineLocal
+loc2198:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc2232
+Push "n", 0
+DefineLocal
+loc21b9:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc2220
+Push "windowMC.mapName", 0, "i"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 0, "n"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+GetVariable
+With {
+Push "text", ""
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc21b9
+loc2220:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc2198
+loc2232:Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 55
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "replyDataAPI", 0, "XML"
+NewObject
+DefineLocal
+Push "sendDataAPI", 0, "LoadVars"
+NewObject
+DefineLocal
+Push "sendDataAPI"
+GetVariable
+Push "data", 0, "generateMapString"
+CallFunction
+SetMember
+Push "apiCallString", "apiURL"
+GetVariable
+Push "method=xgen.stickarena.maps.save&username="
+Add2
+Push "uName"
+GetVariable
+Add2
+Push "&password="
+Add2
+Push "uPass"
+GetVariable
+Add2
+Push "&slot_id="
+Add2
+Push 0, "mapSlotNum"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push "&name="
+Add2
+Push "editorMapName"
+GetVariable
+Add2
+DefineLocal
+Push "POST", "replyDataAPI"
+GetVariable
+Push "apiCallString"
+GetVariable
+Push 3, "sendDataAPI"
+GetVariable
+Push "sendAndLoad"
+CallMethod
+Pop
+Push "replyDataAPI"
+GetVariable
+Push "onLoad"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, true, false, false, 1, "success" {
+Push register1
+Not
+If loc2382
+Push "quitOnSuccessfulSave"
+GetVariable
+Not
+If loc236e
+Push 0, "exitMapEditor"
+CallFunction
+Pop
+Jump loc237d
+loc236e:Push 0, "pressSaveMapX"
+CallFunction
+Pop
+loc237d:Jump loc23a0
+loc2382:Push "editorText"
+GetVariable
+Push 61
+GetMember
+Push 1, "displaySaveMapMessage"
+CallFunction
+Pop
+}
+loc23a0:SetMember
+}
+DefineFunction2 "generateMapString", 0, 5, false, false, true, false, true, false, true, false, false {
+Push "str", "inf="
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 2, "mapWidth"
+GetVariable
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 2, "mapHeight"
+GetVariable
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push "editorMapName"
+GetVariable
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push "&tiles=\r"
+Add2
+SetVariable
+Push 0
+StoreRegister 2
+Pop
+loc2468:Push register2, "mapHeight"
+GetVariable
+Less2
+Not
+If loc255f
+Push 0
+StoreRegister 1
+Pop
+loc2487:Push register1, "mapWidth"
+GetVariable
+Less2
+Not
+If loc254f
+Push "str", "str"
+GetVariable
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0
+GetMember
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 1
+GetMember
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2
+GetMember
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 3
+GetMember
+Push " "
+Add2
+Add2
+SetVariable
+Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc2487
+loc254f:Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc2468
+loc255f:Push "str", "str"
+GetVariable
+Push "\r&sp="
+Add2
+SetVariable
+Push 0
+StoreRegister 4
+Pop
+loc257e:Push register4, 8
+Less2
+Not
+If loc263a
+Push "str", "str"
+GetVariable
+Push " ", 4, "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 0
+GetMember
+Push 50
+Multiply
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 4, "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 1
+GetMember
+Push 50
+Multiply
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push register4
+Increment
+StoreRegister 4
+Pop
+Jump loc257e
+loc263a:Push "str", "str"
+GetVariable
+Push "\r&ws="
+Add2
+SetVariable
+Push 0
+StoreRegister 3
+Pop
+loc2659:Push register3, 8
+Less2
+Not
+If loc279b
+Push "str", "str"
+GetVariable
+Push " ", 4, "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 0
+GetMember
+Push 50
+Multiply
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 4, "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 1
+GetMember
+Push 50
+Multiply
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 4, "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 2
+GetMember
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 4, "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 3
+GetMember
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc2659
+loc279b:Push "str", "str"
+GetVariable
+Push "\r&rt="
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 4, 300, 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push "\r&ts="
+Add2
+SetVariable
+Push "str", "str"
+GetVariable
+Push " ", 1, "editorTileSet"
+GetVariable
+Push 3, "padWithChar"
+CallFunction
+Push " "
+Add2
+Add2
+SetVariable
+Push "str"
+GetVariable
+Return
+}
+DefineFunction "updateMapSlotsEditor", 0 {
+Push "windowMC"
+GetVariable
+Push "userName0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "userName1"
+GetMember
+Push "text", "currentEditorMapListUserName"
+GetVariable
+Push "editorText"
+GetVariable
+Push 65
+GetMember
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "mapListCustom"
+GetVariable
+Push "length"
+GetMember
+Push 0
+Greater
+PushDuplicate
+If loc2908
+Pop
+Push "editMode"
+GetVariable
+Push "_modeSaveMap"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc2908
+Pop
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push 0
+Greater
+loc2908:Not
+If loc2b89
+Push "i", 0
+DefineLocal
+loc291c:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc2b84
+Push "mapListCustom"
+GetVariable
+Push "length"
+GetMember
+Push "i"
+GetVariable
+Greater
+PushDuplicate
+If loc2972
+Pop
+Push "editMode"
+GetVariable
+Push "_modeSaveMap"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc2972
+Pop
+Push "player"
+GetVariable
+Push "vwcTCi"
+GetMember
+ToNumber
+Push "i"
+GetVariable
+Greater
+loc2972:Not
+If loc2b0b
+Push "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "_visible", true
+SetMember
+Push "n", 0
+DefineLocal
+loc299e:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc2a0d
+Push "windowMC.mapName", 0, "i"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 0, "n"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+GetVariable
+With {
+Push "text", "mapListCustom"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc299e
+loc2a0d:Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc2a9c
+Push "mapListCustom"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "editorText"
+GetVariable
+Push 49
+GetMember
+Equals2
+Not
+If loc2a76
+Push "empty", 1, "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc2a97
+loc2a76:Push "open", 1, "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc2a97:Jump loc2b06
+loc2a9c:Push "mapListCustom"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push "editorText"
+GetVariable
+Push 49
+GetMember
+Equals2
+Not
+If loc2ae5
+Push "lockedEmpty", 1, "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc2b06
+loc2ae5:Push "lockedOpen", 1, "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc2b06:Jump loc2b72
+loc2b0b:Push "player"
+GetVariable
+Push "kkswbu"
+GetMember
+Push 1, "Boolean"
+CallFunction
+Not
+If loc2b51
+Push "closed", 1, "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Jump loc2b72
+loc2b51:Push "lockedClosed", 1, "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+loc2b72:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc291c
+loc2b84:Jump loc2c69
+loc2b89:Push "editMode"
+GetVariable
+Push "_modeSaveMap"
+GetVariable
+Equals2
+Not
+If loc2c05
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push false, 1, "showSaveMapTextBoxes"
+CallFunction
+Pop
+Push "editorText"
+GetVariable
+Push 54
+GetMember
+Push 1, "displaySaveMapMessage"
+CallFunction
+Pop
+Jump loc2c69
+loc2c05:Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", ""
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push false, 1, "showLoadMapTextBoxes"
+CallFunction
+Pop
+Push "editorText"
+GetVariable
+Push 51
+GetMember
+Push 1, "displayLoadMapMessage"
+CallFunction
+Pop
+}
+loc2c69:DefineFunction2 "populateStockMapListBox", 1, 2, false, false, true, false, true, false, false, true, false, 0, "nn" {
+Push 0, "cleanUpPopulateMapListBox"
+CallFunction
+Pop
+Push "replyDataMaps", 0, "LoadVars"
+NewObject
+SetVariable
+Push "sendDataMaps", 0, "LoadVars"
+NewObject
+SetVariable
+Push "POST", "replyDataMaps"
+GetVariable
+Push "localFilePath"
+GetVariable
+Push "maps/"
+Add2
+Push 0, "mapVersionNum"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push "/"
+Add2
+Push "mapList"
+GetVariable
+Push "nn"
+GetVariable
+GetMember
+Add2
+Push 3, "sendDataMaps"
+GetVariable
+Push "sendAndLoad"
+CallMethod
+Pop
+Push "replyDataMaps"
+GetVariable
+Push "onLoad"
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "success" {
+Push "nn"
+GetVariable
+Push "numClassicMaps"
+GetVariable
+Less2
+Not
+Not
+If loc2dc0
+Push "label", "ballistickOnlyMarker"
+GetVariable
+Push register1, "inf"
+GetMember
+Push "length"
+GetMember
+Push 6, 2, register1, "inf"
+GetMember
+Push "substring"
+CallMethod
+Add2
+Push "data", "nn"
+GetVariable
+Push 2
+InitObject
+Push 1, "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "addItem"
+CallMethod
+Pop
+Jump loc2e26
+loc2dc0:Push "label", register1, "inf"
+GetMember
+Push "length"
+GetMember
+Push 6, 2, register1, "inf"
+GetMember
+Push "substring"
+CallMethod
+Push "data", "nn"
+GetVariable
+Push 2
+InitObject
+Push 1, "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "addItem"
+CallMethod
+Pop
+loc2e26:Push "nn"
+GetVariable
+Push "mapList"
+GetVariable
+Push "length"
+GetMember
+Push 1
+Subtract
+Less2
+Not
+If loc2e66
+Push "nn"
+GetVariable
+Push 1
+Add2
+Push 1, "populateStockMapListBox"
+CallFunction
+Pop
+}
+loc2e66:SetMember
+}
+DefineFunction2 "displayNewMapMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push 200001, "window2MC", "window304NewMapMessageMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "_x", 123
+SetMember
+Push "window2MC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction2 "displayLoadMapMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push 200001, "window2MC", "window304LoadMapMessageMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "_x", 123
+SetMember
+Push "window2MC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction2 "displaySaveMapMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push 200001, "window2MC", "window304SaveMapMessageMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "_x", 123
+SetMember
+Push "window2MC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction "closeNewMapMessage", 0 {
+Push true, 1, "showNewMapTextBoxes"
+CallFunction
+Pop
+}
+DefineFunction "closeLoadMapMessage", 0 {
+Push "mapListCustom"
+GetVariable
+Push "length"
+GetMember
+Push 0
+Greater
+Not
+If loc3120
+Push true, 1, "showLoadMapTextBoxes"
+CallFunction
+Pop
+Jump loc312f
+loc3120:Push 0, "pressLoadMapX"
+CallFunction
+Pop
+}
+loc312f:DefineFunction "closeSaveMapMessage", 0 {
+Push true, 1, "showSaveMapTextBoxes"
+CallFunction
+Pop
+}
+DefineFunction2 "showNewMapTextBoxes", 1, 2, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "windowMC"
+GetVariable
+Push "mapnameText"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "heightSlider"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "widthSlider"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "themeBox"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnHelpMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnOKMC"
+GetMember
+Push "_visible", register1
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "showLoadMapTextBoxes", 1, 2, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "windowMC"
+GetVariable
+Push "cancelBTNMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC0"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC1"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC2"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC3"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC4"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnHelpMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "loadMapListBTNMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "loadStockMapBTNMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "userNameText"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "userNameBoxMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "playerNameHeader0"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "playerNameHeader1"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "stockMapHeader0"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "stockMapHeader1"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "userName0"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "userName1"
+GetMember
+Push "_visible", register1
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "stockMapBox"
+GetMember
+Push "_x", 254, 1000, register1
+Not
+ToNumber
+Multiply
+Add2
+SetMember
+}
+DefineFunction2 "showSaveMapTextBoxes", 1, 2, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "windowMC"
+GetVariable
+Push "cancelBTNMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC0"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC1"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC2"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC3"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapsSlotMC4"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnHelpMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "cancelBTNMC"
+GetMember
+Push "_visible", register1
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction "pressLoadMapX", 0 {
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0, "initializeMapEditor"
+CallFunction
+Pop
+}
+DefineFunction "pressSaveMapX", 0 {
+Push "noInputTime", 0
+SetVariable
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "editorHelpMode", "_modeEditing"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push "_modeMoveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "quitOnSuccessfulSave", false
+SetVariable
+}
+DefineFunction "pressNewMapClose", 0 {
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0, "initializeMapEditor"
+CallFunction
+Pop
+}
+DefineFunction2 "pressNewMapOK", 4, 9, false, false, true, false, true, false, true, false, false, 5, "mapName", 7, "mapH", 8, "mapW", 6, "theme" {
+Push "noInputTime", 0
+SetVariable
+Push "editorHelpMode", "_modeEditing"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+Push false, 1, "showNewMapTextBoxes"
+CallFunction
+Pop
+Push null
+StoreRegister 4
+Pop
+Push "editorMapName", 0, register5, "toLowerCase"
+CallMethod
+SetVariable
+Push "editorTileSet", register6
+SetVariable
+Push "currentTilePage", "themeStartingPages"
+GetVariable
+Push "editorTileSet"
+GetVariable
+GetMember
+SetVariable
+Push "editorMapName"
+GetVariable
+Push "length"
+GetMember
+Push 2
+Greater
+Not
+If loc40da
+Push "editorMapName"
+GetVariable
+Push 1, "isLegalAccountString"
+CallFunction
+Not
+If loc40c1
+Push "editorMapName"
+GetVariable
+Push 1, "containsNoFilteredLanguage"
+CallFunction
+Not
+If loc40a8
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "mapHeight", register7
+SetVariable
+Push "mapWidth", register8
+SetVariable
+Push "editorKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+Push "earth", 0, "Array"
+NewObject
+SetVariable
+Push 0
+StoreRegister 1
+Pop
+loc37fe:Push register1, "mapWidth"
+GetVariable
+Less2
+Not
+If loc38a9
+Push "earth"
+GetVariable
+Push register1, 0, "Array"
+NewObject
+SetMember
+Push 0
+StoreRegister 2
+Pop
+loc3837:Push register2, "mapHeight"
+GetVariable
+Less2
+Not
+If loc3899
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2, 0, 0, 0, 0, 4, "Array"
+NewObject
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc3837
+loc3899:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc37fe
+loc38a9:Push "editorSelectedTileCollision", 0
+SetVariable
+Push "editorSelectedTileRotation", 0
+SetVariable
+Push "editorSelectedTileMirror", 0
+SetVariable
+Push 0
+StoreRegister 2
+Pop
+loc38e0:Push register2, "mapHeight"
+GetVariable
+Less2
+Not
+If loc4074
+Push 0
+StoreRegister 1
+Pop
+loc38ff:Push register1, "mapWidth"
+GetVariable
+Less2
+Not
+If loc4064
+Push "editorTileSet"
+GetVariable
+Push 0
+Equals2
+Not
+If loc39b3
+Push 2
+RandomNumber
+Push 0
+Equals2
+Not
+If loc3963
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "0F0"
+SetMember
+Jump loc3983
+loc3963:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "0F1"
+SetMember
+loc3983:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 1, "0"
+SetMember
+Push "editorSelectedTile", "0F0"
+SetVariable
+Jump loc4002
+loc39b3:Push "editorTileSet"
+GetVariable
+Push 1
+Equals2
+Not
+If loc3c20
+Push 13
+RandomNumber
+StoreRegister 3
+Pop
+Push register3, 0
+Equals2
+PushDuplicate
+If loc39f9
+Pop
+Push register3, 1
+Equals2
+loc39f9:Not
+If loc3a24
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G0"
+SetMember
+Jump loc3bde
+loc3a24:Push register3, 2
+Equals2
+PushDuplicate
+If loc3a47
+Pop
+Push register3, 3
+Equals2
+loc3a47:Not
+If loc3a72
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G1"
+SetMember
+Jump loc3bde
+loc3a72:Push register3, 4
+Equals2
+PushDuplicate
+If loc3a95
+Pop
+Push register3, 5
+Equals2
+loc3a95:Not
+If loc3ac0
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G2"
+SetMember
+Jump loc3bde
+loc3ac0:Push register3, 6
+Equals2
+PushDuplicate
+If loc3ae3
+Pop
+Push register3, 7
+Equals2
+loc3ae3:Not
+If loc3b0e
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G3"
+SetMember
+Jump loc3bde
+loc3b0e:Push register3, 8
+Equals2
+PushDuplicate
+If loc3b31
+Pop
+Push register3, 9
+Equals2
+loc3b31:Not
+If loc3b5c
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G4"
+SetMember
+Jump loc3bde
+loc3b5c:Push register3, 10
+Equals2
+PushDuplicate
+If loc3b7f
+Pop
+Push register3, 11
+Equals2
+loc3b7f:Not
+If loc3baa
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G6"
+SetMember
+Jump loc3bde
+loc3baa:Push register3, 12
+Equals2
+Not
+If loc3bde
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "2G5"
+SetMember
+loc3bde:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2, 0, 1
+RandomNumber
+Push "toString"
+CallMethod
+SetMember
+Push "editorSelectedTile", "2G0"
+SetVariable
+Jump loc4002
+loc3c20:Push "editorTileSet"
+GetVariable
+Push 2
+Equals2
+Not
+If loc3d2b
+Push 3
+RandomNumber
+StoreRegister 3
+Pop
+Push register3, 0
+Equals2
+Not
+If loc3c7c
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "1E8"
+SetMember
+Jump loc3ce9
+loc3c7c:Push register3, 1
+Equals2
+Not
+If loc3cb5
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "1E9"
+SetMember
+Jump loc3ce9
+loc3cb5:Push register3, 2
+Equals2
+Not
+If loc3ce9
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "1F0"
+SetMember
+loc3ce9:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2, 0, 1
+RandomNumber
+Push "toString"
+CallMethod
+SetMember
+Push "editorSelectedTile", "1E8"
+SetVariable
+Jump loc4002
+loc3d2b:Push "editorTileSet"
+GetVariable
+Push 3
+Equals2
+Not
+If loc3ddf
+Push 2
+RandomNumber
+Push 0
+Equals2
+Not
+If loc3d7d
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "3D0"
+SetMember
+Jump loc3d9d
+loc3d7d:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "3D1"
+SetMember
+loc3d9d:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2, 0, 1
+RandomNumber
+Push "toString"
+CallMethod
+SetMember
+Push "editorSelectedTile", "3D0"
+SetVariable
+Jump loc4002
+loc3ddf:Push "editorTileSet"
+GetVariable
+Push 4
+Equals2
+Not
+If loc4002
+Push 8
+RandomNumber
+StoreRegister 3
+Pop
+Push register3, 0
+Equals2
+Not
+If loc3e3b
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A0"
+SetMember
+Jump loc3fc5
+loc3e3b:Push register3, 1
+Equals2
+Not
+If loc3e74
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A0"
+SetMember
+Jump loc3fc5
+loc3e74:Push register3, 2
+Equals2
+Not
+If loc3ead
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A1"
+SetMember
+Jump loc3fc5
+loc3ead:Push register3, 3
+Equals2
+Not
+If loc3ee6
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A1"
+SetMember
+Jump loc3fc5
+loc3ee6:Push register3, 4
+Equals2
+Not
+If loc3f1f
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A2"
+SetMember
+Jump loc3fc5
+loc3f1f:Push register3, 5
+Equals2
+Not
+If loc3f58
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A2"
+SetMember
+Jump loc3fc5
+loc3f58:Push register3, 6
+Equals2
+Not
+If loc3f91
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A3"
+SetMember
+Jump loc3fc5
+loc3f91:Push register3, 7
+Equals2
+Not
+If loc3fc5
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, "4A4"
+SetMember
+loc3fc5:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2, 0, 1
+RandomNumber
+Push "toString"
+CallMethod
+SetMember
+Push "editorSelectedTile", "4A0"
+SetVariable
+loc4002:Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2, 0, 4
+RandomNumber
+Push "toString"
+CallMethod
+SetMember
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 3, "0"
+SetMember
+Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc38ff
+loc4064:Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc38e0
+loc4074:Push 0, "createTiles"
+CallFunction
+Pop
+Push 0, "displayEarth"
+CallFunction
+Pop
+Push "vzlnjm"
+GetVariable
+Push "fileName", ""
+SetMember
+Jump loc40bc
+loc40a8:Push "editorText"
+GetVariable
+Push 12
+GetMember
+StoreRegister 4
+Pop
+loc40bc:Jump loc40d5
+loc40c1:Push "editorText"
+GetVariable
+Push 70
+GetMember
+StoreRegister 4
+Pop
+loc40d5:Jump loc40ee
+loc40da:Push "editorText"
+GetVariable
+Push 11
+GetMember
+StoreRegister 4
+Pop
+loc40ee:Push register4, null
+Equals2
+Not
+Not
+If loc4113
+Push register4, 1, "displayNewMapMessage"
+CallFunction
+Pop
+}
+loc4113:DefineFunction "pressLoadMapOK", 0 {
+Push "noInputTime", 0
+SetVariable
+Push 0, "editorLoadMapComplete"
+CallFunction
+Pop
+}
+DefineFunction "editorLoadMapComplete", 0 {
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "editorKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+}
+DefineFunction2 "pressHelpMapEditor", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "noInputTime", 0
+SetVariable
+Push 200003, "windowHelpMC", "window470HelpMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "windowHelpMC"
+GetVariable
+Push "_y", 40
+SetMember
+Push "windowHelpMC"
+GetVariable
+Push "_x", 40
+SetMember
+Push "windowHelpMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "windowHelpMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 42
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+}
+DefineFunction "updateEditorHelpText", 0 {
+Push "editorHelpMode"
+GetVariable
+StoreRegister 0
+Push "_modeNewOrLoad"
+GetVariable
+StrictEquals
+If loc42e6
+Push register0, "_modeNew"
+GetVariable
+StrictEquals
+If loc4327
+Push register0, "_modeLoad"
+GetVariable
+StrictEquals
+If loc4368
+Push register0, "_modeEditing"
+GetVariable
+StrictEquals
+If loc43a9
+Push register0, "_modeSave"
+GetVariable
+StrictEquals
+If loc43ea
+Jump loc4426
+loc42e6:Push "windowHelpMC"
+GetVariable
+Push "helpText0"
+GetMember
+Push "text", "windowHelpMC"
+GetVariable
+Push "helpText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 43
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Jump loc4426
+loc4327:Push "windowHelpMC"
+GetVariable
+Push "helpText0"
+GetMember
+Push "text", "windowHelpMC"
+GetVariable
+Push "helpText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 44
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Jump loc4426
+loc4368:Push "windowHelpMC"
+GetVariable
+Push "helpText0"
+GetMember
+Push "text", "windowHelpMC"
+GetVariable
+Push "helpText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 45
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Jump loc4426
+loc43a9:Push "windowHelpMC"
+GetVariable
+Push "helpText0"
+GetMember
+Push "text", "windowHelpMC"
+GetVariable
+Push "helpText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 46
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Jump loc4426
+loc43ea:Push "windowHelpMC"
+GetVariable
+Push "helpText0"
+GetMember
+Push "text", "windowHelpMC"
+GetVariable
+Push "helpText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 53
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc4426:DefineFunction2 "startMapMove", 0, 3, false, true, true, false, true, false, false, true, false {
+Push "_modeMoveMapClosed"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "dragXDif", register2, "_xmouse"
+GetMember
+Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+SetVariable
+Push "dragYDif", register2, "_ymouse"
+GetMember
+Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+SetVariable
+Push "tilesMC"
+GetVariable
+Push "onEnterFrame"
+DefineFunction2 "", 0, 3, false, true, true, false, true, false, false, true, false {
+Push register1, "_x", register2, "_xmouse"
+GetMember
+Push "dragXDif"
+GetVariable
+Subtract
+Push 25, 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+Push 0, "mapWidth"
+GetVariable
+Push 50
+Multiply
+Push 575
+Subtract
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetMember
+Push register1, "_y", register2, "_ymouse"
+GetMember
+Push "dragYDif"
+GetVariable
+Subtract
+Push 25, 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+Push 0, "mapHeight"
+GetVariable
+Push 50
+Multiply
+Push 425
+Subtract
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetMember
+}
+SetMember
+}
+DefineFunction "stopMapMove", 0 {
+Push "_modeMoveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "tilesMC"
+GetVariable
+Push "onEnterFrame"
+Delete
+Pop
+}
+DefineFunction2 "startToolMove", 0, 3, false, true, true, false, true, false, false, true, false {
+Push "noInputTime", 0
+SetVariable
+Push "_modeMoveMapClosed"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "dragXDif", register2, "_xmouse"
+GetMember
+Push "bgEditorMC"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+SetVariable
+Push "dragYDif", register2, "_ymouse"
+GetMember
+Push "bgEditorMC"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+SetVariable
+Push "bgEditorMC"
+GetVariable
+Push "onEnterFrame"
+DefineFunction2 "", 0, 3, false, true, true, false, true, false, false, true, false {
+Push register2, "_xmouse"
+GetMember
+Push 0
+Greater
+PushDuplicate
+Not
+If loc4677
+Pop
+Push register2, "_xmouse"
+GetMember
+Push "Stage"
+GetVariable
+Push "width"
+GetMember
+Less2
+loc4677:PushDuplicate
+Not
+If loc4693
+Pop
+Push register2, "_ymouse"
+GetMember
+Push 0
+Greater
+loc4693:PushDuplicate
+Not
+If loc46b3
+Pop
+Push register2, "_ymouse"
+GetMember
+Push "Stage"
+GetVariable
+Push "height"
+GetMember
+Less2
+loc46b3:Not
+If loc47f0
+Push register1, "_x", "Stage"
+GetVariable
+Push "width"
+GetMember
+Push 64
+Subtract
+Push 0, register2, "_xmouse"
+GetMember
+Push "dragXDif"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetMember
+Push "toolBarExpanded"
+GetVariable
+Not
+If loc478e
+Push register1, "_y", "Stage"
+GetVariable
+Push "height"
+GetMember
+Push 343
+Subtract
+Push 0, register2, "_ymouse"
+GetMember
+Push "dragYDif"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetMember
+Jump loc47f0
+loc478e:Push register1, "_y", "Stage"
+GetVariable
+Push "height"
+GetMember
+Push 10
+Subtract
+Push 0, register2, "_ymouse"
+GetMember
+Push "dragYDif"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetMember
+}
+loc47f0:SetMember
+}
+DefineFunction "stopToolMove", 0 {
+Push "_modeMoveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "bgEditorMC"
+GetVariable
+Push "onEnterFrame"
+Delete
+Pop
+}
+DefineFunction2 "doubleClickToolBar", 2, 3, false, false, true, false, true, false, true, false, false, 2, "gotoFrame", 1, "showGUI" {
+Push register2, 1, "bgEditorMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "btnXMC"
+GetVariable
+Push "_visible", "btnHelpMC"
+GetVariable
+Push "_visible", "editorModeTextMC"
+GetVariable
+Push "_visible", "xqbcnBIqnDg"
+GetVariable
+Push "_visible", "toolBarExpanded", register1
+StoreRegister 0
+SetVariable
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "toolBarExpanded"
+GetVariable
+Not
+If loc491e
+Push "bgEditorMC"
+GetVariable
+Push "_y", "Stage"
+GetVariable
+Push "height"
+GetMember
+Push 343
+Subtract
+Push "bgEditorMC"
+GetVariable
+Push "_y"
+GetMember
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetMember
+}
+loc491e:DefineFunction2 "startHelpMove", 0, 3, false, true, true, false, true, false, false, true, false {
+Push "noInputTime", 0
+SetVariable
+Push "_modeMoveMapClosed"
+GetVariable
+Push 1, "changeCursor"
+CallFunction
+Pop
+Push "dragXDif", register2, "_xmouse"
+GetMember
+Push "windowHelpMC"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+SetVariable
+Push "dragYDif", register2, "_ymouse"
+GetMember
+Push "windowHelpMC"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+SetVariable
+Push "windowHelpMC"
+GetVariable
+Push "onEnterFrame"
+DefineFunction2 "", 0, 3, false, true, true, false, true, false, false, true, false {
+Push register2, "_xmouse"
+GetMember
+Push 0
+Greater
+PushDuplicate
+Not
+If loc49df
+Pop
+Push register2, "_xmouse"
+GetMember
+Push "Stage"
+GetVariable
+Push "width"
+GetMember
+Less2
+loc49df:PushDuplicate
+Not
+If loc49fb
+Pop
+Push register2, "_ymouse"
+GetMember
+Push 0
+Greater
+loc49fb:PushDuplicate
+Not
+If loc4a1b
+Pop
+Push register2, "_ymouse"
+GetMember
+Push "Stage"
+GetVariable
+Push "height"
+GetMember
+Less2
+loc4a1b:Not
+If loc4b11
+Push register1, "_x", "Stage"
+GetVariable
+Push "width"
+GetMember
+Push 50
+Subtract
+Push 0, register1, "_width"
+GetMember
+Subtract
+Push 50
+Add2
+Push register2, "_xmouse"
+GetMember
+Push "dragXDif"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+ToInteger
+SetMember
+Push register1, "_y", "Stage"
+GetVariable
+Push "height"
+GetMember
+Push 50
+Subtract
+Push 0, register1, "_height"
+GetMember
+Subtract
+Push 50
+Add2
+Push register2, "_ymouse"
+GetMember
+Push "dragYDif"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+ToInteger
+SetMember
+}
+loc4b11:SetMember
+}
+DefineFunction "stopHelpMove", 0 {
+Push "editMode"
+GetVariable
+Push 1, "changeCursor"
+CallFunction
+Pop
+Push "windowHelpMC"
+GetVariable
+Push "onEnterFrame"
+Delete
+Pop
+}
+DefineFunction "pressTileSetsEditor", 0 {
+Push "_modeTileSets"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressPrefabsEditor", 0 {
+Push "_modeObjectPlacement"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressHandEditor", 0 {
+Push "_modeMoveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressPaintBrushEditor", 0 {
+Push "_modePaintBrush"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressEyeDropperEditor", 0 {
+Push "_modeEyeDropper"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressRotateEditor", 0 {
+Push "_modeRotate"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressMirrorXEditor", 0 {
+Push "_modeMirrorX"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressMirrorYEditor", 0 {
+Push "_modeMirrorY"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressSpawnsEditor", 0 {
+Push "editorToolBarMode", "_toolBarModeSpawns"
+GetVariable
+SetVariable
+Push "_modeSpawns"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressTilesEditor", 0 {
+Push "editorToolBarMode", "_toolBarModeTiles"
+GetVariable
+SetVariable
+Push "_modeTiles"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction "pressDeleteEditor", 0 {
+Push "_modeDelete"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction2 "pressPlaceSpawnEditor", 1, 2, false, false, true, false, true, false, true, false, false, 1, "weaponNum" {
+Push register1, 15
+Add2
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction2 "customMapIsValid", 0, 3, false, false, true, false, true, false, true, false, false {
+Push false
+StoreRegister 2
+Pop
+Push 0
+StoreRegister 1
+Pop
+loc4dde:Push register1, "editorPlayerSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc4e35
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push register1
+GetMember
+Push 0
+GetMember
+Push 0
+Equals2
+Not
+Not
+If loc4e25
+Push true
+StoreRegister 2
+Pop
+loc4e25:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc4dde
+loc4e35:Push register2
+Return
+}
+DefineFunction "pressSaveEditor", 0 {
+Push "noInputTime", 0
+SetVariable
+Push 0, "customMapIsValid"
+CallFunction
+Not
+If loc50ca
+Push false, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push "_modeSaveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "editorHelpMode", "_modeSave"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+Push 200000, "windowMC", "window470SaveMapMC", 3, "_root"
+GetVariable
+Push "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "_x", 40
+SetMember
+Push "windowMC"
+GetVariable
+Push "_y", 78
+SetMember
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "i", 0
+DefineLocal
+loc4f2f:Push "i"
+GetVariable
+Push "maxMapSlots"
+GetVariable
+Less2
+Not
+If loc4fe1
+Push "windowMC.mapsSlotMC", "i"
+GetVariable
+Add2
+GetVariable
+Push "_visible", false
+SetMember
+Push "n", 0
+DefineLocal
+loc4f68:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc4fcf
+Push "windowMC.mapName", 0, "i"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 0, "n"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+GetVariable
+With {
+Push "text", ""
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc4f68
+loc4fcf:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc4f2f
+loc4fe1:Push false, 1, "showSaveMapTextBoxes"
+CallFunction
+Pop
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 48
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 52
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "tilesMC"
+GetVariable
+Push "_visible", true
+SetMember
+Push "uName"
+GetVariable
+Push 1, "APISendMapListRequest"
+CallFunction
+Pop
+Jump loc517a
+loc50ca:Push "quitOnSuccessfulSave", false
+SetVariable
+Push 200001, "window2MC", "window304EditorGeneralMessageMC", 3, "_root"
+GetVariable
+Push "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "_x", 123
+SetMember
+Push "window2MC"
+GetVariable
+Push "_y", 10
+SetMember
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 62
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+loc517a:DefineFunction "closeEditorGeneralMessageWindow", 0 {
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+}
+DefineFunction2 "pressXMapEditor", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "noInputTime", 0
+SetVariable
+Push false, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push "_modeClose"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Push "_x", 123, "_y", 102, 2
+InitObject
+Push 200000, "windowMC", "window304EditorQuitConfirmation", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "windowMC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 47
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "tilesMC"
+GetVariable
+Push "_visible", true
+SetMember
+}
+DefineFunction "pressXMapEditorQuitConfirmation", 0 {
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+}
+DefineFunction "exitMapEditor", 0 {
+Push 0, "clearEditorGarbage"
+CallFunction
+Pop
+Push "connectedToSever"
+GetVariable
+Not
+If loc535f
+Push "lastTab"
+GetVariable
+Push 1, "pressTab"
+CallFunction
+Pop
+Jump loc538b
+loc535f:Push "title", "\r", "editorText"
+GetVariable
+Push 58
+GetMember
+Add2
+Push 2, "qkewUQ"
+CallFunction
+Pop
+}
+loc538b:DefineFunction "pressXMapEditorWindow", 0 {
+Push 0, "exitMapEditor"
+CallFunction
+Pop
+}
+DefineFunction "pressOKMapEditor", 0 {
+Push 0, "pressXMapEditor"
+CallFunction
+Pop
+}
+DefineFunction "pressXTileSets", 0 {
+Push 0, "tileSetsMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+}
+DefineFunction "pressXHelp", 0 {
+Push 0, "windowHelpMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+}
+DefineFunction2 "changeEditMode", 1, 2, false, false, true, false, true, false, true, false, false, 1, "modeNum" {
+Push "noInputTime", 0
+SetVariable
+Push "autoBrushIntervalID"
+GetVariable
+Push null
+Equals2
+Not
+Not
+If loc54ba
+Push "autoBrushIntervalID"
+GetVariable
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push "autoBrushIntervalID", null
+SetVariable
+loc54ba:Push "editMode", register1
+SetVariable
+Push "editorModeTextMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "editorModeTextMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 14, register1
+Add2
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "editMode"
+GetVariable
+Push "_modeTileSets"
+GetVariable
+Equals2
+Not
+If loc553f
+Push 0, "cursorNormal"
+CallFunction
+Pop
+Push 0, "initializeTileSets"
+CallFunction
+Pop
+Jump loc55a3
+loc553f:Push "editMode"
+GetVariable
+Push "_modeSpawns"
+GetVariable
+Equals2
+Not
+If loc5567
+Push 0, "initializeSpawnsMode"
+CallFunction
+Pop
+Jump loc55a3
+loc5567:Push "editMode"
+GetVariable
+Push "_modeTiles"
+GetVariable
+Equals2
+Not
+If loc558f
+Push 0, "initializeTilesMode"
+CallFunction
+Pop
+Jump loc55a3
+loc558f:Push register1, 1, "changeCursor"
+CallFunction
+Pop
+}
+loc55a3:DefineFunction "initializeSpawnsMode", 0 {
+Push "spawnsFrame", 1, "bgEditorMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "btnXMC"
+GetVariable
+Push "_visible", "btnHelpMC"
+GetVariable
+Push "_visible", "editorModeTextMC"
+GetVariable
+Push "_visible", "toolBarExpanded", true
+StoreRegister 0
+SetVariable
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+}
+DefineFunction "initializeTilesMode", 0 {
+Push "tilesFrame", 1, "bgEditorMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "btnXMC"
+GetVariable
+Push "_visible", "btnHelpMC"
+GetVariable
+Push "_visible", "editorModeTextMC"
+GetVariable
+Push "_visible", "toolBarExpanded", true
+StoreRegister 0
+SetVariable
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+}
+DefineFunction2 "rollOverEditorButton", 1, 2, false, false, true, false, true, false, true, false, false, 1, "modeNum" {
+Push "noInputTime", 0
+SetVariable
+Push "editorModeTextMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "editorModeTextMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 14, register1
+Add2
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction "rollOffEditorButton", 0 {
+Push "editorModeTextMC"
+GetVariable
+Push "h0Text0"
+GetMember
+Push "text", "editorModeTextMC"
+GetVariable
+Push "h0Text1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 14, "editMode"
+GetVariable
+Add2
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "pressArrowTileSets", 1, 2, false, false, true, false, true, false, true, false, false, 1, "dir" {
+Push "noInputTime", 0
+SetVariable
+Push "currentTilePage", "maxTilePage"
+GetVariable
+Push 1, "currentTilePage"
+GetVariable
+Push register1
+Add2
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetVariable
+Push "tileSetsMC"
+GetVariable
+Push "h1Text0"
+GetMember
+Push "text", "tileSetsMC"
+GetVariable
+Push "h1Text1"
+GetMember
+Push "text", "currentTilePage"
+GetVariable
+Push "/"
+Add2
+Push "maxTilePage"
+GetVariable
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "tileSetsMC"
+GetVariable
+Push "subTilesMC"
+GetMember
+Push "_y", 0, "currentTilePage"
+GetVariable
+Push 1
+Subtract
+Subtract
+Push "tileSetsHeight"
+GetVariable
+Multiply
+Push 52
+Multiply
+SetMember
+}
+DefineFunction2 "selectTile", 2, 4, false, false, true, false, true, false, true, false, false, 3, "xx", 2, "yy" {
+Push register3, 25
+Subtract
+StoreRegister 3
+Pop
+Push register2, 70
+Subtract
+StoreRegister 2
+Pop
+Push register3, 52
+Divide
+ToInteger
+StoreRegister 3
+Pop
+Push register2, 52
+Divide
+ToInteger
+StoreRegister 2
+Pop
+Push register3, register2, "tileSetsWidth"
+GetVariable
+Multiply
+Add2
+Push 1
+Add2
+StoreRegister 1
+Pop
+Push "editorSelectedTile", "tilesArray"
+GetVariable
+Push register1
+GetMember
+SetVariable
+Push "editorSelectedTileRotation", "tilesArrayRot"
+GetVariable
+Push register1
+GetMember
+SetVariable
+Push "editorSelectedTileMirror", "tilesArrayMirror"
+GetVariable
+Push register1
+GetMember
+SetVariable
+Push "editorSelectedTileCollision", "tilesArrayCol"
+GetVariable
+Push register1
+GetMember
+SetVariable
+Push 0, "tileSetsMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push "_modePaintBrush"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+}
+DefineFunction2 "createTiles", 0, 5, false, true, true, false, true, false, true, false, false {
+Push "rootDepthCount"
+GetVariable
+Push "rootDepthCount", "rootDepthCount"
+GetVariable
+Increment
+SetVariable
+Push "tilesMC", 2, register1, "createEmptyMovieClip"
+CallMethod
+Pop
+Push "tempDepthCount", 1000
+SetVariable
+Push 0
+StoreRegister 3
+Pop
+loc5a0c:Push register3, "mapWidth"
+GetVariable
+Less2
+Not
+If loc5ac4
+Push 0
+StoreRegister 2
+Pop
+loc5a2b:Push register2, "mapHeight"
+GetVariable
+Less2
+Not
+If loc5ab4
+Push "val", register3, 100
+Multiply
+Push register2
+Add2
+SetVariable
+Push "tempDepthCount"
+GetVariable
+Push "tempDepthCount", "tempDepthCount"
+GetVariable
+Increment
+SetVariable
+Push "tile", 0, "val"
+GetVariable
+Push "toString"
+CallMethod
+Add2
+Push 2, "tilesMC"
+GetVariable
+Push "createEmptyMovieClip"
+CallMethod
+StoreRegister 4
+Pop
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc5a2b
+loc5ab4:Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc5a0c
+}
+loc5ac4:DefineFunction2 "calculateTileMirror", 2, 3, false, false, true, false, true, false, true, false, false, 2, "axis", 1, "mirrorCode" {
+Push register2, "x"
+Equals2
+PushDuplicate
+Not
+If loc5b2b
+Pop
+Push register1, 1
+Equals2
+PushDuplicate
+If loc5b2b
+Pop
+Push register1, 3
+Equals2
+loc5b2b:Not
+If loc5b3a
+Push -100
+Return
+loc5b3a:Push register2, "y"
+Equals2
+PushDuplicate
+Not
+If loc5b71
+Pop
+Push register1, 2
+Equals2
+PushDuplicate
+If loc5b71
+Pop
+Push register1, 3
+Equals2
+loc5b71:Not
+If loc5b80
+Push -100
+Return
+loc5b80:Push 100
+Return
+}
+DefineFunction "positionAndScaleTile", 2, "x" , "y"  {
+Push "tilesMC", "y"
+GetVariable
+Push "x"
+GetVariable
+Push 2, "getTileName"
+CallFunction
+Add2
+GetVariable
+With {
+Push "_x", "x"
+GetVariable
+Push 50
+Multiply
+SetVariable
+Push "_y", "y"
+GetVariable
+Push 50
+Multiply
+SetVariable
+Push "_xscale", "_yscale", 100
+StoreRegister 0
+SetVariable
+Push register0
+SetVariable
+}
+}
+DefineFunction "loadTile", 2, "x" , "y"  {
+Push "tilesMC", "y"
+GetVariable
+Push "x"
+GetVariable
+Push 2, "getTileName"
+CallFunction
+Add2
+GetVariable
+With {
+Push "g", "y"
+GetVariable
+Push "x"
+GetVariable
+Push 2, "getTileGraphicName"
+CallFunction
+SetVariable
+Push 1000, "graphic", "tile", "g"
+GetVariable
+Push 0
+GetMember
+Add2
+Push 3, "attachMovie"
+CallFunction
+Pop
+Push "_rotation", "g"
+GetVariable
+Push 1
+GetMember
+Push 90
+Multiply
+SetVariable
+Push "_xscale", "g"
+GetVariable
+Push 2
+GetMember
+Push "x", 2, "calculateTileMirror"
+CallFunction
+SetVariable
+Push "_yscale", "g"
+GetVariable
+Push 2
+GetMember
+Push "y", 2, "calculateTileMirror"
+CallFunction
+SetVariable
+}
+}
+DefineFunction "removeTile", 2, "x" , "y"  {
+Push "tilesMC", "y"
+GetVariable
+Push "x"
+GetVariable
+Push 2, "getTileName"
+CallFunction
+Add2
+GetVariable
+With {
+Push 0, "graphic"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+}
+}
+DefineFunction2 "reloadTileEditor", 2, 3, false, false, true, false, true, false, true, false, false, 2, "x", 1, "y" {
+Push register1, register2, 2, "removeTile"
+CallFunction
+Pop
+Push register1, register2, 2, "loadTile"
+CallFunction
+Pop
+}
+DefineFunction2 "displayEarth", 0, 3, false, false, true, false, true, false, true, false, false {
+Push 0
+StoreRegister 2
+Pop
+loc5df8:Push register2, "mapWidth"
+GetVariable
+Less2
+Not
+If loc5e7d
+Push 0
+StoreRegister 1
+Pop
+loc5e17:Push register1, "mapHeight"
+GetVariable
+Less2
+Not
+If loc5e6d
+Push register1, register2, 2, "positionAndScaleTile"
+CallFunction
+Pop
+Push register1, register2, 2, "loadTile"
+CallFunction
+Pop
+Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc5e17
+loc5e6d:Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc5df8
+}
+loc5e7d:DefineFunction2 "getTileGraphicName", 2, 3, false, false, true, false, true, false, true, false, false, 2, "x", 1, "y" {
+Push "earth"
+GetVariable
+Push register2
+GetMember
+Push register1
+GetMember
+Push 2
+GetMember
+Push "earth"
+GetVariable
+Push register2
+GetMember
+Push register1
+GetMember
+Push 1
+GetMember
+Push "earth"
+GetVariable
+Push register2
+GetMember
+Push register1
+GetMember
+Push 0
+GetMember
+Push 3, "Array"
+NewObject
+Return
+}
+DefineFunction2 "getTileName", 2, 4, false, false, true, false, true, false, true, false, false, 3, "x", 2, "y" {
+Push 0, register3, 100
+Multiply
+Push register2
+Add2
+Push "toString"
+CallMethod
+Push 1, ".tile", "concat"
+CallMethod
+StoreRegister 1
+Pop
+Push register1
+Return
+}
+DefineFunction2 "loadStockMapIntoEditor", 1, 3, false, false, true, false, true, false, false, true, false, 2, "fName" {
+Push "vzlnjm"
+GetVariable
+Push "fileName", register2
+SetMember
+Push "replyData", 0, "LoadVars"
+NewObject
+SetVariable
+Push "sendData", 0, "LoadVars"
+NewObject
+SetVariable
+Push "POST", "replyData"
+GetVariable
+Push register2, 3, "sendData"
+GetVariable
+Push "sendAndLoad"
+CallMethod
+Pop
+Push "replyData"
+GetVariable
+Push "onLoad"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "success" {
+Push register2
+Not
+If loc606f
+Push register1, "ts"
+GetMember
+Push register1, "rt"
+GetMember
+Push register1, "ws"
+GetMember
+Push register1, "sp"
+GetMember
+Push register1, "tiles"
+GetMember
+Push register1, "inf"
+GetMember
+Push 6, "loadMapIntoEditor"
+CallFunction
+Pop
+Jump loc60dd
+loc606f:Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 60
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "cancelBTNMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc60dd:SetMember
+}
+DefineFunction2 "loadCustomMapIntoEditor", 2, 14, false, false, true, false, true, false, false, true, false, 13, "mapSlotNum", 5, "differentPlayerName" {
+Push register5, null
+Equals2
+Not
+PushDuplicate
+Not
+If loc613f
+Pop
+Push register5, undefined
+Equals2
+Not
+loc613f:Not
+If loc617c
+Push "apiURL"
+GetVariable
+Push "method=xgen.stickarena.maps.get&username="
+Add2
+Push register5
+Add2
+Push "&slot_id="
+Add2
+Push 0, register13, "toString"
+CallMethod
+Add2
+StoreRegister 4
+Pop
+Jump loc61af
+loc617c:Push "apiURL"
+GetVariable
+Push "method=xgen.stickarena.maps.get&username="
+Add2
+Push "uName"
+GetVariable
+Add2
+Push "&slot_id="
+Add2
+Push 0, register13, "toString"
+CallMethod
+Add2
+StoreRegister 4
+Pop
+loc61af:Push "vzlnjm"
+GetVariable
+Push "fileName", register4
+SetMember
+Push "replyData", 0, "XML"
+NewObject
+SetVariable
+Push "sendData", 0, "LoadVars"
+NewObject
+SetVariable
+Push "POST", "replyData"
+GetVariable
+Push register4, 3, "sendData"
+GetVariable
+Push "sendAndLoad"
+CallMethod
+Pop
+Push "replyData"
+GetVariable
+Push "onLoad"
+DefineFunction2 "", 1, 12, false, false, true, false, true, false, false, true, false, 11, "success" {
+Push register11
+Not
+If loc66a2
+Push register1, "childNodes"
+GetMember
+Push 0
+GetMember
+StoreRegister 3
+Pop
+Push 0, register3, "childNodes"
+GetMember
+Push 1
+GetMember
+Push "childNodes"
+GetMember
+Push 1
+GetMember
+Push "childNodes"
+GetMember
+Push 1
+GetMember
+Push "firstChild"
+GetMember
+Push "toString"
+CallMethod
+StoreRegister 4
+Pop
+Push 0, register3, "childNodes"
+GetMember
+Push 1
+GetMember
+Push "childNodes"
+GetMember
+Push 1
+GetMember
+Push "childNodes"
+GetMember
+Push 3
+GetMember
+Push "firstChild"
+GetMember
+Push "toString"
+CallMethod
+StoreRegister 2
+Pop
+Push "inf=", 1, register2, "indexOf"
+CallMethod
+Push "&", 2, register2, "indexOf"
+CallMethod
+Push "inf=", 1, register2, "indexOf"
+CallMethod
+Subtract
+Push 4
+Subtract
+Push "inf=", 1, register2, "indexOf"
+CallMethod
+Push 4
+Add2
+Push 2, register2, "substr"
+CallMethod
+StoreRegister 7
+Pop
+Push " ", "tiles=", 1, register2, "indexOf"
+CallMethod
+Push "&", 2, register2, "indexOf"
+CallMethod
+Push "tiles=", 1, register2, "indexOf"
+CallMethod
+Subtract
+Push 6
+Subtract
+Push "tiles=", 1, register2, "indexOf"
+CallMethod
+Push 6
+Add2
+Push 2, register2, "substr"
+CallMethod
+Add2
+StoreRegister 5
+Pop
+Push "sp=", 1, register2, "indexOf"
+CallMethod
+Push "&", 2, register2, "indexOf"
+CallMethod
+Push "sp=", 1, register2, "indexOf"
+CallMethod
+Subtract
+Push 3
+Subtract
+Push "sp=", 1, register2, "indexOf"
+CallMethod
+Push 3
+Add2
+Push 2, register2, "substr"
+CallMethod
+StoreRegister 9
+Pop
+Push "ws=", 1, register2, "indexOf"
+CallMethod
+Push "&", 2, register2, "indexOf"
+CallMethod
+Push "ws=", 1, register2, "indexOf"
+CallMethod
+Subtract
+Push 3
+Subtract
+Push "ws=", 1, register2, "indexOf"
+CallMethod
+Push 3
+Add2
+Push 2, register2, "substr"
+CallMethod
+StoreRegister 8
+Pop
+Push "rt=", 1, register2, "indexOf"
+CallMethod
+Push "&", 2, register2, "indexOf"
+CallMethod
+Push "rt=", 1, register2, "indexOf"
+CallMethod
+Subtract
+Push 3
+Subtract
+Push "rt=", 1, register2, "indexOf"
+CallMethod
+Push 3
+Add2
+Push 2, register2, "substr"
+CallMethod
+StoreRegister 10
+Pop
+Push "ts=", 1, register2, "indexOf"
+CallMethod
+Push "&", 2, register2, "indexOf"
+CallMethod
+Push "ts=", 1, register2, "indexOf"
+CallMethod
+Subtract
+Push 3
+Subtract
+Push "ts=", 1, register2, "indexOf"
+CallMethod
+Push 3
+Add2
+Push 2, register2, "substr"
+CallMethod
+StoreRegister 6
+Pop
+Push register6, register10, register8, register9, register5, register7, 6, "loadMapIntoEditor"
+CallFunction
+Pop
+Jump loc6710
+loc66a2:Push "windowMC"
+GetVariable
+Push "mapName20"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "mapName21"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 60
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "cancelBTNMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", true
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc6710:SetMember
+}
+DefineFunction2 "loadMapIntoEditor", 6, 14, false, false, true, false, true, false, true, false, false, 11, "metaData", 7, "tileData", 9, "spawnData", 10, "weaponSpawnData", 13, "roundTimeData", 12, "tileSetData" {
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "editorHelpMode", "_modeEditing"
+GetVariable
+SetVariable
+Push 0, "updateEditorHelpText"
+CallFunction
+Pop
+Push "editorKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+Push true, 1, "showHideEditorButtons"
+CallFunction
+Pop
+Push 0, "pressHandEditor"
+CallFunction
+Pop
+Push "editorMapName", register11, "length"
+GetMember
+Push 7
+Subtract
+Push 6, 2, register11, "substr"
+CallMethod
+SetVariable
+Push "mapWidth", 2, 0, 2, register11, "substr"
+CallMethod
+ToInteger
+SetVariable
+Push "mapHeight", 2, 3, 2, register11, "substr"
+CallMethod
+ToInteger
+SetVariable
+Push "editorTileSet", 1, 0, 2, register12, "substr"
+CallMethod
+SetVariable
+Push "currentTilePage", "themeStartingPages"
+GetVariable
+Push "editorTileSet"
+GetVariable
+GetMember
+SetVariable
+Push "editorTileSet"
+GetVariable
+Push 0
+Equals2
+Not
+If loc68d5
+Push "editorSelectedTile", "0F0"
+SetVariable
+Jump loc693f
+loc68d5:Push "editorTileSet"
+GetVariable
+Push 1
+Equals2
+Not
+If loc68fa
+Push "editorSelectedTile", "2G0"
+SetVariable
+Jump loc693f
+loc68fa:Push "editorTileSet"
+GetVariable
+Push 2
+Equals2
+Not
+If loc691f
+Push "editorSelectedTile", "1E9"
+SetVariable
+Jump loc693f
+loc691f:Push "editorTileSet"
+GetVariable
+Push 3
+Equals2
+Not
+If loc693f
+Push "editorSelectedTile", "3D0"
+SetVariable
+loc693f:Push "editorSelectedTileCollision", 0
+SetVariable
+Push "editorSelectedTileRotation", 0
+SetVariable
+Push "editorSelectedTileMirror", 0
+SetVariable
+Push "earth", 0, "Array"
+NewObject
+SetVariable
+Push 0
+StoreRegister 1
+Pop
+loc698a:Push register1, "mapWidth"
+GetVariable
+Less2
+Not
+If loc6a35
+Push "earth"
+GetVariable
+Push register1, 0, "Array"
+NewObject
+SetMember
+Push 0
+StoreRegister 2
+Pop
+loc69c3:Push register2, "mapHeight"
+GetVariable
+Less2
+Not
+If loc6a25
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2, 0, 0, 0, 0, 4, "Array"
+NewObject
+SetMember
+Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc69c3
+loc6a25:Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc698a
+loc6a35:Push 0
+StoreRegister 2
+Pop
+loc6a42:Push register2, "mapHeight"
+GetVariable
+Less2
+Not
+If loc6be7
+Push 0
+StoreRegister 1
+Pop
+loc6a61:Push register1, "mapWidth"
+GetVariable
+Less2
+Not
+If loc6bd7
+Push "chunk", 6, register1, 7
+Multiply
+Push register2, "mapWidth"
+GetVariable
+Multiply
+Push 7
+Multiply
+Add2
+Push 2
+Add2
+Push 2, register7, "substr"
+CallMethod
+SetVariable
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 0, 3, 0, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+SetMember
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 1, 1, 3, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+SetMember
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 2, 1, 4, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+SetMember
+Push "earth"
+GetVariable
+Push register1
+GetMember
+Push register2
+GetMember
+Push 3, 1, 5, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+SetMember
+Push register1
+Increment
+StoreRegister 1
+Pop
+Jump loc6a61
+loc6bd7:Push register2
+Increment
+StoreRegister 2
+Pop
+Jump loc6a42
+loc6be7:Push 0, "createTiles"
+CallFunction
+Pop
+Push 0, "displayEarth"
+CallFunction
+Pop
+Push 100000
+StoreRegister 8
+Pop
+Push 0
+StoreRegister 4
+Pop
+loc6c1f:Push register4, 8
+Less2
+Not
+If loc6dd5
+Push "chunk", 9, register4, 10
+Multiply
+Push 2, register9, "substr"
+CallMethod
+SetVariable
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 0, 4, 0, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+ToInteger
+Push 50
+Divide
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 0
+GetMember
+Push 0
+Equals2
+Not
+Not
+If loc6dc5
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 1, 4, 5, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+ToInteger
+Push 50
+Divide
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Push register8, register4
+Add2
+Push "playerSpawn", register4
+Add2
+Push "editorSpawnMC", 3, "tilesMC"
+GetVariable
+Push "attachMovie"
+CallMethod
+StoreRegister 5
+Pop
+Push register5, "_x", "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 0
+GetMember
+Push 50
+Multiply
+SetMember
+Push register5, "_y", "editorPlayerSpawnsArray"
+GetVariable
+Push register4
+GetMember
+Push 1
+GetMember
+Push 50
+Multiply
+SetMember
+loc6dc5:Push register4
+Increment
+StoreRegister 4
+Pop
+Jump loc6c1f
+loc6dd5:Push 200000
+StoreRegister 8
+Pop
+Push 0
+StoreRegister 3
+Pop
+loc6def:Push register3, 8
+Less2
+Not
+If loc708d
+Push "chunk", 19, register3, 20
+Multiply
+Push 2, register10, "substr"
+CallMethod
+SetVariable
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3, 0, 0, 0, 0, 4, "Array"
+NewObject
+SetMember
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 0, 4, 0, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+ToInteger
+Push 50
+Divide
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 0
+GetMember
+Push 0
+Equals2
+Not
+Not
+If loc707d
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 1, 4, 5, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+ToInteger
+Push 50
+Divide
+Push 1, "Math"
+GetVariable
+Push "round"
+CallMethod
+SetMember
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 2, 4, 10, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+ToInteger
+SetMember
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 3, 4, 15, 2, "chunk"
+GetVariable
+Push "substr"
+CallMethod
+ToInteger
+SetMember
+Push "pickup", "weapons"
+GetVariable
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 2
+GetMember
+GetMember
+Push "attackAnim"
+GetMember
+Add2
+Push "MC"
+Add2
+StoreRegister 6
+Pop
+Push register8, register3
+Add2
+Push "editorWeaponSpawn", register3
+Add2
+Push register6, 3, "tilesMC"
+GetVariable
+Push "attachMovie"
+CallMethod
+StoreRegister 5
+Pop
+Push register5, "_x", "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 0
+GetMember
+Push 50
+Multiply
+SetMember
+Push register5, "_y", "editorWeaponSpawnsArray"
+GetVariable
+Push register3
+GetMember
+Push 1
+GetMember
+Push 50
+Multiply
+SetMember
+loc707d:Push register3
+Increment
+StoreRegister 3
+Pop
+Jump loc6def
+}
+loc708d:DefineFunction "rollTile", 3, "x" , "y" , "dir"  {
+Push "tilePointerMC", "tilesMC", "y"
+GetVariable
+Push "x"
+GetVariable
+Push 2, "getTileName"
+CallFunction
+Add2
+GetVariable
+DefineLocal
+Push "dir"
+GetVariable
+Push "over"
+Equals2
+Not
+If loc71a4
+Push "editMode"
+GetVariable
+Push "_modeTileSets"
+GetVariable
+Equals2
+Not
+PushDuplicate
+Not
+If loc7109
+Pop
+Push "editMode"
+GetVariable
+Push "_modeClose"
+GetVariable
+Equals2
+Not
+loc7109:PushDuplicate
+Not
+If loc711f
+Pop
+Push "editMode"
+GetVariable
+Push "_modeMoveMap"
+GetVariable
+Equals2
+Not
+loc711f:PushDuplicate
+Not
+If loc7135
+Pop
+Push "editMode"
+GetVariable
+Push "_modeSaveMap"
+GetVariable
+Equals2
+Not
+loc7135:PushDuplicate
+Not
+If loc714b
+Pop
+Push "editMode"
+GetVariable
+Push "_modeMoveMapClosed"
+GetVariable
+Equals2
+Not
+loc714b:PushDuplicate
+Not
+If loc7162
+Pop
+Push "editMode"
+GetVariable
+Push "_modeHelp"
+GetVariable
+Equals2
+Not
+loc7162:Not
+If loc719f
+Push 100, 55, 55, 55, "tilePointerMC"
+GetVariable
+Push 5, "setCustomObjectColor"
+CallFunction
+Pop
+loc719f:Jump loc71db
+loc71a4:Push 100, 0, 0, 0, "tilePointerMC"
+GetVariable
+Push 5, "setCustomObjectColor"
+CallFunction
+Pop
+}
+loc71db:DefineFunction "frameFunction", 0 {
+Push "tX", "", 20
+GetProperty
+Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 25
+Add2
+Push 50
+Divide
+ToInteger
+SetVariable
+Push "tY", "", 21
+GetProperty
+Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push 25
+Add2
+Push 50
+Divide
+ToInteger
+SetVariable
+Push "tX"
+GetVariable
+Push 0
+Less2
+Not
+PushDuplicate
+Not
+If loc7284
+Pop
+Push "tY"
+GetVariable
+Push 0
+Less2
+Not
+loc7284:PushDuplicate
+Not
+If loc729a
+Pop
+Push "tX"
+GetVariable
+Push "mapWidth"
+GetVariable
+Less2
+loc729a:PushDuplicate
+Not
+If loc72b0
+Pop
+Push "tY"
+GetVariable
+Push "mapHeight"
+GetVariable
+Less2
+loc72b0:Not
+If loc7314
+Push "lastTY"
+GetVariable
+Push "lastTX"
+GetVariable
+Push 2, "rollTile"
+CallFunction
+Pop
+Push "lastTX", "tX"
+GetVariable
+SetVariable
+Push "lastTY", "tY"
+GetVariable
+SetVariable
+Push "over", "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 3, "rollTile"
+CallFunction
+Pop
+loc7314:Push "kU"
+GetVariable
+Push 0
+GetMember
+Push 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc7375
+Push "moveMapYVel", "moveMapMaxVel"
+GetVariable
+Push "moveMapYVel"
+GetVariable
+Push "moveMapAcc"
+GetVariable
+Add2
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetVariable
+Jump loc73da
+loc7375:Push "kD"
+GetVariable
+Push 0
+GetMember
+Push 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc73da
+Push "moveMapYVel", 0, "moveMapMaxVel"
+GetVariable
+Subtract
+Push "moveMapYVel"
+GetVariable
+Push "moveMapAcc"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetVariable
+loc73da:Push "kL"
+GetVariable
+Push 0
+GetMember
+Push 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc743b
+Push "moveMapXVel", "moveMapMaxVel"
+GetVariable
+Push "moveMapXVel"
+GetVariable
+Push "moveMapAcc"
+GetVariable
+Add2
+Push 2, "Math"
+GetVariable
+Push "min"
+CallMethod
+SetVariable
+Jump loc74a0
+loc743b:Push "kR"
+GetVariable
+Push 0
+GetMember
+Push 1, "Key"
+GetVariable
+Push "isDown"
+CallMethod
+Not
+If loc74a0
+Push "moveMapXVel", 0, "moveMapMaxVel"
+GetVariable
+Subtract
+Push "moveMapXVel"
+GetVariable
+Push "moveMapAcc"
+GetVariable
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+SetVariable
+loc74a0:Push "tilesMC"
+GetVariable
+Push "_x", "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Push "moveMapXVel"
+GetVariable
+Add2
+ToInteger
+SetMember
+Push "tilesMC"
+GetVariable
+Push "_y", "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Push "moveMapYVel"
+GetVariable
+Add2
+ToInteger
+SetMember
+Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Push 25
+Greater
+Not
+If loc7544
+Push "moveMapXVel", "moveMapXVel"
+GetVariable
+Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Push 25
+Subtract
+Push "moveMapElasticity"
+GetVariable
+Multiply
+Subtract
+SetVariable
+Push "moveMapXVel", "moveMapXVel"
+GetVariable
+Push "moveMapElasticFriction"
+GetVariable
+Multiply
+SetVariable
+Jump loc75ca
+loc7544:Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Push 0, "mapWidth"
+GetVariable
+Push 50
+Multiply
+Push 575
+Subtract
+Subtract
+Less2
+Not
+If loc75ca
+Push "moveMapXVel", "moveMapXVel"
+GetVariable
+Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Push "mapWidth"
+GetVariable
+Push 50
+Multiply
+Push 575
+Subtract
+Add2
+Push "moveMapElasticity"
+GetVariable
+Multiply
+Subtract
+SetVariable
+Push "moveMapXVel", "moveMapXVel"
+GetVariable
+Push "moveMapElasticFriction"
+GetVariable
+Multiply
+SetVariable
+loc75ca:Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Push 25
+Greater
+Not
+If loc762c
+Push "moveMapYVel", "moveMapYVel"
+GetVariable
+Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Push 25
+Subtract
+Push "moveMapElasticity"
+GetVariable
+Multiply
+Subtract
+SetVariable
+Push "moveMapYVel", "moveMapYVel"
+GetVariable
+Push "moveMapElasticFriction"
+GetVariable
+Multiply
+SetVariable
+Jump loc76b2
+loc762c:Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Push 0, "mapHeight"
+GetVariable
+Push 50
+Multiply
+Push 425
+Subtract
+Subtract
+Less2
+Not
+If loc76b2
+Push "moveMapYVel", "moveMapYVel"
+GetVariable
+Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Push "mapHeight"
+GetVariable
+Push 50
+Multiply
+Push 425
+Subtract
+Add2
+Push "moveMapElasticity"
+GetVariable
+Multiply
+Subtract
+SetVariable
+Push "moveMapYVel", "moveMapYVel"
+GetVariable
+Push "moveMapElasticFriction"
+GetVariable
+Multiply
+SetVariable
+loc76b2:Push "moveMapXVel", "moveMapXVel"
+GetVariable
+Push "moveMapFriction"
+GetVariable
+Multiply
+SetVariable
+Push "moveMapYVel", "moveMapYVel"
+GetVariable
+Push "moveMapFriction"
+GetVariable
+Multiply
+SetVariable
+Push "moveMapXVel"
+GetVariable
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+Push 0.5
+Less2
+Not
+If loc771c
+Push "moveMapXVel", 0
+SetVariable
+loc771c:Push "moveMapYVel"
+GetVariable
+Push 1, "Math"
+GetVariable
+Push "abs"
+CallMethod
+Push 0.5
+Less2
+Not
+If loc775a
+Push "moveMapYVel", 0
+SetVariable
+}
+loc775a:DefineFunction "autoBrush", 0 {
+Push "tX", "", 20
+GetProperty
+Push "tilesMC"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 25
+Add2
+Push 50
+Divide
+ToInteger
+SetVariable
+Push "tY", "", 21
+GetProperty
+Push "tilesMC"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push 25
+Add2
+Push 50
+Divide
+ToInteger
+SetVariable
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 0, "editorSelectedTile"
+GetVariable
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1, "editorSelectedTileRotation"
+GetVariable
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, "editorSelectedTileMirror"
+GetVariable
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 3, "editorSelectedTileCollision"
+GetVariable
+SetMember
+Push "editorSelectedTileCollision"
+GetVariable
+ToNumber
+Push 0
+Equals2
+Not
+Not
+If loc789e
+Push "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 2, "clearSpawnsForTile"
+CallFunction
+Pop
+loc789e:Push "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 2, "reloadTileEditor"
+CallFunction
+Pop
+Push "tX"
+GetVariable
+Push "lastTX"
+GetVariable
+Equals2
+Not
+PushDuplicate
+If loc78e3
+Pop
+Push "tY"
+GetVariable
+Push "lastTY"
+GetVariable
+Equals2
+Not
+loc78e3:Not
+If loc7900
+Push 0, "SFXBTNeditor1"
+GetVariable
+Push "start"
+CallMethod
+Pop
+}
+loc7900:DefineFunction "clearSpawnsForTile", 2, "xx" , "yy"  {
+Push "i", 0
+DefineLocal
+loc792e:Push "i"
+GetVariable
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc7a12
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push "xx"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc798b
+Pop
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push "yy"
+GetVariable
+Equals2
+loc798b:Not
+If loc7a00
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+Push 0, 0, 0, 0, 4, "Array"
+NewObject
+SetMember
+Push "tilesMC.editorWeaponSpawn", "i"
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, "removeMovieClip"
+CallFunction
+Pop
+}
+Push "i", "editorWeaponSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+SetVariable
+loc7a00:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc792e
+loc7a12:Push "i", 0
+DefineLocal
+loc7a20:Push "i"
+GetVariable
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc7af4
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push "xx"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc7a7d
+Pop
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push "yy"
+GetVariable
+Equals2
+loc7a7d:Not
+If loc7ae2
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+Push 0, 0, 2, "Array"
+NewObject
+SetMember
+Push "tilesMC.playerSpawn", "i"
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, "removeMovieClip"
+CallFunction
+Pop
+}
+Push "i", "editorPlayerSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+SetVariable
+loc7ae2:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc7a20
+}
+loc7af4:DefineFunction2 "editorDisconnectedFromServer", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "kkbdAf"
+GetVariable
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push 200004, "window3MC", "window304NewMapMessageMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "window3MC"
+GetVariable
+Push "_x", 90
+SetMember
+Push "window3MC"
+GetVariable
+Push "_y", 20
+SetMember
+Push "window3MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window3MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "editorText"
+GetVariable
+Push 57
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "window3MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction "closeEditorDisconnectWindow", 0 {
+Push 0, "window3MC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+}
+Push "mapHeight"
+DefineLocal2
+Push "mapWidth"
+DefineLocal2
+Push "editorMapName"
+DefineLocal2
+Push "currentTilePage", 1
+DefineLocal
+Push "themeStartingPages", 13, 10, 4, 6, 1, 5, "Array"
+NewObject
+DefineLocal
+Push "editorStandardWeaponSpawnTimes", 20, 20, 10, 10, 20, 20, 20, 20, 20, 20, 10, 10, 0, 0, 14, "Array"
+NewObject
+DefineLocal
+Push "_modeTileSets", 0
+DefineLocal
+Push "_modeObjectPlacement", 1
+DefineLocal
+Push "_modeMoveMap", 2
+DefineLocal
+Push "_modePaintBrush", 3
+DefineLocal
+Push "_modeEyeDropper", 4
+DefineLocal
+Push "_modeRotate", 5
+DefineLocal
+Push "_modeMirrorX", 6
+DefineLocal
+Push "_modeMirrorY", 7
+DefineLocal
+Push "_modeSaveMap", 8
+DefineLocal
+Push "_modeMoveMapClosed", 9
+DefineLocal
+Push "_modeClose", 10
+DefineLocal
+Push "_modeHelp", 11
+DefineLocal
+Push "_modeSpawns", 12
+DefineLocal
+Push "_modeTiles", 13
+DefineLocal
+Push "_modeDelete", 14
+DefineLocal
+Push "_modeSpawnBat", 15
+DefineLocal
+Push "_modeSpawnKatana", 16
+DefineLocal
+Push "_modeSpawnGlock", 17
+DefineLocal
+Push "_modeSpawnAK47", 18
+DefineLocal
+Push "_modeSpawnShotgun", 19
+DefineLocal
+Push "_modeSpawnSledge", 20
+DefineLocal
+Push "_modeSpawnFlamethrower", 21
+DefineLocal
+Push "_modeSpawnRailgun", 22
+DefineLocal
+Push "_modeSpawnChainsaw", 23
+DefineLocal
+Push "_modeSpawnLasersword", 24
+DefineLocal
+Push "_modeSpawnHelmet", 25
+DefineLocal
+Push "_modeSpawnChaingun", 26
+DefineLocal
+Push "_modeSpawnPlayer", 27
+DefineLocal
+Push "editMode", "_modeMoveMap"
+GetVariable
+DefineLocal
+Push "_toolBarModeTiles", 0
+DefineLocal
+Push "_toolBarModeSpawns", 1
+DefineLocal
+Push "editorToolBarMode", "_toolBarModeTiles"
+GetVariable
+DefineLocal
+Push "_modeNewOrLoad", 0
+DefineLocal
+Push "_modeNew", 1
+DefineLocal
+Push "_modeLoad", 2
+DefineLocal
+Push "_modeEditing", 3
+DefineLocal
+Push "_modeSave", 4
+DefineLocal
+Push "editorHelpMode"
+DefineLocal2
+Push 0, "kkBQxl"
+CallFunction
+Pop
+Push "mapScale", 1
+DefineLocal
+Push "rootDepthCount", 1000
+DefineLocal
+Push "vzlnjm", 0, "area"
+NewObject
+DefineLocal
+Push "editorWeaponSpawnsArray", 10, 1, "Array"
+NewObject
+DefineLocal
+Push "editorPlayerSpawnsArray", 10, 1, "Array"
+NewObject
+DefineLocal
+Push "i", 0
+DefineLocal
+loc7f96:Push "i"
+GetVariable
+Push 10
+Less2
+Not
+If loc8023
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+Push 0, 0, 0, 0, 4, "Array"
+NewObject
+SetMember
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+Push 0, 0, 2, "Array"
+NewObject
+SetMember
+Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc7f96
+loc8023:Push "lastTX", 0
+DefineLocal
+Push "lastTY", 0
+DefineLocal
+Push "autoBrushIntervalID", null
+DefineLocal
+Push "lastSelectedSaveSlot"
+DefineLocal2
+Push "quitOnSuccessfulSave", false
+DefineLocal
+Push "currentEditorMapListUserName", "uName"
+GetVariable
+DefineLocal
+Push "lastRequestedMapListUserName", "uName"
+GetVariable
+DefineLocal
+Push "moveMapXVel", 0
+DefineLocal
+Push "moveMapYVel", 0
+DefineLocal
+Push "moveMapAcc", 4
+DefineLocal
+Push "moveMapMaxVel", 50
+DefineLocal
+Push "moveMapFriction", 0.9
+DefineLocal
+Push "moveMapElasticity", 0.35
+DefineLocal
+Push "moveMapElasticFriction", 0.6
+DefineLocal
+Push "toolBarExpanded", false
+DefineLocal
+Push "editorKeyListener", 0, "Object"
+NewObject
+SetVariable
+Push "editorKeyListener"
+GetVariable
+Push "onKeyDown"
+DefineFunction "", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "pressedKey", 0, "Key"
+GetVariable
+Push "getAscii"
+CallMethod
+SetVariable
+Push "editorHelpMode"
+GetVariable
+Push "_modeLoad"
+GetVariable
+Equals2
+Not
+If loc8199
+Push "pressedKey"
+GetVariable
+Push 96
+Equals2
+PushDuplicate
+If loc8183
+Pop
+Push "pressedKey"
+GetVariable
+Push 126
+Equals2
+loc8183:Not
+If loc8199
+Push 0, "toggleLoadMapUsernameBox"
+CallFunction
+Pop
+loc8199:Push "editMode"
+GetVariable
+Push "_modeTileSets"
+GetVariable
+Equals2
+Not
+PushDuplicate
+Not
+If loc81be
+Pop
+Push "editMode"
+GetVariable
+Push "_modeClose"
+GetVariable
+Equals2
+Not
+loc81be:PushDuplicate
+Not
+If loc81d4
+Pop
+Push "editMode"
+GetVariable
+Push "_modeSaveMap"
+GetVariable
+Equals2
+Not
+loc81d4:PushDuplicate
+Not
+If loc81ea
+Pop
+Push "editMode"
+GetVariable
+Push "_modeMoveMapClosed"
+GetVariable
+Equals2
+Not
+loc81ea:Not
+If loc854d
+Push "editorToolBarMode"
+GetVariable
+Push "_toolBarModeTiles"
+GetVariable
+Equals2
+Not
+If loc8495
+Push "pressedKey"
+GetVariable
+Push 32
+Equals2
+Not
+If loc822e
+Push "_modeMoveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc822e:Push "pressedKey"
+GetVariable
+Push 80
+Equals2
+PushDuplicate
+If loc8255
+Pop
+Push "pressedKey"
+GetVariable
+Push 112
+Equals2
+loc8255:Not
+If loc8270
+Push "_modePaintBrush"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc8270:Push "pressedKey"
+GetVariable
+Push 69
+Equals2
+PushDuplicate
+If loc8297
+Pop
+Push "pressedKey"
+GetVariable
+Push 101
+Equals2
+loc8297:Not
+If loc82b2
+Push "_modeEyeDropper"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc82b2:Push "pressedKey"
+GetVariable
+Push 88
+Equals2
+PushDuplicate
+If loc82d9
+Pop
+Push "pressedKey"
+GetVariable
+Push 120
+Equals2
+loc82d9:PushDuplicate
+If loc82f0
+Pop
+Push "pressedKey"
+GetVariable
+Push 72
+Equals2
+loc82f0:PushDuplicate
+If loc8307
+Pop
+Push "pressedKey"
+GetVariable
+Push 104
+Equals2
+loc8307:Not
+If loc8322
+Push "_modeMirrorX"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc8322:Push "pressedKey"
+GetVariable
+Push 89
+Equals2
+PushDuplicate
+If loc8349
+Pop
+Push "pressedKey"
+GetVariable
+Push 121
+Equals2
+loc8349:PushDuplicate
+If loc8360
+Pop
+Push "pressedKey"
+GetVariable
+Push 86
+Equals2
+loc8360:PushDuplicate
+If loc8377
+Pop
+Push "pressedKey"
+GetVariable
+Push 118
+Equals2
+loc8377:Not
+If loc8392
+Push "_modeMirrorY"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc8392:Push "pressedKey"
+GetVariable
+Push 82
+Equals2
+PushDuplicate
+If loc83b9
+Pop
+Push "pressedKey"
+GetVariable
+Push 114
+Equals2
+loc83b9:Not
+If loc83d4
+Push "_modeRotate"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc83d4:Push "pressedKey"
+GetVariable
+Push 84
+Equals2
+PushDuplicate
+If loc83fb
+Pop
+Push "pressedKey"
+GetVariable
+Push 116
+Equals2
+loc83fb:Not
+If loc8416
+Push "_modeTileSets"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc8416:Push "pressedKey"
+GetVariable
+Push 83
+Equals2
+PushDuplicate
+If loc843d
+Pop
+Push "pressedKey"
+GetVariable
+Push 115
+Equals2
+loc843d:Not
+If loc8453
+Push 0, "pressSaveEditor"
+CallFunction
+Pop
+loc8453:Push "pressedKey"
+GetVariable
+Push 87
+Equals2
+PushDuplicate
+If loc847a
+Pop
+Push "pressedKey"
+GetVariable
+Push 119
+Equals2
+loc847a:Not
+If loc8490
+Push 0, "pressSpawnsEditor"
+CallFunction
+Pop
+loc8490:Jump loc854d
+loc8495:Push "editorToolBarMode"
+GetVariable
+Push "_toolBarModeSpawns"
+GetVariable
+Equals2
+Not
+If loc854d
+Push "pressedKey"
+GetVariable
+Push 32
+Equals2
+Not
+If loc84d3
+Push "_modeMoveMap"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+loc84d3:Push "pressedKey"
+GetVariable
+Push 77
+Equals2
+PushDuplicate
+If loc84fa
+Pop
+Push "pressedKey"
+GetVariable
+Push 109
+Equals2
+loc84fa:Not
+If loc8510
+Push 0, "pressTilesEditor"
+CallFunction
+Pop
+loc8510:Push "pressedKey"
+GetVariable
+Push 88
+Equals2
+PushDuplicate
+If loc8537
+Pop
+Push "pressedKey"
+GetVariable
+Push 120
+Equals2
+loc8537:Not
+If loc854d
+Push 0, "pressDeleteEditor"
+CallFunction
+Pop
+}
+loc854d:SetMember
+Push 0, "initializeMapEditor"
+CallFunction
+Pop
+Push "bgScrollMC"
+GetVariable
+Push "onEnterFrame", "frameFunction"
+GetVariable
+SetMember
+Push "tilesMC"
+GetVariable
+Push "onPress"
+DefineFunction "", 0 {
+Push "noInputTime", 0
+SetVariable
+Push "tileSetsMC"
+GetVariable
+Push null
+Equals2
+PushDuplicate
+If loc85b2
+Pop
+Push "tileSetsMC"
+GetVariable
+Push undefined
+Equals2
+loc85b2:Not
+If loc96b5
+Push "tX", "", 20
+GetProperty
+Push "this"
+GetVariable
+Push "_x"
+GetMember
+Subtract
+Push 25
+Add2
+Push 50
+Divide
+ToInteger
+SetVariable
+Push "tY", "", 21
+GetProperty
+Push "this"
+GetVariable
+Push "_y"
+GetMember
+Subtract
+Push 25
+Add2
+Push 50
+Divide
+ToInteger
+SetVariable
+Push "editMode"
+GetVariable
+Push "_modeRotate"
+GetVariable
+Equals2
+Not
+If loc86e7
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1, "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1
+GetMember
+Increment
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push 3
+Greater
+Not
+If loc86cb
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1, 0
+SetMember
+loc86cb:Push 0, "SFXBTNeditor0"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Jump loc9697
+loc86e7:Push "editMode"
+GetVariable
+Push "_modeMirrorX"
+GetVariable
+Equals2
+PushDuplicate
+If loc8708
+Pop
+Push "editMode"
+GetVariable
+Push "_modeMirrorY"
+GetVariable
+Equals2
+loc8708:Not
+If loc8acc
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push 1
+Equals2
+PushDuplicate
+If loc8765
+Pop
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push 3
+Equals2
+loc8765:Not
+If loc87b0
+Push "editMode"
+GetVariable
+Push "_modeMirrorX"
+GetVariable
+Equals2
+Not
+If loc878b
+Push "rotationModifiedFlipMode", "_modeMirrorY"
+GetVariable
+DefineLocal
+loc878b:Push "editMode"
+GetVariable
+Push "_modeMirrorY"
+GetVariable
+Equals2
+Not
+If loc87ab
+Push "rotationModifiedFlipMode", "_modeMirrorX"
+GetVariable
+DefineLocal
+loc87ab:Jump loc87bd
+loc87b0:Push "rotationModifiedFlipMode", "editMode"
+GetVariable
+DefineLocal
+loc87bd:Push "rotationModifiedFlipMode"
+GetVariable
+Push "_modeMirrorX"
+GetVariable
+Equals2
+Not
+If loc8939
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 0
+Equals2
+Not
+If loc882b
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 1
+SetMember
+Jump loc8934
+loc882b:Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 1
+Equals2
+Not
+If loc8885
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 0
+SetMember
+Jump loc8934
+loc8885:Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 2
+Equals2
+Not
+If loc88df
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 3
+SetMember
+Jump loc8934
+loc88df:Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 3
+Equals2
+Not
+If loc8934
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 2
+SetMember
+loc8934:Jump loc8ab0
+loc8939:Push "rotationModifiedFlipMode"
+GetVariable
+Push "_modeMirrorY"
+GetVariable
+Equals2
+Not
+If loc8ab0
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 0
+Equals2
+Not
+If loc89a7
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 2
+SetMember
+Jump loc8ab0
+loc89a7:Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 2
+Equals2
+Not
+If loc8a01
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 0
+SetMember
+Jump loc8ab0
+loc8a01:Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 1
+Equals2
+Not
+If loc8a5b
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 3
+SetMember
+Jump loc8ab0
+loc8a5b:Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+Push 3
+Equals2
+Not
+If loc8ab0
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, 1
+SetMember
+loc8ab0:Push 0, "SFXBTNeditor0"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Jump loc9697
+loc8acc:Push "editMode"
+GetVariable
+Push "_modeEyeDropper"
+GetVariable
+Equals2
+Not
+If loc8ba4
+Push "editorSelectedTile", "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 0
+GetMember
+SetVariable
+Push "editorSelectedTileRotation", "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1
+GetMember
+SetVariable
+Push "editorSelectedTileMirror", "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2
+GetMember
+SetVariable
+Push "editorSelectedTileCollision", "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 3
+GetMember
+SetVariable
+Push 0, "SFXBTNeditor2"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Push "_modePaintBrush"
+GetVariable
+Push 1, "changeEditMode"
+CallFunction
+Pop
+Jump loc9697
+loc8ba4:Push "editMode"
+GetVariable
+Push "_modePaintBrush"
+GetVariable
+Equals2
+Not
+If loc8cc0
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 0, "editorSelectedTile"
+GetVariable
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1, "editorSelectedTileRotation"
+GetVariable
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, "editorSelectedTileMirror"
+GetVariable
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 3, "editorSelectedTileCollision"
+GetVariable
+SetMember
+Push "editorSelectedTileCollision"
+GetVariable
+Push 0
+Equals2
+Not
+Not
+If loc8c7f
+Push "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 2, "clearSpawnsForTile"
+CallFunction
+Pop
+loc8c7f:Push "autoBrushIntervalID", 10, "autoBrush"
+GetVariable
+Push 2, "setInterval"
+CallFunction
+SetVariable
+Push 0, "SFXBTNeditor1"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Jump loc9697
+loc8cc0:Push "editMode"
+GetVariable
+Push "_modeDelete"
+GetVariable
+Equals2
+Not
+If loc901f
+Push "foundSpawn", false
+DefineLocal
+Push "editorWeaponIndex"
+DefineLocal2
+Push "editorPlayerIndex"
+DefineLocal2
+Push "tX"
+GetVariable
+Push 0
+Equals2
+Not
+PushDuplicate
+Not
+If loc8d17
+Pop
+Push "tY"
+GetVariable
+Push 0
+Equals2
+Not
+loc8d17:Not
+If loc8f63
+Push "i", 0
+DefineLocal
+loc8d2b:Push "i"
+GetVariable
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc8e41
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push "tX"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc8d88
+Pop
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push "tY"
+GetVariable
+Equals2
+loc8d88:Not
+If loc8e2f
+Push "foundSpawn", true
+SetVariable
+Push "editorWeaponIndex", "i"
+GetVariable
+SetVariable
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "editorWeaponIndex"
+GetVariable
+Push 0, 0, 0, 0, 4, "Array"
+NewObject
+SetMember
+Push "tilesMC.editorWeaponSpawn", "editorWeaponIndex"
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, "removeMovieClip"
+CallFunction
+Pop
+}
+Push 0, "SFXTicketScratch23"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Push "i", "editorWeaponSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+SetVariable
+loc8e2f:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc8d2b
+loc8e41:Push "foundSpawn"
+GetVariable
+Not
+Not
+If loc8f63
+Push "i", 0
+DefineLocal
+loc8e5d:Push "i"
+GetVariable
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc8f63
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push "tX"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc8eba
+Pop
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push "tY"
+GetVariable
+Equals2
+loc8eba:Not
+If loc8f51
+Push "foundSpawn", true
+SetVariable
+Push "editorPlayerIndex", "i"
+GetVariable
+SetVariable
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "editorPlayerIndex"
+GetVariable
+Push 0, 0, 2, "Array"
+NewObject
+SetMember
+Push "tilesMC.playerSpawn", "editorPlayerIndex"
+GetVariable
+Add2
+GetVariable
+With {
+Push 0, "removeMovieClip"
+CallFunction
+Pop
+}
+Push 0, "SFXTicketScratch23"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Push "i", "editorPlayerSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+SetVariable
+loc8f51:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc8e5d
+loc8f63:Push "foundSpawn"
+GetVariable
+Not
+Not
+If loc901a
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 0, "0A0"
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 1, "0"
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 2, "0"
+SetMember
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 3, "4"
+SetMember
+Push 0, "SFXTicketScratch23"
+GetVariable
+Push "start"
+CallMethod
+Pop
+loc901a:Jump loc9697
+loc901f:Push "editMode"
+GetVariable
+Push "_modeSpawnPlayer"
+GetVariable
+Equals2
+Not
+If loc931a
+Push "tX"
+GetVariable
+Push 0
+Greater
+PushDuplicate
+Not
+If loc905b
+Pop
+Push "tY"
+GetVariable
+Push 0
+Greater
+loc905b:PushDuplicate
+Not
+If loc907a
+Pop
+Push "tX"
+GetVariable
+Push "mapWidth"
+GetVariable
+Push 1
+Subtract
+Less2
+loc907a:PushDuplicate
+Not
+If loc9099
+Pop
+Push "tY"
+GetVariable
+Push "mapHeight"
+GetVariable
+Push 1
+Subtract
+Less2
+loc9099:PushDuplicate
+Not
+If loc90c9
+Pop
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 3
+GetMember
+Push 0
+Equals2
+loc90c9:Not
+If loc92fe
+Push "firstFreeArrayIndex"
+DefineLocal2
+Push "foundFreeSpawnIndex", false
+DefineLocal
+Push "foundSpawnCollision", false
+DefineLocal
+Push "i", 0
+DefineLocal
+loc90fc:Push "i"
+GetVariable
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc91c9
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push 0
+Equals2
+Not
+If loc9161
+Push "foundFreeSpawnIndex"
+GetVariable
+Not
+Not
+If loc9161
+Push "foundFreeSpawnIndex", true
+SetVariable
+Push "firstFreeArrayIndex", "i"
+GetVariable
+SetVariable
+loc9161:Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push "tX"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc91a5
+Pop
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push "tY"
+GetVariable
+Equals2
+loc91a5:Not
+If loc91b7
+Push "foundSpawnCollision", true
+SetVariable
+loc91b7:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc90fc
+loc91c9:Push "foundFreeSpawnIndex"
+GetVariable
+PushDuplicate
+Not
+If loc91e0
+Pop
+Push "foundSpawnCollision"
+GetVariable
+Not
+loc91e0:Not
+If loc92e2
+Push "tempBaseDepth", 100000
+DefineLocal
+Push "spawnPointerMC", "tempBaseDepth"
+GetVariable
+Push "firstFreeArrayIndex"
+GetVariable
+Add2
+Push "playerSpawn", "firstFreeArrayIndex"
+GetVariable
+Add2
+Push "editorSpawnMC", 3, "tilesMC"
+GetVariable
+Push "attachMovie"
+CallMethod
+DefineLocal
+Push "spawnPointerMC"
+GetVariable
+Push "_x", "tX"
+GetVariable
+Push 50
+Multiply
+SetMember
+Push "spawnPointerMC"
+GetVariable
+Push "_y", "tY"
+GetVariable
+Push 50
+Multiply
+SetMember
+Push 0, "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2
+Multiply
+Push 550
+Subtract
+Push "SFXspawn"
+GetVariable
+Push 0
+GetMember
+Push 3, "adjustAndPlaySound"
+CallFunction
+Pop
+Push "editorPlayerSpawnsArray"
+GetVariable
+Push "firstFreeArrayIndex"
+GetVariable
+Push "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 2, "Array"
+NewObject
+SetMember
+Jump loc92f9
+loc92e2:Push 0, "SFXBTNerror"
+GetVariable
+Push "start"
+CallMethod
+Pop
+loc92f9:Jump loc9315
+loc92fe:Push 0, "SFXBTNerror"
+GetVariable
+Push "start"
+CallMethod
+Pop
+loc9315:Jump loc9697
+loc931a:Push "editMode"
+GetVariable
+Push 15
+Less2
+Not
+PushDuplicate
+Not
+If loc9342
+Pop
+Push "editMode"
+GetVariable
+Push 26
+Greater
+Not
+loc9342:Not
+If loc9697
+Push "tX"
+GetVariable
+Push 0
+Greater
+PushDuplicate
+Not
+If loc9370
+Pop
+Push "tY"
+GetVariable
+Push 0
+Greater
+loc9370:PushDuplicate
+Not
+If loc938f
+Pop
+Push "tX"
+GetVariable
+Push "mapWidth"
+GetVariable
+Push 1
+Subtract
+Less2
+loc938f:PushDuplicate
+Not
+If loc93ae
+Pop
+Push "tY"
+GetVariable
+Push "mapHeight"
+GetVariable
+Push 1
+Subtract
+Less2
+loc93ae:PushDuplicate
+Not
+If loc93de
+Pop
+Push "earth"
+GetVariable
+Push "tX"
+GetVariable
+GetMember
+Push "tY"
+GetVariable
+GetMember
+Push 3
+GetMember
+Push 0
+Equals2
+loc93de:Not
+If loc9680
+Push "weaponType", "editMode"
+GetVariable
+Push 13
+Subtract
+DefineLocal
+Push "firstFreeArrayIndex"
+DefineLocal2
+Push "foundFreeSpawnIndex", false
+DefineLocal
+Push "foundSpawnCollision", false
+DefineLocal
+Push "i", 0
+DefineLocal
+loc9427:Push "i"
+GetVariable
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc94f4
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push 0
+Equals2
+Not
+If loc948c
+Push "foundFreeSpawnIndex"
+GetVariable
+Not
+Not
+If loc948c
+Push "foundFreeSpawnIndex", true
+SetVariable
+Push "firstFreeArrayIndex", "i"
+GetVariable
+SetVariable
+loc948c:Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 0
+GetMember
+Push "tX"
+GetVariable
+Equals2
+PushDuplicate
+Not
+If loc94d0
+Pop
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+Push 1
+GetMember
+Push "tY"
+GetVariable
+Equals2
+loc94d0:Not
+If loc94e2
+Push "foundSpawnCollision", true
+SetVariable
+loc94e2:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc9427
+loc94f4:Push "foundFreeSpawnIndex"
+GetVariable
+PushDuplicate
+Not
+If loc950b
+Pop
+Push "foundSpawnCollision"
+GetVariable
+Not
+loc950b:Not
+If loc9664
+Push "tempBaseDepth", 200000
+DefineLocal
+Push "mcName", "pickup", "weapons"
+GetVariable
+Push "weaponType"
+GetVariable
+GetMember
+Push "attackAnim"
+GetMember
+Add2
+Push "MC"
+Add2
+DefineLocal
+Push "spawnPointerMC", "tempBaseDepth"
+GetVariable
+Push "firstFreeArrayIndex"
+GetVariable
+Add2
+Push "editorWeaponSpawn", "firstFreeArrayIndex"
+GetVariable
+Add2
+Push "mcName"
+GetVariable
+Push 3, "tilesMC"
+GetVariable
+Push "attachMovie"
+CallMethod
+DefineLocal
+Push "spawnPointerMC"
+GetVariable
+Push "_x", "tX"
+GetVariable
+Push 50
+Multiply
+SetMember
+Push "spawnPointerMC"
+GetVariable
+Push "_y", "tY"
+GetVariable
+Push 50
+Multiply
+SetMember
+Push 0, "_root"
+GetVariable
+Push "_xmouse"
+GetMember
+Push 2
+Multiply
+Push 550
+Subtract
+Push "SFX", "weapons"
+GetVariable
+Push "weaponType"
+GetVariable
+GetMember
+Push "attackAnim"
+GetMember
+Add2
+Push "Pickup"
+Add2
+GetVariable
+Push 3, "adjustAndPlaySound"
+CallFunction
+Pop
+Push "editorWeaponSpawnsArray"
+GetVariable
+Push "firstFreeArrayIndex"
+GetVariable
+Push "editorStandardWeaponSpawnTimes"
+GetVariable
+Push "weaponType"
+GetVariable
+GetMember
+Push "weaponType"
+GetVariable
+Push "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 4, "Array"
+NewObject
+SetMember
+Jump loc967b
+loc9664:Push 0, "SFXBTNerror"
+GetVariable
+Push "start"
+CallMethod
+Pop
+loc967b:Jump loc9697
+loc9680:Push 0, "SFXBTNerror"
+GetVariable
+Push "start"
+CallMethod
+Pop
+loc9697:Push "tY"
+GetVariable
+Push "tX"
+GetVariable
+Push 2, "reloadTileEditor"
+CallFunction
+Pop
+}
+loc96b5:SetMember
+Push "tilesMC"
+GetVariable
+Push "onRelease", "tilesMC"
+GetVariable
+Push "onReleaseOutside"
+DefineFunction "", 0 {
+Push "autoBrushIntervalID"
+GetVariable
+Push 1, "clearInterval"
+CallFunction
+Pop
+Push "autoBrushIntervalID", null
+SetVariable
+}
+StoreRegister 0
+SetMember
+Push register0
+SetMember

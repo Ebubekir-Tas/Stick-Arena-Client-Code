@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+RemoveSprite
+Enumerate2
+FSCommand2
+StringAdd
+loc001a:}

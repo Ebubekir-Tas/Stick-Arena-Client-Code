@@ -1,0 +1,21 @@
+to 
+--- RECORDSEPARATOR ---
+join
+--- RECORDSEPARATOR ---
+ a public 
+--- RECORDSEPARATOR ---
+game, select it 
+--- RECORDSEPARATOR ---
+from the arena 
+--- RECORDSEPARATOR ---
+list and click '
+--- RECORDSEPARATOR ---
+join 
+--- RECORDSEPARATOR ---
+game
+--- RECORDSEPARATOR ---
+', which will 
+--- RECORDSEPARATOR ---
+appear bottom 
+--- RECORDSEPARATOR ---
+right.

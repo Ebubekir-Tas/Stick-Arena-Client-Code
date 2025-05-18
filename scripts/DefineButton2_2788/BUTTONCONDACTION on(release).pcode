@@ -1,0 +1,88 @@
+StrictMode 213
+Less2
+Try {
+If loc001b
+Push false
+loc001b:If loc0025
+Jump loc006a
+loc0025:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}{invalid_utf8=238}\x11{invalid_utf8=137}\x06" , "{invalid_utf8=213}H{invalid_utf8=143}\x02\x03" , "{invalid_utf8=150}\x02" , "\x05" , "{invalid_utf8=157}\x02" , "\x05" , "{invalid_utf8=136}\x06" , "\x01" , "\x01\x02\x03" , "{invalid_utf8=150}\x02"  {
+Jump loc00c8
+loc006a:StrictMode 213
+Less2
+Try {
+}
+TypeOf
+TargetPath
+Enumerate
+Add2
+Less2
+Equals2
+ToNumber
+NewMethod
+InstanceOf
+Enumerate2
+BitLShift
+BitRShift
+BitURShift
+StrictEquals
+Greater
+StringGreater
+Extends
+Jump loc00c8
+}
+Jump loc00c8
+}
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+EndDrag
+}
+}
+loc00c8:

@@ -1,0 +1,48 @@
+StrictMode 213
+Less2
+Try {
+Jump loc00a9
+}
+GetVariable
+Push constant1
+GetVariable
+Add2
+SetVariable
+Push constant2, constant0
+GetVariable
+Push 180
+Divide
+Push 3.141592653589793
+Multiply
+SetVariable
+Push constant3
+GetVariable
+Push constant4, constant5
+GetVariable
+Push constant2
+GetVariable
+Push 1, constant6
+GetVariable
+Push constant7
+CallMethod
+Push constant8
+GetVariable
+Multiply
+Add2
+SetMember
+Push constant3
+GetVariable
+Push constant9, constant10
+GetVariable
+Push constant2
+GetVariable
+Push 1, constant6
+GetVariable
+Push constant11
+CallMethod
+Push constant8
+GetVariable
+Multiply
+Subtract
+SetMember
+loc00a9:}

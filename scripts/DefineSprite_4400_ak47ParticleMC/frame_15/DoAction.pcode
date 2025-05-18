@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Equals
+Pop
+Jump loc001e
+}
+GoToLabel "@{invalid_utf8=191}"
+}
+loc001e:

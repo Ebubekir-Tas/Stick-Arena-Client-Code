@@ -1,0 +1,21 @@
+you can send a 
+--- RECORDSEPARATOR ---
+private message
+--- RECORDSEPARATOR ---
+ 
+--- RECORDSEPARATOR ---
+to the selected 
+--- RECORDSEPARATOR ---
+player by clicking 
+--- RECORDSEPARATOR ---
+the '
+--- RECORDSEPARATOR ---
+pm'
+--- RECORDSEPARATOR ---
+ button, 
+--- RECORDSEPARATOR ---
+which will appear 
+--- RECORDSEPARATOR ---
+in the bottom 
+--- RECORDSEPARATOR ---
+left corner.

@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+StopSounds
+Delete2
+Divide
+BitAnd
+loc001a:}

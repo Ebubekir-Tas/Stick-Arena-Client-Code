@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Play
+SetVariable
+NewObject
+Jump loc001a
+}
+StackSwap
+loc001a:}

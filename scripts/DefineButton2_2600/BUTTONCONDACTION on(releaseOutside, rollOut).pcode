@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+With {
+Jump loc0020
+}
+Jump loc0026
+loc0020:GotoFrame 12024
+}
+}
+Add
+loc0026:

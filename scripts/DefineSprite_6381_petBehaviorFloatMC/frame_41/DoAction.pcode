@@ -1,0 +1,18 @@
+StrictMode 213
+Less2
+Try {
+DefineFunction2 "windowClose", 0, 3, true, false, true, false, true, false, false, true, false {
+Push 0, register2, "closeFailChangeServer"
+CallMethod
+Pop
+Push 0, register1, "removeMovieClip"
+CallMethod
+Pop
+}
+DefineFunction "windowOK", 0 {
+Push 0, "windowClose"
+CallFunction
+Pop
+}
+}
+}

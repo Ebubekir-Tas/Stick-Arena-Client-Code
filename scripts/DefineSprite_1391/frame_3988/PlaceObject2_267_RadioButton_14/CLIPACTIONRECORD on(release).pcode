@@ -1,0 +1,34 @@
+StrictMode 213
+Less2
+Try {
+StrictMode 213
+Less2
+Try {
+ConstantPool "press", "_parent", "buttonFX"
+Push "press", 1, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "buttonFX"
+CallMethod
+Pop
+Jump loc00e0
+}
+Modulo
+Jump loc00e0
+}
+Push "press", 1, register1, "_parent"
+GetMember
+Push "buttonFX"
+CallMethod
+Pop
+Push "__f_change"
+GetVariable
+Push "change", 2, "this"
+GetVariable
+Push "addEventListener"
+CallMethod
+Pop
+}
+}
+loc00e0:

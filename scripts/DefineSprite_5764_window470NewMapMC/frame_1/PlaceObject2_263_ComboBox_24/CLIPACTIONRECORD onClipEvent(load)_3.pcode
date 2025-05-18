@@ -1,0 +1,25 @@
+StrictMode 213
+Less2
+Try {
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+StringLength
+Jump loc0029
+}
+Extends
+BitURShift
+AsciiToChar
+DefineLocal2
+RandomNumber
+loc0029:}

@@ -1,0 +1,16 @@
+StrictMode 213
+Less2
+Try {
+InstanceOf
+Enumerate2
+BitLShift
+BitRShift
+BitURShift
+StrictEquals
+Greater
+StringGreater
+Extends
+Jump loc0020
+}
+Stop
+loc0020:}

@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Push "mx.core.View"
+GetVariable
+Push "View", 2, "Object"
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+}

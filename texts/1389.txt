@@ -1,0 +1,25 @@
+this is the 
+--- RECORDSEPARATOR ---
+server 
+--- RECORDSEPARATOR ---
+list
+--- RECORDSEPARATOR ---
+.  each server 
+--- RECORDSEPARATOR ---
+has its' own 
+--- RECORDSEPARATOR ---
+lobby, player 
+--- RECORDSEPARATOR ---
+list, and arena 
+--- RECORDSEPARATOR ---
+list.  to 
+--- RECORDSEPARATOR ---
+change 
+--- RECORDSEPARATOR ---
+servers
+--- RECORDSEPARATOR ---
+, select a 
+--- RECORDSEPARATOR ---
+different server 
+--- RECORDSEPARATOR ---
+from list.

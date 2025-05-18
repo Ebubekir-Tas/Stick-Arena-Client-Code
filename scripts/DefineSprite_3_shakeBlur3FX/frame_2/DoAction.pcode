@@ -1,0 +1,34 @@
+StrictMode 213
+Less2
+Try {
+Jump loc007c
+}
+Push constant1, constant0
+GetVariable
+Push constant1
+GetMember
+Push constant2
+GetVariable
+ToInteger
+Add2
+SetMember
+Push constant3
+GetVariable
+Push constant4, constant5
+GetVariable
+Push constant2
+GetVariable
+Multiply
+SetMember
+Push constant3
+GetVariable
+Push constant6, 0
+SetMember
+Push constant0
+GetVariable
+Push constant7, constant3
+GetVariable
+Push 1
+InitArray
+SetMember
+loc007c:}

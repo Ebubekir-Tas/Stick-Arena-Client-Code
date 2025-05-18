@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Stop
+Jump loc0019
+}
+Divide
+loc0019:}

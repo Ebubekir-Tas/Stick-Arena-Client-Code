@@ -1,0 +1,173 @@
+StrictMode 213
+Less2
+Try {
+StopSounds
+NextFrame
+SetMember
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, constant7
+GetMember
+Push constant9
+GetMember
+Return
+}
+Push constant10, 3, register2, constant11
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, constant7
+GetMember
+Push undefined
+Equals2
+Not
+If loc008b
+Push register1, constant7, 0, constant8
+NewObject
+SetMember
+loc008b:Push register1, constant7
+GetMember
+Push constant12, register2, constant12
+Equals2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, constant7
+GetMember
+Push constant12
+GetMember
+Push undefined
+Equals2
+Not
+If loc00d7
+Push undefined
+Jump loc00fc
+loc00d7:Push register1, constant7
+GetMember
+Push constant12
+GetMember
+If loc00f7
+Push constant13
+Jump loc00fc
+loc00f7:Push constant12
+loc00fc:Return
+}
+Push constant14, 3, register2, constant11
+CallMethod
+Pop
+Push register3
+Not
+If loc01ae
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, constant7
+GetMember
+Push undefined
+Equals2
+Not
+If loc0162
+Push register1, constant7, 0, constant8
+NewObject
+SetMember
+loc0162:Push register1, constant7
+GetMember
+Push constant15, register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, constant7
+GetMember
+Push constant15
+GetMember
+Return
+}
+Push constant15, 3, register2, constant11
+CallMethod
+Pop
+loc01ae:DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, constant7
+GetMember
+Push undefined
+Equals2
+Not
+If loc01ef
+Push register1, constant7, 0, constant8
+NewObject
+SetMember
+loc01ef:Push register1, constant7
+GetMember
+Push constant16, register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, constant7
+GetMember
+Push constant16
+GetMember
+Return
+}
+Push constant17, 3, register2, constant11
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, constant7
+GetMember
+Push undefined
+Equals2
+Not
+If loc027c
+Push register1, constant7, 0, constant8
+NewObject
+SetMember
+loc027c:Push register1, constant7
+GetMember
+Push constant18, register2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, constant7
+GetMember
+Push constant18
+GetMember
+Return
+}
+Push constant19, 3, register2, constant11
+CallMethod
+Pop
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "x" {
+Push register1, constant7
+GetMember
+Push undefined
+Equals2
+Not
+If loc0309
+Push register1, constant7, 0, constant8
+NewObject
+SetMember
+loc0309:Push register1, constant7
+GetMember
+Push constant20, register2, constant20
+Equals2
+SetMember
+}
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, constant7
+GetMember
+Push constant20
+GetMember
+Push undefined
+Equals2
+Not
+If loc0355
+Push undefined
+Jump loc037a
+loc0355:Push register1, constant7
+GetMember
+Push constant20
+GetMember
+If loc0375
+Push constant13
+Jump loc037a
+loc0375:Push constant20
+loc037a:Return
+}
+}
+}

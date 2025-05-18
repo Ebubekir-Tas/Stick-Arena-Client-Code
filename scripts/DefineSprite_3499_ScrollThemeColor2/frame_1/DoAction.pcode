@@ -1,0 +1,16 @@
+StrictMode 213
+Less2
+Try {
+BitRShift
+Extends
+InstanceOf
+StringGreater
+BitURShift
+BitURShift
+InitObject
+CharToAscii
+Jump loc0023
+}
+StrictMode 109
+PrevFrame
+loc0023:}

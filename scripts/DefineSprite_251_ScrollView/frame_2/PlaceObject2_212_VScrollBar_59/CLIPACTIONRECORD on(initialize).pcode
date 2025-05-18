@@ -1,0 +1,22 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0026
+}
+SetMember
+Increment
+Decrement
+CallMethod
+NewMethod
+InstanceOf
+Enumerate2
+RandomNumber
+MBStringLength
+CharToAscii
+AsciiToChar
+GetTime
+MBStringExtract
+MBCharToAscii
+MBAsciiToChar
+ImplementsOp
+loc0026:}

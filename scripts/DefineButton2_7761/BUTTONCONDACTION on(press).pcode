@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+ConstantPool "tabBGMC", "this", "over", "_parent", "zqggLX"
+Push "tabBGMC"
+GetVariable
+Push "this"
+GetVariable
+Push "over", 3, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "zqggLX"
+CallMethod
+Pop
+}
+}

@@ -1,0 +1,365 @@
+ConstantPool "bytesTotal", "_parent", "getBytesTotal", "bytesLoaded", "getBytesLoaded", "percentLoaded", "settingsLoaded", "languageLoaded", "versionLoaded", "upgradeValuesLoaded", "doneLoading", "settingsLoading", "doneFLALoading", "loadBar", "gotoAndStop", "loadBar2", "percentLoadedText2", "text", "percentLoadedText", "                [Paste URL in Flash Player]", "                     [Paste URL in Flash Player]", "             [Paste URL in Flash Player]", "mapEditorTileDataLoaded", "   [Paste URL in Flash Player]", "                 [Paste URL in Flash Player]", "                     [Done!]", "(", "%)", "Math", "max", "_alpha"
+Push "bytesTotal", 0, "_parent"
+GetVariable
+Push "getBytesTotal"
+CallMethod
+DefineLocal
+Push "bytesLoaded", 0, "_parent"
+GetVariable
+Push "getBytesLoaded"
+CallMethod
+DefineLocal
+Push "percentLoaded", "bytesLoaded"
+GetVariable
+Push "bytesTotal"
+GetVariable
+Divide
+Push 100
+Multiply
+ToInteger
+DefineLocal
+Push "_parent"
+GetVariable
+Push "settingsLoaded"
+GetMember
+PushDuplicate
+Not
+If loc028e
+Pop
+Push "_parent"
+GetVariable
+Push "languageLoaded"
+GetMember
+loc028e:PushDuplicate
+Not
+If loc02a2
+Pop
+Push "_parent"
+GetVariable
+Push "versionLoaded"
+GetMember
+loc02a2:PushDuplicate
+Not
+If loc02b6
+Pop
+Push "_parent"
+GetVariable
+Push "upgradeValuesLoaded"
+GetMember
+loc02b6:Not
+If loc02d7
+Push 0, "_parent"
+GetVariable
+Push "doneLoading"
+CallMethod
+Pop
+Stop
+Jump loc06a8
+loc02d7:Push "bytesTotal"
+GetVariable
+Push "bytesLoaded"
+GetVariable
+Equals2
+Not
+If loc05dd
+Push "_parent"
+GetVariable
+Push "settingsLoading"
+GetMember
+If loc0316
+Push 0, "_parent"
+GetVariable
+Push "doneFLALoading"
+CallMethod
+Pop
+Stop
+Jump loc05d8
+loc0316:Push 98, 1, "_parent"
+GetVariable
+Push "loadBar"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push 98, 1, "_parent"
+GetVariable
+Push "loadBar2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "_parent"
+GetVariable
+Push "languageLoaded"
+GetMember
+If loc039f
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "                [Paste URL in Flash Player]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc039f:Push "_parent"
+GetVariable
+Push "upgradeValuesLoaded"
+GetMember
+If loc03e2
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "                     [Paste URL in Flash Player]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc03e2:Push "_parent"
+GetVariable
+Push "settingsLoaded"
+GetMember
+If loc0425
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "             [Paste URL in Flash Player]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc0425:Push "_parent"
+GetVariable
+Push "mapEditorTileDataLoaded"
+GetMember
+If loc0468
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "                [Paste URL in Flash Player]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc0468:Push "_parent"
+GetVariable
+Push "versionLoaded"
+GetMember
+If loc04ab
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "   [Paste URL in Flash Player]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc04ab:Push "_parent"
+GetVariable
+Push "settingsLoaded"
+GetMember
+Not
+PushDuplicate
+Not
+If loc04cd
+Pop
+Push "_parent"
+GetVariable
+Push "versionLoaded"
+GetMember
+Not
+loc04cd:PushDuplicate
+Not
+If loc04e2
+Pop
+Push "_parent"
+GetVariable
+Push "languageLoaded"
+GetMember
+Not
+loc04e2:PushDuplicate
+Not
+If loc04f7
+Pop
+Push "_parent"
+GetVariable
+Push "upgradeValuesLoaded"
+GetMember
+Not
+loc04f7:PushDuplicate
+Not
+If loc050c
+Pop
+Push "_parent"
+GetVariable
+Push "mapEditorTileDataLoaded"
+GetMember
+Not
+loc050c:Not
+If loc0544
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "                 [Paste URL in Flash Player]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc0544:Push "_parent"
+GetVariable
+Push "settingsLoaded"
+GetMember
+PushDuplicate
+Not
+If loc0564
+Pop
+Push "_parent"
+GetVariable
+Push "versionLoaded"
+GetMember
+loc0564:PushDuplicate
+Not
+If loc0578
+Pop
+Push "_parent"
+GetVariable
+Push "languageLoaded"
+GetMember
+loc0578:PushDuplicate
+Not
+If loc058c
+Pop
+Push "_parent"
+GetVariable
+Push "upgradeValuesLoaded"
+GetMember
+loc058c:PushDuplicate
+Not
+If loc05a0
+Pop
+Push "_parent"
+GetVariable
+Push "mapEditorTileDataLoaded"
+GetMember
+loc05a0:Not
+If loc05d8
+Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "                     [Done!]"
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+loc05d8:Jump loc06a8
+loc05dd:Push "_parent"
+GetVariable
+Push "percentLoadedText2"
+GetMember
+Push "text", "_parent"
+GetVariable
+Push "percentLoadedText"
+GetMember
+Push "text", "(", "percentLoaded"
+GetVariable
+Add2
+Push "%)"
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 1, "percentLoaded"
+GetVariable
+Push 5
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 1, "_parent"
+GetVariable
+Push "loadBar"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push 1, "percentLoaded"
+GetVariable
+Push 5
+Subtract
+Push 2, "Math"
+GetVariable
+Push "max"
+CallMethod
+Push 1, "_parent"
+GetVariable
+Push "loadBar2"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+loc06a8:Push "_parent"
+GetVariable
+Push "loadBar"
+GetMember
+Push "_alpha", "_parent"
+GetVariable
+Push "loadBar"
+GetMember
+Push "_alpha"
+GetMember
+Push 10
+Subtract
+SetMember
+Push "_parent"
+GetVariable
+Push "loadBar"
+GetMember
+Push "_alpha"
+GetMember
+Push 89
+Less2
+Not
+If loc0710
+Push "_parent"
+GetVariable
+Push "loadBar"
+GetMember
+Push "_alpha", 100
+SetMember
+loc0710:

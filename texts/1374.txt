@@ -1,0 +1,13 @@
+to join a 
+--- RECORDSEPARATOR ---
+private game
+--- RECORDSEPARATOR ---
+, click '
+--- RECORDSEPARATOR ---
+Join 
+--- RECORDSEPARATOR ---
+private
+--- RECORDSEPARATOR ---
+'.
+--- RECORDSEPARATOR ---
+type the game name and hit 'ok'. 

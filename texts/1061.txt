@@ -1,0 +1,1 @@
+Run over a weapon to pick it up.

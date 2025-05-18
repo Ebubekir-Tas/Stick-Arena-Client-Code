@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+StrictEquals
+GetVariable
+Increment
+TargetPath
+StringEquals
+Jump loc001c
+}
+StringExtract
+loc001c:}

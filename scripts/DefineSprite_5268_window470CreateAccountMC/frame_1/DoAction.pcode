@@ -1,0 +1,44 @@
+StrictMode 213
+Less2
+Try {
+Jump loc00c7
+}
+Push 4
+SetMember
+Push constant60
+GetVariable
+Push constant58, 5
+SetMember
+Push 1, constant61, constant62, 3, constant1
+GetVariable
+Push constant28
+GetMember
+Push constant63
+CallMethod
+Pop
+Push constant31, constant30
+GetVariable
+Push constant64
+GetMember
+Push constant30
+GetVariable
+Push constant65
+GetMember
+Push 2, constant66
+GetVariable
+Push constant67
+GetMember
+Push constant68
+NewMethod
+DefineLocal
+Push constant30
+GetVariable
+Push 1, constant31
+GetVariable
+Push constant69
+CallMethod
+Pop
+Push true, 1, constant70
+CallFunction
+Pop
+loc00c7:}

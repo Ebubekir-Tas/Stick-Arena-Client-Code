@@ -1,0 +1,229 @@
+StrictMode 213
+Less2
+Try {
+GetMember
+Push constant3
+GetMember
+Push constant4, 0, constant2
+NewObject
+SetMember
+Pop
+Push constant0
+GetVariable
+Push constant1
+GetMember
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Not
+Not
+If loc03a0
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+DefineFunction "", 0 {
+}
+StoreRegister 1
+SetMember
+Push register1, constant6
+GetMember
+StoreRegister 2
+Pop
+Push register1, constant7
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push constant8
+GetMember
+Push true
+Equals2
+Not
+If loc00cf
+Push true
+Return
+loc00cf:Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push constant8, true
+SetMember
+Push constant9
+GetVariable
+Push constant6
+GetMember
+Push constant10
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push register1, 1, constant11
+GetVariable
+Push constant10
+CallMethod
+Pop
+}
+SetMember
+Push constant9
+GetVariable
+Push constant6
+GetMember
+Push constant12
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "oldFocus" {
+Push register1, constant13
+GetMember
+Push false
+Equals2
+Not
+Not
+If loc01a3
+Push 0, register1, constant14
+CallMethod
+Push constant15
+GetMember
+Not
+If loc01a3
+Push true, 1, register1, constant16
+CallMethod
+Pop
+}
+loc01a3:SetMember
+Push constant9
+GetVariable
+Push constant6
+GetMember
+Push constant17
+DefineFunction2 "", 1, 2, false, false, true, false, true, false, false, true, false, 0, "oldFocus" {
+Push register1, constant13
+GetMember
+Push false
+Equals2
+Not
+Not
+If loc01fb
+Push false, 1, register1, constant16
+CallMethod
+Pop
+}
+loc01fb:SetMember
+Push constant9
+GetVariable
+Push constant6
+GetMember
+Push constant16, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant18
+GetMember
+Push constant6
+GetMember
+Push constant16
+GetMember
+SetMember
+Push constant9
+GetVariable
+Push constant6
+GetMember
+Push constant14, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant18
+GetMember
+Push constant6
+GetMember
+Push constant14
+GetMember
+SetMember
+Push 0, constant1
+GetVariable
+Push constant19
+GetMember
+Push constant20
+GetMember
+Push constant21
+CallMethod
+Pop
+Push 0, constant1
+GetVariable
+Push constant22
+GetMember
+Push constant23
+GetMember
+Push constant24
+CallMethod
+Pop
+Push 0, constant1
+GetVariable
+Push constant19
+GetMember
+Push constant25
+GetMember
+Push constant26
+CallMethod
+Pop
+}
+SetMember
+Push register1, constant8, false
+SetMember
+Push register1, constant27, 0, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push constant7
+CallMethod
+SetMember
+Push register1, constant28, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant18
+GetMember
+SetMember
+Push register1, constant29, constant1
+GetVariable
+Push constant19
+GetMember
+Push constant25
+GetMember
+SetMember
+Push register1, constant30, constant1
+GetVariable
+Push constant19
+GetMember
+Push constant20
+GetMember
+SetMember
+Push 1, null, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push constant6
+GetMember
+Push 3, constant31
+CallFunction
+loc03a0:Pop
+}
+}

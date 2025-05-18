@@ -1,0 +1,72 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0163
+}
+ToggleQuality
+GetMember
+Push 175.5
+Subtract
+Subtract
+Push register3, constant13
+GetMember
+Push constant9
+GetMember
+Push 3, register3, constant13
+GetMember
+Push constant10
+CallMethod
+Pop
+Push register3, constant14
+GetMember
+Push constant3, register1, constant3
+GetMember
+Push 1
+Subtract
+SetMember
+Push register3, constant14
+GetMember
+Push constant12, 118, register1, constant3
+GetMember
+Push 175.5
+Subtract
+Subtract
+SetMember
+Push register3, constant15
+GetMember
+Push constant3, 76, register1, constant3
+GetMember
+Push 173
+Subtract
+Push 2
+Divide
+Add2
+Push 65, 2, constant6
+GetVariable
+Push constant7
+CallMethod
+ToInteger
+SetMember
+Push register3, constant16
+GetMember
+Push constant17
+GetMember
+Push constant3, -47, register1, constant3
+GetMember
+Push 173
+Subtract
+Push 2
+Divide
+Add2
+Push register1, constant3
+GetMember
+Push 230
+Subtract
+Push 2, constant6
+GetVariable
+Push constant7
+CallMethod
+ToInteger
+SetMember
+SetMember
+loc0163:}

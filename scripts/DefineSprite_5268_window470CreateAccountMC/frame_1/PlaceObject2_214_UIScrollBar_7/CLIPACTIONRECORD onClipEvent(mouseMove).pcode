@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+StringLength
+Jump loc0019
+}
+StackSwap
+InitObject
+loc0019:}

@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Increment
+BitURShift
+PushDuplicate
+BitOr
+BitRShift
+Extends
+Greater
+InstanceOf
+BitURShift
+RandomNumber
+Jump loc0021
+}
+NextFrame
+loc0021:}

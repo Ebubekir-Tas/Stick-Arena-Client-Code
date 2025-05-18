@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+GetURL2 true, false, 0
+Jump loc001e
+}
+BitLShift
+Call
+loc001e:}

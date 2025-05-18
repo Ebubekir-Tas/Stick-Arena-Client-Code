@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001c
+}
+TypeOf
+BitOr
+BitOr
+DefineLocal2
+Increment
+Equals2
+loc001c:}

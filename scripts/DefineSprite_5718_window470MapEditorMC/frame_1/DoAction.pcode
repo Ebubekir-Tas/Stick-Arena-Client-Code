@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+MBStringLength
+MBStringExtract
+Jump loc001a
+}
+Equals2
+Multiply
+loc001a:}

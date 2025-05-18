@@ -1,0 +1,23 @@
+StrictMode 213
+Less2
+Try {
+Try {
+Extends
+BitXor
+BitURShift
+Jump loc0030
+}
+AsciiToChar
+StackSwap
+InitObject
+PushDuplicate
+BitXor
+BitXor
+InitArray
+BitOr
+Extends
+Extends
+BitLShift
+}
+loc0030:}
+}

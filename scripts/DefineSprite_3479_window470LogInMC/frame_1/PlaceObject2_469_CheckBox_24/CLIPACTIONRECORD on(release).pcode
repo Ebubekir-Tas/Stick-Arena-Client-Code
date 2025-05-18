@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+Trace
+Jump loc0020
+}
+Not
+GetVariable
+Push constant19
+CallMethod
+Pop
+loc0020:}

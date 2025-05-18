@@ -1,0 +1,20 @@
+StrictMode 213
+Less2
+Try {
+StringExtract
+StringExtract
+StringExtract
+Multiply
+Less
+Pop
+ToInteger
+StringLength
+ToInteger
+Not
+StringLength
+StringExtract
+StringLength
+With {
+}
+}
+}

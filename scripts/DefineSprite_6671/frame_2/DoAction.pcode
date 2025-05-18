@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Or
+Jump loc001a
+}
+DefineLocal2
+GetProperty
+TargetPath
+loc001a:}

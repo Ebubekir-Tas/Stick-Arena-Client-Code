@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+Decrement
+PrevFrame
+Jump loc002f
+}
+StrictMode 213
+Less2
+Try {
+Jump loc002f
+}
+DefineLocal
+loc002f:}
+}

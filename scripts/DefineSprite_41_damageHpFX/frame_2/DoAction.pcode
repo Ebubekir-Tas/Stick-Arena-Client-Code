@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+Push "ColoredSkinElement"
+GetMember
+Push "setColorStyle"
+CallMethod
+Pop
+Jump loc0049
+}
+GotoFrame 28927
+BitURShift
+Enumerate2
+loc0049:}

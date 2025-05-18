@@ -1,0 +1,15 @@
+StrictMode 213
+Less2
+Try {
+Or
+StrictMode 213
+Less2
+Try {
+Jump loc002f
+}
+Jump loc002f
+}
+Modulo
+Equals
+loc002f:}
+}

@@ -1,0 +1,1050 @@
+ConstantPool "lastFrameChange", "onEnterFrame", "_currentframe", "gotoAndStop", "_parent", "_name", "gxyAWm", "_root", "player", "spinners", "jhHtWQ", "num", "uName", "asgfgh", "cycleFrames", "pets", "vwEGyv", "spinnerArray", "slice", "getName", "petArray"
+Stop
+DefineFunction2 "cycleFrames", 0, 3, false, false, true, false, true, false, false, true, false {
+Push "lastFrameChange"
+GetTime
+DefineLocal
+Push register1, "onEnterFrame"
+DefineFunction2 "", 0, 3, false, false, true, false, true, false, false, true, false {
+GetTime
+StoreRegister 2
+Pop
+Push register2, "lastFrameChange"
+GetVariable
+Subtract
+Push 250
+Less2
+Not
+Not
+If loc017e
+Push register1, "_currentframe"
+GetMember
+Push 13
+Less2
+Not
+If loc0157
+Push register1, "_currentframe"
+GetMember
+Push 1
+Add2
+Push 1, register1, "gotoAndStop"
+CallMethod
+Pop
+Jump loc0173
+loc0157:Push 1, 1, register1, "gotoAndStop"
+CallMethod
+Pop
+loc0173:Push "lastFrameChange", register2
+SetVariable
+}
+loc017e:SetMember
+}
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_name"
+GetMember
+Push "gxyAWm"
+Equals2
+Not
+If loc08aa
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 86
+Equals2
+PushDuplicate
+Not
+If loc01f1
+Pop
+Push "_root"
+GetVariable
+Push "uName"
+GetMember
+Push "asgfgh"
+Equals2
+loc01f1:Not
+If loc0206
+Push 0, "cycleFrames"
+CallFunction
+Pop
+loc0206:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 7
+Equals2
+Not
+If loc024a
+GotoFrame 1
+Jump loc08a5
+loc024a:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 8
+Equals2
+Not
+If loc028e
+GotoFrame 2
+Jump loc08a5
+loc028e:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 9
+Equals2
+Not
+If loc02d2
+GotoFrame 3
+Jump loc08a5
+loc02d2:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 10
+Equals2
+Not
+If loc0316
+GotoFrame 4
+Jump loc08a5
+loc0316:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 11
+Equals2
+Not
+If loc035a
+GotoFrame 5
+Jump loc08a5
+loc035a:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 12
+Equals2
+Not
+If loc039e
+GotoFrame 6
+Jump loc08a5
+loc039e:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 13
+Equals2
+Not
+If loc03e2
+GotoFrame 7
+Jump loc08a5
+loc03e2:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 14
+Equals2
+Not
+If loc0426
+GotoFrame 8
+Jump loc08a5
+loc0426:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 15
+Equals2
+Not
+If loc046a
+GotoFrame 9
+Jump loc08a5
+loc046a:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 16
+Equals2
+Not
+If loc04ae
+GotoFrame 10
+Jump loc08a5
+loc04ae:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 17
+Equals2
+Not
+If loc04f2
+GotoFrame 11
+Jump loc08a5
+loc04f2:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "vwEGyv"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 18
+Equals2
+Not
+If loc0536
+GotoFrame 12
+Jump loc08a5
+loc0536:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 86
+Equals2
+Not
+If loc057a
+GotoFrame 1
+Jump loc08a5
+loc057a:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 87
+Equals2
+Not
+If loc05be
+GotoFrame 2
+Jump loc08a5
+loc05be:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 88
+Equals2
+Not
+If loc0602
+GotoFrame 5
+Jump loc08a5
+loc0602:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 89
+Equals2
+Not
+If loc0646
+GotoFrame 7
+Jump loc08a5
+loc0646:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 90
+Equals2
+Not
+If loc068a
+GotoFrame 3
+Jump loc08a5
+loc068a:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 91
+Equals2
+Not
+If loc06ce
+GotoFrame 8
+Jump loc08a5
+loc06ce:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 92
+Equals2
+Not
+If loc0712
+GotoFrame 4
+Jump loc08a5
+loc0712:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 93
+Equals2
+Not
+If loc0756
+GotoFrame 6
+Jump loc08a5
+loc0756:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 94
+Equals2
+Not
+If loc079a
+GotoFrame 9
+Jump loc08a5
+loc079a:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 95
+Equals2
+Not
+If loc07de
+GotoFrame 10
+Jump loc08a5
+loc07de:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 96
+Equals2
+Not
+If loc0822
+GotoFrame 11
+Jump loc08a5
+loc0822:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 97
+Equals2
+Not
+If loc0866
+GotoFrame 12
+Jump loc08a5
+loc0866:Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "spinners"
+GetMember
+Push "_root"
+GetVariable
+Push "player"
+GetMember
+Push "jhHtWQ"
+GetMember
+GetMember
+Push "num"
+GetMember
+Push 98
+Equals2
+Not
+If loc08a5
+GotoFrame 13
+loc08a5:Jump loc0ef1
+loc08aa:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 86
+Equals2
+PushDuplicate
+Not
+If loc092c
+Pop
+Push 9, 6, 2, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_name"
+GetMember
+Push "slice"
+CallMethod
+Push 1, "_root"
+GetVariable
+Push "getName"
+CallMethod
+Push "asgfgh"
+Equals2
+loc092c:Not
+If loc0946
+Push 0, "cycleFrames"
+CallFunction
+Pop
+Jump loc0ef1
+loc0946:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "player"
+GetMember
+Push "pets"
+GetMember
+Push 0
+GetMember
+Push 7
+Equals2
+Not
+If loc0986
+GotoFrame 1
+Jump loc0ef1
+loc0986:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 8
+Equals2
+Not
+If loc09c0
+GotoFrame 2
+Jump loc0ef1
+loc09c0:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 9
+Equals2
+Not
+If loc09fa
+GotoFrame 3
+Jump loc0ef1
+loc09fa:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 10
+Equals2
+Not
+If loc0a34
+GotoFrame 4
+Jump loc0ef1
+loc0a34:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 11
+Equals2
+Not
+If loc0a6e
+GotoFrame 5
+Jump loc0ef1
+loc0a6e:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 12
+Equals2
+Not
+If loc0aa8
+GotoFrame 6
+Jump loc0ef1
+loc0aa8:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 13
+Equals2
+Not
+If loc0ae2
+GotoFrame 7
+Jump loc0ef1
+loc0ae2:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 14
+Equals2
+Not
+If loc0b1c
+GotoFrame 8
+Jump loc0ef1
+loc0b1c:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 15
+Equals2
+Not
+If loc0b56
+GotoFrame 9
+Jump loc0ef1
+loc0b56:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 16
+Equals2
+Not
+If loc0b90
+GotoFrame 10
+Jump loc0ef1
+loc0b90:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 17
+Equals2
+Not
+If loc0bca
+GotoFrame 11
+Jump loc0ef1
+loc0bca:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "petArray"
+GetMember
+Push 0
+GetMember
+Push 18
+Equals2
+Not
+If loc0c04
+GotoFrame 12
+Jump loc0ef1
+loc0c04:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 86
+Equals2
+Not
+If loc0c3e
+GotoFrame 1
+Jump loc0ef1
+loc0c3e:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 87
+Equals2
+Not
+If loc0c78
+GotoFrame 2
+Jump loc0ef1
+loc0c78:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 88
+Equals2
+Not
+If loc0cb2
+GotoFrame 5
+Jump loc0ef1
+loc0cb2:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 89
+Equals2
+Not
+If loc0cec
+GotoFrame 7
+Jump loc0ef1
+loc0cec:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 90
+Equals2
+Not
+If loc0d26
+GotoFrame 3
+Jump loc0ef1
+loc0d26:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 91
+Equals2
+Not
+If loc0d60
+GotoFrame 8
+Jump loc0ef1
+loc0d60:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 92
+Equals2
+Not
+If loc0d9a
+GotoFrame 4
+Jump loc0ef1
+loc0d9a:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 93
+Equals2
+Not
+If loc0dd4
+GotoFrame 6
+Jump loc0ef1
+loc0dd4:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 94
+Equals2
+Not
+If loc0e0e
+GotoFrame 9
+Jump loc0ef1
+loc0e0e:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 95
+Equals2
+Not
+If loc0e48
+GotoFrame 10
+Jump loc0ef1
+loc0e48:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 96
+Equals2
+Not
+If loc0e82
+GotoFrame 11
+Jump loc0ef1
+loc0e82:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 97
+Equals2
+Not
+If loc0ebc
+GotoFrame 12
+Jump loc0ef1
+loc0ebc:Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "spinnerArray"
+GetMember
+Push 0
+GetMember
+Push 98
+Equals2
+Not
+If loc0ef1
+GotoFrame 13
+loc0ef1:

@@ -1,0 +1,8 @@
+StrictMode 213
+Less2
+Try {
+GotoFrame2 true, false, , 549
+Jump loc001d
+}
+InstanceOf
+loc001d:}

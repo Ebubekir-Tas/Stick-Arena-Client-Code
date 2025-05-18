@@ -1,0 +1,41 @@
+StrictMode 213
+Less2
+Try {
+NewObject
+Jump loc0041
+}
+Not
+Not
+Or
+Less
+Or
+Or
+StringEquals
+GetVariable
+Pop
+StringEquals
+StringLength
+StringExtract
+Or
+Or
+ToInteger
+StringAdd
+ToInteger
+SetVariable
+SetVariable
+StringEquals
+Pop
+GetProperty
+CloneSprite
+GetProperty
+CloneSprite
+GetVariable
+With {
+StrictMode 143
+ToNumber
+WaitForFrame2 3
+}
+}
+And
+Modulo
+loc0041:

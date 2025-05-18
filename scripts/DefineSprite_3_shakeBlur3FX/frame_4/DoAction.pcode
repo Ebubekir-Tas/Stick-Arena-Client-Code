@@ -1,0 +1,57 @@
+StrictMode 213
+Less2
+Try {
+Jump loc00d3
+}
+Push constant0
+GetVariable
+Push constant1, constant0
+GetVariable
+Push constant1
+GetMember
+Push constant2
+GetVariable
+ToInteger
+Subtract
+SetMember
+Push constant3
+GetVariable
+Push constant4, constant5
+GetVariable
+Push constant2
+GetVariable
+Multiply
+SetMember
+Push constant3
+GetVariable
+Push constant6, 0
+SetMember
+Push constant0
+GetVariable
+Push constant7, constant3
+GetVariable
+Push 1
+InitArray
+SetMember
+Push constant2
+GetVariable
+Push 0
+Greater
+Not
+Not
+If loc00ba
+Push 0, constant8
+GetVariable
+Push constant9
+CallMethod
+Pop
+Jump loc00d3
+loc00ba:Push constant2, constant2
+GetVariable
+Push constant10
+GetVariable
+Add2
+SetVariable
+GotoFrame 1
+Play
+loc00d3:}

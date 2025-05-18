@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+SetVariable
+Jump loc001d
+}
+WaitForFrame 36345, 1
+}
+loc001d:

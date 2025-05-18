@@ -1,0 +1,34 @@
+StrictMode 213
+Less2
+Try {
+Jump loc00bf
+}
+MBStringLength
+FSCommand2
+ConstantPool "animatedTileFrames", "this", "onEnterFrame", "_parent", "framesSinceRoundStart"
+Push "animatedTileFrames", 16
+DefineLocal
+Push "this"
+GetVariable
+Push "onEnterFrame"
+DefineFunction2 "", 0, 2, true, false, true, false, true, false, true, false, false {
+Push register1, "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "framesSinceRoundStart"
+GetMember
+Push "animatedTileFrames"
+GetVariable
+Modulo
+Push 1
+Add2
+GotoFrame2 false, false, 
+}
+SetMember
+Jump loc00bf
+}
+StrictMode 23
+loc00bf:

@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+BitOr
+BitURShift
+Jump loc001b
+}
+Add
+CallMethod
+TypeOf
+}
+loc001b:

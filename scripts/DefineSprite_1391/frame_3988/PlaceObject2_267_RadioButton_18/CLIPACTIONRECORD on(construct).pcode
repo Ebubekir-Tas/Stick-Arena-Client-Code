@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+StringGreater
+Jump loc001d
+}
+TargetPath
+BitURShift
+PushDuplicate
+Extends
+BitURShift
+BitURShift
+}
+loc001d:

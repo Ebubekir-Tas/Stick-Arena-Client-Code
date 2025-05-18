@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+NewObject
+MBStringExtract
+Pop
+BitRShift
+loc001a:}

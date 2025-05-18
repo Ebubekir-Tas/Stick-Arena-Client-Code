@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+MBAsciiToChar
+Delete2
+Jump loc001f
+}
+MBStringExtract
+CharToAscii
+GotoFrame 8968
+}
+loc001f:

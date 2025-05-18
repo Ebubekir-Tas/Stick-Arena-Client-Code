@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc002b
+}
+GetVariable
+Push "registerClass"
+CallMethod
+Pop
+loc002b:}

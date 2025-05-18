@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0024
+}
+DefineLocal2
+Play
+StringEquals
+Decrement
+BitOr
+Stop
+GetProperty
+StringLength
+CharToAscii
+GotoFrame 8968
+}
+loc0024:

@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Less
+GetMember
+Jump loc001b
+}
+Enumerate2
+CallMethod
+PushDuplicate
+loc001b:}

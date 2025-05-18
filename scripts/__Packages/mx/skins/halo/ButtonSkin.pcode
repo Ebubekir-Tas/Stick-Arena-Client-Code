@@ -1,0 +1,808 @@
+StrictMode 213
+Less2
+Try {
+Push constant1
+GetMember
+Push constant3, 0, constant2
+NewObject
+SetMember
+Pop
+Push constant0
+GetVariable
+Push constant1
+GetMember
+Push constant3
+GetMember
+Push constant4
+GetMember
+Not
+Not
+If loc0079
+Push constant0
+GetVariable
+Push constant1
+GetMember
+Push constant3
+GetMember
+Push constant4, 0, constant2
+NewObject
+SetMember
+loc0079:Pop
+Push constant0
+GetVariable
+Push constant1
+GetMember
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Not
+Not
+If loc1e2b
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0, register1, undefined
+CallMethod
+Pop
+}
+StoreRegister 1
+SetMember
+Push constant1
+GetVariable
+Push constant3
+GetMember
+Push constant4
+GetMember
+Push constant5
+GetMember
+Push constant6, 0, constant1
+GetVariable
+Push constant3
+GetMember
+Push constant7
+NewMethod
+StoreRegister 2
+SetMember
+Push register2, constant8
+DefineFunction2 "", 0, 2, false, false, false, true, true, false, true, false, false {
+Push 0, register1, constant8
+CallMethod
+Pop
+}
+SetMember
+Push register2, constant9
+DefineFunction2 "", 0, 2, false, false, true, false, true, false, false, true, false {
+Push 0, register1, constant10
+CallMethod
+Push 0, register1, constant11
+CallMethod
+Push 2, register1, constant12
+CallMethod
+Pop
+}
+SetMember
+Push register2, constant12
+DefineFunction2 "", 2, 7, false, false, true, false, true, false, false, true, false, 3, "w", 2, "h" {
+Push constant13, 1, register1, constant14
+CallMethod
+StoreRegister 6
+Pop
+Push constant15, 1, register1, constant14
+CallMethod
+StoreRegister 4
+Pop
+Push register1, constant16
+GetMember
+Push constant17
+GetMember
+StoreRegister 5
+Pop
+Push 0, register1, constant18
+CallMethod
+Pop
+Push register6
+StoreRegister 0
+Push constant19
+StrictEquals
+If loc02af
+Push register0, constant20
+StrictEquals
+If loc0868
+Push register0, constant21
+StrictEquals
+If loc0c1c
+Push register0, constant22
+StrictEquals
+If loc0fd3
+Push register0, constant23
+StrictEquals
+If loc112e
+Push register0, constant24
+StrictEquals
+If loc14e5
+Push register0, constant25
+StrictEquals
+If loc1899
+Push register0, constant26
+StrictEquals
+If loc1cd5
+Jump loc1e2b
+loc02af:Push register5
+Not
+If loc0671
+Push 100, 9542041, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 75, register4, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 85, 16777215, 3355443, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 14342874, 0, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 75, register4, 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 3
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100
+}
+Push 16316664, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 4
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Jump loc0863
+loc0671:Push 100, 9542041, 5, register2, register3, 0, 0, 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 16250871, 13291985, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 1, 1, 9, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 13818586, 9542041, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 2, 2, 9, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 3, 3, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16316664, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 4, 3, 7, register1, constant29
+CallMethod
+Pop
+loc0863:Jump loc1e2b
+loc0868:Push 100, 9542041, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 16579836, 3355443, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 50, register4, 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 14342874, 0, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 40, register4, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 3
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 20, register4, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 4
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Jump loc1e2b
+loc0c1c:Push 100, 9542041, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 50, register4, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 16777215, 3355443, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 14342874, 0, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 50, register4, 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 3
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16316664, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 4
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Jump loc1e2b
+loc0fd3:Push 100, 13159628, 5, register2, register3, 0, 0, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 15921906, 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 1, 1, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 13949401, 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 2, 2, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 15921906, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 3, 3, 7, register1, constant29
+CallMethod
+Pop
+Jump loc1e2b
+loc112e:Push 100, 10066329, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 16579836, 3355443, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 50, register4, 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 14342874, 0, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 40, register4, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 3
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16250871, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 4
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Jump loc1e2b
+loc14e5:Push 100, 10066329, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 16579836, 3355443, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 50, register4, 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 14342874, 0, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 40, register4, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 3
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 20, register4, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 4
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Jump loc1e2b
+loc1899:Push 100, 9542041, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 50, register4, 5, register2, register3, 0, register1, constant27
+CallMethod
+Push 0, register1, constant28
+CallMethod
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 16777215, 3355443, 2
+InitArray
+Push 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 40, register4, 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 1
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 1
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push constant30, 0, 100, 14342874, 0, 2
+InitArray
+Push 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 9, register1, constant29
+CallMethod
+Pop
+Push 40, register4, 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 2
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 2
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16777215, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 3
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Push 100, 16316664, 2, register2, 7
+Subtract
+Push register3, 6
+Subtract
+Push 0, register1, constant27
+CallMethod
+Push 4
+Add2
+Push 0, register1, constant28
+CallMethod
+Push 3
+Add2
+Push 7, register1, constant29
+CallMethod
+Pop
+Jump loc1e2b
+loc1cd5:Push 100, 13159628, 5, register2, register3, 0, 0, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 15921906, 4, register2, 2
+Subtract
+Push register3, 2
+Subtract
+Push 1, 1, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 13949401, 3, register2, 4
+Subtract
+Push register3, 4
+Subtract
+Push 2, 2, 7, register1, constant29
+CallMethod
+Pop
+Push 100, 15921906, 2, register2, 6
+Subtract
+Push register3, 6
+Subtract
+Push 3, 3, 7, register1, constant29
+CallMethod
+Pop
+}
+loc1e2b:}

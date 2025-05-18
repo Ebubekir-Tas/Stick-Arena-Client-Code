@@ -1,0 +1,192 @@
+StrictMode 213
+Less2
+Try {
+NextFrame
+ToggleQuality
+Add
+CallMethod
+Pop
+Push register1, constant11
+DefineFunction2 "", 0, 3, true, false, true, false, true, false, false, true, false {
+Push 80, 1, register1, constant12
+CallMethod
+Pop
+Push register2, constant13, constant8
+GetVariable
+Push constant9
+GetMember
+Push register1, constant14
+GetMember
+Push 17
+Add2
+Push 2, constant15
+GetVariable
+Push constant16
+CallMethod
+Push 3
+Multiply
+Push constant8
+GetVariable
+Push constant9
+GetMember
+Divide
+Push 1, constant15
+GetVariable
+Push constant17
+CallMethod
+SetMember
+Push register2, constant13
+GetMember
+Push 0
+Equals2
+Not
+If loc01cf
+Push register2, constant18, false
+SetMember
+Push register2, constant19
+GetMember
+Push constant2
+GetMember
+Push constant14, register2, constant18
+GetMember
+Push register2, constant19
+GetMember
+Push constant8
+GetMember
+Push constant9
+GetMember
+Multiply
+SetMember
+Push 0, 1, register2, constant19
+GetMember
+Push constant2
+GetMember
+Push constant12
+CallMethod
+Pop
+Push register2, constant20, 0
+SetMember
+Push register2, constant21
+GetMember
+Push constant2
+GetMember
+Push constant14, register2, constant20
+GetMember
+Push register2, constant21
+GetMember
+Push constant8
+GetMember
+Push constant9
+GetMember
+Push 2
+Divide
+Multiply
+SetMember
+Push 0, 1, register2, constant21
+GetMember
+Push constant2
+GetMember
+Push constant12
+CallMethod
+Pop
+Jump loc02fe
+loc01cf:Push register2, constant13
+GetMember
+ToNumber
+Push 2
+Less2
+Not
+Not
+If loc02fe
+Push register2, constant18, true
+SetMember
+Push register2, constant19
+GetMember
+Push constant2
+GetMember
+Push constant14, register2, constant18
+GetMember
+Push register2, constant19
+GetMember
+Push constant8
+GetMember
+Push constant9
+GetMember
+Multiply
+SetMember
+Push 0, 1, register2, constant19
+GetMember
+Push constant2
+GetMember
+Push constant12
+CallMethod
+Pop
+Push register2, constant20
+GetMember
+ToNumber
+Push 1
+Less2
+Not
+If loc02fe
+Push register2, constant20, 1
+SetMember
+Push register2, constant21
+GetMember
+Push constant2
+GetMember
+Push constant14, register2, constant20
+GetMember
+Push register2, constant21
+GetMember
+Push constant8
+GetMember
+Push constant9
+GetMember
+Push 2
+Divide
+Multiply
+SetMember
+Push 0, 1, register2, constant21
+GetMember
+Push constant2
+GetMember
+Push constant12
+CallMethod
+Pop
+}
+loc02fe:SetMember
+SetMember
+Push constant2
+GetVariable
+Push constant22, constant2
+GetVariable
+Push constant23
+DefineFunction2 "", 0, 3, true, false, true, false, true, false, false, true, false {
+Push register2, constant4
+GetMember
+Push constant5
+GetMember
+Push 0
+Equals2
+Not
+If loc03bd
+Push constant24, 1, register2, constant7
+CallMethod
+Pop
+Push 0, register1, constant25
+CallMethod
+Pop
+Push register1, constant11
+Delete
+Pop
+Push register1, constant14, register2, constant13
+GetMember
+Push 34
+Multiply
+SetMember
+Push 40, 1, register1, constant12
+CallMethod
+Pop
+}
+}
+loc03bd:}

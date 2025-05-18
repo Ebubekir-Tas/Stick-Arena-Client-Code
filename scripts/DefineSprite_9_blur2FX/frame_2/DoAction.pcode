@@ -1,0 +1,27 @@
+StrictMode 213
+Less2
+Try {
+PrevFrame
+Jump loc0099
+}
+ConstantPool "bl", "blurX", "blurAmount", "xyMove", "blurY", "_parent", "filters"
+Push "bl"
+GetVariable
+Push "blurX", "blurAmount"
+GetVariable
+Push "xyMove"
+GetVariable
+Multiply
+SetMember
+Push "bl"
+GetVariable
+Push "blurY", 0
+SetMember
+Push "_parent"
+GetVariable
+Push "filters", "bl"
+GetVariable
+Push 1
+InitArray
+SetMember
+loc0099:}

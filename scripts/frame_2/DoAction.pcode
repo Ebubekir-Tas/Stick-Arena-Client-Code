@@ -1,0 +1,2257 @@
+ConstantPool "tutorialTimer", "tutorialDelay", "startTutorial", "pingTestComplete", "windowPingMC", "msgText0", "text", "msgText1", "getPingingText", "tutorialMC", "gotoAndPlay", "titleMenuMC", "_visible", "titleVersionMC", "title00MC", "SFXSATheme", "stop", "start", "gotoAndStop", "titleBG", "windowShow", "zqggLX", "autoQuickStart", "pressQuickStart", "SAIntroMC", "specialOffer", "specialOfferMC", "headerText0", "headerText1", "logInText", "specialOfferImageMC", "imageMC", "attachMovie", "_xscale", "_yscale", "introBypassed", "userInitiatedBypass", "player", "jhGMKF", "getRandomName", "col", "generateColor", "hexColor", "bb", "gb", "rb", "RGBToHex", "tqITaO", "vwcTCi", "spinners", "pets", "profileSelectedSpinner", "jhHtWQ", "length", "num", "red0", "green0", "blue0", "red1", "green1", "blue1", "itemID", "initializeArenaVariables", "_loc1_", "serverName", "serverConnectTrys", "connectAction", "quickStart", "serverNum", "connectToServer", "serverType", "PREMIUM", "n", "uName", "selectRandomServerAndPort", "clientBanned", "banDate", "savePreferences", "performLogIn", "errorAction", "login", "authenticate", "authenticateAction", "lobby", "_x", "_y", "window2MC", "window200LoginMsgMC", "\r", "(", ")", "disconnect", "socket", "close", "replyDataAPI", "onLoad", "removeMovieClip", "KONGREGATE.COM", "domainName", "indexOf", "useKongregateAccount", "kongregatePressLogIn", "windowMC", "window470LogInMC", "usernameText", "i", "str", "windowMC.h", "Text", "h3Text0", "h3Text1", "BTNadvancedMC", "textBox0", "textBox1", "sFontName", "tDummy", "getTextFormat", "font", "checkBoxRemember", "fontSize", "color", "0xA1CAFF", "embedFonts", "setStyle", "fontFamily", "loginKeyListener", "Key", "addListener", "showLogInTextBoxes", "toLowerCase", "pass0Text", "Date", "isLegalAccountString", "containsNoFilteredLanguage", "getDate", "uPass", "rememberUserName", "selected", "removeListener", "onGameLoginAPIResponse", "APIGameLogin", "performPreLogIn", "displayLogInMessage", "accountText", "showAccountTextBoxes", "createAccount", "pad", "toString", "LoadVars", "action", "create", "username", "userpass", "usercol", "email_address", "POST", "phpURL", "sendAndLoad", "result", "success", "displayXGenAccountCreatedMessage", "email_duplicate", "displayCreateAccountMessage", "showVerifyTextBoxes", "verifyAccount", "apiURL", "method=xgen.users.addEmail&username=", "&password=", "&email=", "XML", "XML2Object", "deserialize", "rsp", "attributes", "stat", "ok", "displayVerificationSentMessage", "err", "code", "displayVerifyAccountMessage", "window470CreateAccountMC", "emailMessage0", "emailMessage1", "required0", "required1", "email00", "email01", "email10", "email11", "gxyAWm", "fqqZCx", "legs", "play", "crossHairMC", "colorPickerMC", "_width", "_height", "kongregatePressCreateAccount", "eulaNoticeText0", "eulaNoticeText1", "replyDataEULA", "sendDataEULA", "eulaURL", "eulaText0", "eulaText1", "eulatext", "pass1Text", "email0Text", "email1Text", "btnXMC", "btnOKMC", "window3MC", "BTNloginVerifyMC", "window304CreateAccountMessageMC", "window304VerifyAccountMessageMC", "window304VerificationSentMessageMC", "window304LogInMessageMC", "windowClose", "", "BEST", "isCurrentVersion", "gotoFrame", "deadEnd", "msgText", "versionNotCurrentText", "checkForClientUpdate", "versionText", "versionText0", "versionText1", "versionText2", "versionText3", "reflectionMC", "v ", "gameVersion", "instructionsMC", "loadGameMC", "gameArea", "createAccountBTNMC", "checkBoxLoginKongregate", "skipIntro", "bypassSAIntro", "titleAction", "Object", "onKeyDown", "pressedKey", "getAscii", "pressLogInOK"
+DefineFunction "titleFrame", 0 {
+Push "tutorialTimer"
+GetVariable
+Push -1
+Equals2
+Not
+Not
+If loc0b61
+Push "tutorialTimer", "tutorialTimer"
+GetVariable
+Push 33.33
+Add2
+SetVariable
+loc0b61:Push "tutorialTimer"
+GetVariable
+Push "tutorialDelay"
+GetVariable
+Greater
+Not
+If loc0b83
+Push 0, "startTutorial"
+CallFunction
+Pop
+loc0b83:Push "pingTestComplete"
+GetVariable
+If loc0bc9
+Push "windowPingMC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "windowPingMC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", 0, "getPingingText"
+CallFunction
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc0bc9:DefineFunction "startTutorial", 0 {
+Push "tutorialTimer", -1
+SetVariable
+Push 2, 1, "tutorialMC"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+Push "titleMenuMC"
+GetVariable
+Push "_visible", "titleVersionMC"
+GetVariable
+Push "_visible", "title00MC"
+GetVariable
+Push "_visible", 0
+StoreRegister 1
+SetMember
+Push register1
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction "tutorialDone", 0 {
+Push 0, "SFXSATheme"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push 5.65, 1, "SFXSATheme"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Push "tutorialTimer", 0
+SetVariable
+Push 1, 1, "tutorialMC"
+GetVariable
+Push "gotoAndStop"
+CallMethod
+Pop
+Push "titleBG"
+GetVariable
+Push "_visible", "titleVersionMC"
+GetVariable
+Push "_visible", "title00MC"
+GetVariable
+Push "_visible", 1
+StoreRegister 1
+SetMember
+Push register1
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "titleMenuMC"
+GetVariable
+Push "_visible", "pingTestComplete"
+GetVariable
+SetMember
+Push "windowPingMC"
+GetVariable
+Push "_visible", "pingTestComplete"
+GetVariable
+Not
+SetMember
+Push "pingTestComplete"
+GetVariable
+If loc0d49
+Push "windowPingMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Jump loc0d63
+loc0d49:Push "titleMenuMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+loc0d63:DefineFunction "doneSAIntro", 0 {
+Push "autoQuickStart"
+GetVariable
+Not
+If loc0d91
+Push 0, "pressQuickStart"
+CallFunction
+Pop
+loc0d91:Push "SAIntroMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Push "titleMenuMC"
+GetVariable
+Push "_visible", "pingTestComplete"
+GetVariable
+SetMember
+Push "windowPingMC"
+GetVariable
+Push "_visible", "pingTestComplete"
+GetVariable
+Not
+SetMember
+Push "pingTestComplete"
+GetVariable
+If loc0df4
+Push "windowPingMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Jump loc0e0e
+loc0df4:Push "titleMenuMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+loc0e0e:Push "specialOffer"
+GetVariable
+Not
+If loc0f17
+Push "specialOfferMC"
+GetVariable
+Push "_visible", true
+SetMember
+Push "specialOfferMC"
+GetVariable
+Push "headerText0"
+GetMember
+Push "text", "specialOfferMC"
+GetVariable
+Push "headerText1"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 16
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "specialOfferMC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "specialOfferMC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 13
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 1, "specialOfferImageMC", "specialOfferImageMC"
+GetVariable
+Push 3, "specialOfferMC"
+GetVariable
+Push "imageMC"
+GetMember
+Push "attachMovie"
+CallMethod
+Pop
+Push "specialOfferMC"
+GetVariable
+Push "imageMC"
+GetMember
+Push "specialOfferImageMC"
+GetMember
+Push "_xscale", "specialOfferMC"
+GetVariable
+Push "imageMC"
+GetMember
+Push "specialOfferImageMC"
+GetMember
+Push "_yscale", 450
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Jump loc0f28
+loc0f17:Push "specialOfferMC"
+GetVariable
+Push "_visible", false
+SetMember
+}
+loc0f28:DefineFunction2 "bypassSAIntro", 1, 3, false, false, true, false, true, false, true, false, false, 1, "userInitiated" {
+Push "introBypassed"
+GetVariable
+If loc101a
+Push "introBypassed", true
+SetVariable
+Push register1
+Not
+If loc0fce
+Push "userInitiatedBypass", true
+SetVariable
+Push 0, "SFXSATheme"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push 5.65, 1, "SFXSATheme"
+GetVariable
+Push "start"
+CallMethod
+Pop
+Push 171, 1, "SAIntroMC"
+GetVariable
+Push "gotoAndPlay"
+CallMethod
+Pop
+loc0fce:Push "titleBG"
+GetVariable
+Push "_visible", "titleVersionMC"
+GetVariable
+Push "_visible", "title00MC"
+GetVariable
+Push "_visible", 1
+StoreRegister 2
+SetMember
+Push register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "tutorialTimer", 0
+SetVariable
+}
+loc101a:DefineFunction "pressQuickStart", 0 {
+Push "tutorialTimer", -1
+SetVariable
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Push "player"
+GetVariable
+Push "jhGMKF", 0, "getRandomName"
+CallFunction
+SetMember
+Push "player"
+GetVariable
+Push "col", 600, 300, 2, "generateColor"
+CallFunction
+SetMember
+Push "player"
+GetVariable
+Push "hexColor", 100, "player"
+GetVariable
+Push "col"
+GetMember
+Push "bb"
+GetMember
+Push "player"
+GetVariable
+Push "col"
+GetMember
+Push "gb"
+GetMember
+Push "player"
+GetVariable
+Push "col"
+GetMember
+Push "rb"
+GetMember
+Push 4, "RGBToHex"
+CallFunction
+SetMember
+Push "player"
+GetVariable
+Push "tqITaO", 0
+SetMember
+Push "player"
+GetVariable
+Push "vwcTCi", 0
+SetMember
+Push "player"
+GetVariable
+Push "spinners", 0
+InitArray
+SetMember
+Push "player"
+GetVariable
+Push "pets", 0
+InitArray
+SetMember
+Push "profileSelectedSpinner", "player"
+GetVariable
+Push "jhHtWQ", "player"
+GetVariable
+Push "spinners"
+GetMember
+Push "length"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetVariable
+Push "player"
+GetVariable
+Push "spinners"
+GetMember
+Push "player"
+GetVariable
+Push "spinners"
+GetMember
+Push "length"
+GetMember
+Push "num", 0, "red0", "player"
+GetVariable
+Push "col"
+GetMember
+Push "rb"
+GetMember
+Push "green0", "player"
+GetVariable
+Push "col"
+GetMember
+Push "gb"
+GetMember
+Push "blue0", "player"
+GetVariable
+Push "col"
+GetMember
+Push "bb"
+GetMember
+Push "red1", "player"
+GetVariable
+Push "col"
+GetMember
+Push "rb"
+GetMember
+Push "green1", "player"
+GetVariable
+Push "col"
+GetMember
+Push "gb"
+GetMember
+Push "blue1", "player"
+GetVariable
+Push "col"
+GetMember
+Push "bb"
+GetMember
+Push "itemID", 0, 8
+InitObject
+SetMember
+Push 0, "initializeArenaVariables"
+CallFunction
+Pop
+Push "_loc1_", 0
+DefineLocal
+loc1257:Push "_loc1_"
+GetVariable
+Push "serverName"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc129f
+Push "serverConnectTrys"
+GetVariable
+Push "_loc1_"
+GetVariable
+Push 0
+SetMember
+Push "_loc1_", "_loc1_"
+GetVariable
+Push 1
+Add2
+SetVariable
+Jump loc1257
+loc129f:Push "connectAction", "quickStart"
+SetVariable
+Push "serverNum"
+GetVariable
+Push "serverNum"
+GetVariable
+Push 2, "connectToServer"
+CallFunction
+Pop
+}
+DefineFunction "performPreLogIn", 0 {
+Push "serverType"
+GetVariable
+Push "serverNum"
+GetVariable
+GetMember
+Push "PREMIUM"
+Equals2
+PushDuplicate
+Not
+If loc1305
+Pop
+Push "n"
+GetVariable
+Push "uName"
+GetVariable
+StringEquals
+Not
+loc1305:Not
+If loc131a
+Push 0, "selectRandomServerAndPort"
+CallFunction
+Pop
+loc131a:Push "clientBanned", false
+SetVariable
+Push "banDate", 0
+SetVariable
+Push 0, "savePreferences"
+CallFunction
+Pop
+Push 0, "performLogIn"
+CallFunction
+Pop
+}
+DefineFunction2 "onGameLoginAPIResponse", 1, 0, false, false, true, false, true, false, true, false, false, 1, "success" {
+}
+DefineFunction2 "performLogIn", 0, 3, false, true, true, false, true, false, true, false, false {
+Push "tutorialTimer", -1
+SetVariable
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Push 0
+StoreRegister 2
+Pop
+loc13c1:Push register2, "serverName"
+GetVariable
+Push "length"
+GetMember
+Less2
+Not
+If loc1405
+Push "serverConnectTrys"
+GetVariable
+Push register2, 0
+SetMember
+Push register2, 1
+Add2
+StoreRegister 2
+Pop
+Jump loc13c1
+loc1405:Push "errorAction", "login"
+SetVariable
+Push "connectAction", "authenticate"
+SetVariable
+Push "authenticateAction", "lobby"
+SetVariable
+Push "_x", 175, "_y", 199, 2
+InitObject
+Push 200001, "window2MC", "window200LoginMsgMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 6
+GetMember
+Push "\r"
+Add2
+Push "\r"
+Add2
+Push "("
+Add2
+Push "serverName"
+GetVariable
+Push "serverNum"
+GetVariable
+GetMember
+Add2
+Push ")"
+Add2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "serverNum"
+GetVariable
+Push "serverNum"
+GetVariable
+Push 2, "connectToServer"
+CallFunction
+Pop
+}
+DefineFunction "pressCancelLogIn", 0 {
+Push "connectAction", "disconnect"
+SetVariable
+Push 0, "socket"
+GetVariable
+Push "serverNum"
+GetVariable
+GetMember
+Push "close"
+CallMethod
+Pop
+Push "replyDataAPI"
+GetVariable
+Push "onLoad", null
+SetMember
+Push "replyDataAPI"
+GetVariable
+Push "onLoad"
+Delete
+Pop
+Push "tutorialTimer", 0
+SetVariable
+Push 0, "window2MC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 1
+SetMember
+Push 0, "selectRandomServerAndPort"
+CallFunction
+Pop
+Push "titleMenuMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction "pressTutorial", 0 {
+Push 0, "SFXSATheme"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push 0, "startTutorial"
+CallFunction
+Pop
+}
+DefineFunction2 "pressLogIn", 0, 2, false, true, true, false, true, false, true, false, false {
+Push "tutorialTimer", -1
+SetVariable
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Push "KONGREGATE.COM", 1, "domainName"
+GetVariable
+Push "indexOf"
+CallMethod
+Push -1
+Equals2
+Not
+PushDuplicate
+Not
+If loc1649
+Pop
+Push "useKongregateAccount"
+GetVariable
+loc1649:Not
+If loc1663
+Push 0, "kongregatePressLogIn"
+CallFunction
+Pop
+Jump loc18b8
+loc1663:Push "_x", 40, "_y", 170, 2
+InitObject
+Push 200000, "windowMC", "window470LogInMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "windowMC"
+GetVariable
+Push "usernameText"
+GetMember
+Push "text", "uName"
+GetVariable
+SetMember
+Push "i", 0
+DefineLocal
+loc16ec:Push "i"
+GetVariable
+Push 3
+Less2
+Not
+If loc1786
+Push "n", 0
+DefineLocal
+loc170f:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc1774
+Push "str", "windowMC.h", "i"
+GetVariable
+Add2
+SetVariable
+Push "str"
+GetVariable
+Push "Text"
+Add2
+Push "n"
+GetVariable
+Add2
+GetVariable
+With {
+Push "text", "logInText"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc170f
+loc1774:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc16ec
+loc1786:Push "windowMC"
+GetVariable
+Push "h3Text0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "h3Text1"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 11
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "BTNadvancedMC"
+GetMember
+Push "textBox0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "BTNadvancedMC"
+GetMember
+Push "textBox1"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 13
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "sFontName", 1, 0, 2, "windowMC"
+GetVariable
+Push "tDummy"
+GetMember
+Push "getTextFormat"
+CallMethod
+Push "font"
+GetMember
+DefineLocal
+Push "windowMC"
+GetVariable
+Push "checkBoxRemember"
+GetMember
+With {
+Push "fontSize", 8
+SetVariable
+Push "color", "0xA1CAFF"
+SetVariable
+Push true, "embedFonts", 2, "setStyle"
+CallFunction
+Pop
+Push "sFontName"
+GetVariable
+Push "fontFamily", 2, "setStyle"
+CallFunction
+Pop
+}
+Push "loginKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+}
+loc18b8:DefineFunction2 "pressLogInOK", 2, 4, false, false, true, false, true, false, true, false, false, 1, "n", 2, "p" {
+Push false, 1, "showLogInTextBoxes"
+CallFunction
+Pop
+Push 0, "windowMC"
+GetVariable
+Push "usernameText"
+GetMember
+Push "text"
+GetMember
+Push "toLowerCase"
+CallMethod
+StoreRegister 1
+Pop
+Push "windowMC"
+GetVariable
+Push "pass0Text"
+GetMember
+Push "text"
+GetMember
+StoreRegister 2
+Pop
+Push 0, "Date"
+NewObject
+StoreRegister 3
+Pop
+Push register1, "length"
+GetMember
+Push 0
+Greater
+Not
+If loc1b3d
+Push register1, 1, "isLegalAccountString"
+CallFunction
+Not
+If loc1b1a
+Push register1, 1, "containsNoFilteredLanguage"
+CallFunction
+Not
+If loc1af7
+Push register2, 1, "isLegalAccountString"
+CallFunction
+Not
+If loc1ad4
+Push register2, "length"
+GetMember
+Push 0
+Greater
+Not
+If loc1ab1
+Push "clientBanned"
+GetVariable
+Not
+PushDuplicate
+If loc19e0
+Pop
+Push "banDate"
+GetVariable
+Push 0, register3, "getDate"
+CallMethod
+Equals2
+Not
+loc19e0:Not
+If loc1a8e
+Push "uName", register1
+SetVariable
+Push "uPass", register2
+SetVariable
+Push "rememberUserName", "windowMC"
+GetVariable
+Push "checkBoxRemember"
+GetMember
+Push "selected"
+GetMember
+SetVariable
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0, "window2MC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "loginKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+Push "onGameLoginAPIResponse"
+GetVariable
+Push "uPass"
+GetVariable
+Push "uName"
+GetVariable
+Push 3, "APIGameLogin"
+CallFunction
+Pop
+Push 0, "performPreLogIn"
+CallFunction
+Pop
+Jump loc1aac
+loc1a8e:Push "logInText"
+GetVariable
+Push 10
+GetMember
+Push 1, "displayLogInMessage"
+CallFunction
+Pop
+loc1aac:Jump loc1acf
+loc1ab1:Push "accountText"
+GetVariable
+Push 9
+GetMember
+Push 1, "displayLogInMessage"
+CallFunction
+Pop
+loc1acf:Jump loc1af2
+loc1ad4:Push "accountText"
+GetVariable
+Push 7
+GetMember
+Push 1, "displayLogInMessage"
+CallFunction
+Pop
+loc1af2:Jump loc1b15
+loc1af7:Push "accountText"
+GetVariable
+Push 12
+GetMember
+Push 1, "displayLogInMessage"
+CallFunction
+Pop
+loc1b15:Jump loc1b38
+loc1b1a:Push "accountText"
+GetVariable
+Push 8
+GetMember
+Push 1, "displayLogInMessage"
+CallFunction
+Pop
+loc1b38:Jump loc1b5b
+loc1b3d:Push "accountText"
+GetVariable
+Push 11
+GetMember
+Push 1, "displayLogInMessage"
+CallFunction
+Pop
+}
+loc1b5b:DefineFunction2 "pressCreateAccountOK", 8, 12, false, false, true, false, true, false, true, false, false, 1, "n", 2, "p", 3, "p2", 4, "e", 5, "r", 6, "g", 7, "b", 8, "e2" {
+Push false, 1, "showAccountTextBoxes"
+CallFunction
+Pop
+Push 0, register1, "toLowerCase"
+CallMethod
+StoreRegister 1
+Pop
+Push 0, register4, "toLowerCase"
+CallMethod
+StoreRegister 4
+Pop
+Push 0, register8, "toLowerCase"
+CallMethod
+StoreRegister 8
+Pop
+Push register1, "length"
+GetMember
+Push 1
+Greater
+Not
+If loc1fc1
+Push register1, 1, "isLegalAccountString"
+CallFunction
+Not
+If loc1f9e
+Push register1, 1, "containsNoFilteredLanguage"
+CallFunction
+Not
+If loc1f7b
+Push register2, 1, "isLegalAccountString"
+CallFunction
+Not
+If loc1f58
+Push register2, "length"
+GetMember
+Push 2
+Greater
+Not
+If loc1f35
+Push register2, register3
+Equals2
+Not
+If loc1f12
+Push register4, "length"
+GetMember
+Push 5
+Greater
+Not
+If loc1eef
+Push register4, register8
+Equals2
+Not
+If loc1ecc
+Push "uName", register1
+SetVariable
+Push "uPass", register2
+SetVariable
+Push "errorAction", "createAccount"
+SetVariable
+Push 0, 3, register5, 2, "pad"
+CallFunction
+Push "toString"
+CallMethod
+Push 0, 3, register6, 2, "pad"
+CallFunction
+Push "toString"
+CallMethod
+Add2
+Push 0, 3, register7, 2, "pad"
+CallFunction
+Push "toString"
+CallMethod
+Add2
+StoreRegister 9
+Pop
+Push 0, "LoadVars"
+NewObject
+StoreRegister 10
+Pop
+Push 0, "LoadVars"
+NewObject
+StoreRegister 11
+Pop
+Push register11, "action", "create"
+SetMember
+Push register11, "username", register1
+SetMember
+Push register11, "userpass", register2
+SetMember
+Push register11, "usercol", register9
+SetMember
+Push register11, "email_address", register4
+SetMember
+Push "POST", register10, "phpURL"
+GetVariable
+Push 3, register11, "sendAndLoad"
+CallMethod
+Pop
+Push register10, "onLoad"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "success" {
+Push register2
+Not
+If loc1ea8
+Push register1, "result"
+GetMember
+Push "success"
+Equals2
+Not
+If loc1e4b
+Push 0, "displayXGenAccountCreatedMessage"
+CallFunction
+Pop
+Push 0, "performLogIn"
+CallFunction
+Pop
+Jump loc1ea3
+loc1e4b:Push register1, "result"
+GetMember
+Push "email_duplicate"
+Equals2
+Not
+If loc1e85
+Push "accountText"
+GetVariable
+Push 30
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+Jump loc1ea3
+loc1e85:Push "accountText"
+GetVariable
+Push 14
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1ea3:Jump loc1ec6
+loc1ea8:Push "accountText"
+GetVariable
+Push 13
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+}
+loc1ec6:SetMember
+Jump loc1eea
+loc1ecc:Push "accountText"
+GetVariable
+Push 28
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1eea:Jump loc1f0d
+loc1eef:Push "accountText"
+GetVariable
+Push 6
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1f0d:Jump loc1f30
+loc1f12:Push "accountText"
+GetVariable
+Push 10
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1f30:Jump loc1f53
+loc1f35:Push "accountText"
+GetVariable
+Push 9
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1f53:Jump loc1f76
+loc1f58:Push "accountText"
+GetVariable
+Push 7
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1f76:Jump loc1f99
+loc1f7b:Push "accountText"
+GetVariable
+Push 12
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1f99:Jump loc1fbc
+loc1f9e:Push "accountText"
+GetVariable
+Push 8
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+loc1fbc:Jump loc1fdf
+loc1fc1:Push "accountText"
+GetVariable
+Push 11
+GetMember
+Push 1, "displayCreateAccountMessage"
+CallFunction
+Pop
+}
+loc1fdf:DefineFunction2 "pressVerifyAccountOK", 4, 8, false, false, true, false, true, false, true, false, false, 1, "n", 2, "p", 3, "e", 4, "e2" {
+Push false, 1, "showVerifyTextBoxes"
+CallFunction
+Pop
+Push 0, register1, "toLowerCase"
+CallMethod
+StoreRegister 1
+Pop
+Push 0, register3, "toLowerCase"
+CallMethod
+StoreRegister 3
+Pop
+Push 0, register4, "toLowerCase"
+CallMethod
+StoreRegister 4
+Pop
+Push register1, "length"
+GetMember
+Push 2
+Greater
+Not
+If loc2469
+Push register1, 1, "isLegalAccountString"
+CallFunction
+Not
+If loc2446
+Push register1, 1, "containsNoFilteredLanguage"
+CallFunction
+Not
+If loc2423
+Push register2, 1, "isLegalAccountString"
+CallFunction
+Not
+If loc2400
+Push register2, "length"
+GetMember
+Push 2
+Greater
+Not
+If loc23dd
+Push register3, "length"
+GetMember
+Push 5
+Greater
+Not
+If loc23ba
+Push register3, register4
+Equals2
+Not
+If loc2397
+Push "uName", register1
+SetVariable
+Push "uPass", register2
+SetVariable
+Push "errorAction", "verifyAccount"
+SetVariable
+Push "apiURL"
+GetVariable
+Push "method=xgen.users.addEmail&username="
+Add2
+Push register1
+Add2
+Push "&password="
+Add2
+Push register2
+Add2
+Push "&email="
+Add2
+Push register3
+Add2
+StoreRegister 5
+Pop
+Push 0, "XML"
+NewObject
+StoreRegister 6
+Pop
+Push 0, "LoadVars"
+NewObject
+StoreRegister 7
+Pop
+Push "POST", register6, register5, 3, register7, "sendAndLoad"
+CallMethod
+Pop
+Push register6, "onLoad"
+DefineFunction2 "", 1, 4, false, false, true, false, true, false, false, true, false, 2, "success" {
+Push register2
+Not
+If loc2373
+Push register1, 1, "XML2Object"
+GetVariable
+Push "deserialize"
+CallMethod
+StoreRegister 3
+Pop
+Push register3, "rsp"
+GetMember
+Push "attributes"
+GetMember
+Push "stat"
+GetMember
+Push "ok"
+Equals2
+Not
+If loc2237
+Push "accountText"
+GetVariable
+Push 32
+GetMember
+Push 1, "displayVerificationSentMessage"
+CallFunction
+Pop
+Jump loc236e
+loc2237:Push register3, "rsp"
+GetMember
+Push "err"
+GetMember
+Push "attributes"
+GetMember
+Push "code"
+GetMember
+Push 98
+Equals2
+Not
+If loc2286
+Push "logInText"
+GetVariable
+Push 4
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+Jump loc236e
+loc2286:Push register3, "rsp"
+GetMember
+Push "err"
+GetMember
+Push "attributes"
+GetMember
+Push "code"
+GetMember
+Push 3
+Equals2
+Not
+If loc22d5
+Push "accountText"
+GetVariable
+Push 29
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+Jump loc236e
+loc22d5:Push register3, "rsp"
+GetMember
+Push "err"
+GetMember
+Push "attributes"
+GetMember
+Push "code"
+GetMember
+Push 4
+Equals2
+Not
+If loc2324
+Push "accountText"
+GetVariable
+Push 30
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+Jump loc236e
+loc2324:Push register3, "rsp"
+GetMember
+Push "err"
+GetMember
+Push "attributes"
+GetMember
+Push "code"
+GetMember
+Push 5
+Equals2
+Not
+If loc236e
+Push "accountText"
+GetVariable
+Push 31
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc236e:Jump loc2391
+loc2373:Push "accountText"
+GetVariable
+Push 29
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+}
+loc2391:SetMember
+Jump loc23b5
+loc2397:Push "accountText"
+GetVariable
+Push 28
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc23b5:Jump loc23d8
+loc23ba:Push "accountText"
+GetVariable
+Push 6
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc23d8:Jump loc23fb
+loc23dd:Push "accountText"
+GetVariable
+Push 9
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc23fb:Jump loc241e
+loc2400:Push "accountText"
+GetVariable
+Push 7
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc241e:Jump loc2441
+loc2423:Push "accountText"
+GetVariable
+Push 12
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc2441:Jump loc2464
+loc2446:Push "accountText"
+GetVariable
+Push 8
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+loc2464:Jump loc2487
+loc2469:Push "accountText"
+GetVariable
+Push 11
+GetMember
+Push 1, "displayVerifyAccountMessage"
+CallFunction
+Pop
+}
+loc2487:DefineFunction "pressLogInClose", 0 {
+Push "tutorialTimer", 0
+SetVariable
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "loginKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 1
+SetMember
+Push "titleMenuMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction "pressCreateAccountClose", 0 {
+Push "tutorialTimer", 0
+SetVariable
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 1
+SetMember
+Push "titleMenuMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+}
+DefineFunction2 "pressCreateAccount", 0, 3, false, true, true, false, true, false, true, false, false {
+Push "tutorialTimer", -1
+SetVariable
+Push "titleMenuMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Push 200000, "windowMC", "window470CreateAccountMC", 3, register1, "attachMovie"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "_x", 40
+SetMember
+Push "windowMC"
+GetVariable
+Push "_y", 50
+SetMember
+Push "windowMC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "i", 0
+DefineLocal
+loc262f:Push "i"
+GetVariable
+Push 6
+Less2
+Not
+If loc26c9
+Push "n", 0
+DefineLocal
+loc2652:Push "n"
+GetVariable
+Push 2
+Less2
+Not
+If loc26b7
+Push "str", "windowMC.h", "i"
+GetVariable
+Add2
+SetVariable
+Push "str"
+GetVariable
+Push "Text"
+Add2
+Push "n"
+GetVariable
+Add2
+GetVariable
+With {
+Push "text", "accountText"
+GetVariable
+Push "i"
+GetVariable
+GetMember
+SetVariable
+}
+Push "n", "n"
+GetVariable
+Increment
+SetVariable
+Jump loc2652
+loc26b7:Push "i", "i"
+GetVariable
+Increment
+SetVariable
+Jump loc262f
+loc26c9:Push "windowMC"
+GetVariable
+Push "emailMessage0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "emailMessage1"
+GetMember
+Push "text", "accountText"
+GetVariable
+Push 27
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "required0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "required1"
+GetMember
+Push "text", "accountText"
+GetVariable
+Push 26
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "email00"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "email01"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 17
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "windowMC"
+GetVariable
+Push "email10"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "email11"
+GetMember
+Push "text", "logInText"
+GetVariable
+Push 18
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push 3, 1, "windowMC"
+GetVariable
+Push "gxyAWm"
+GetMember
+Push "fqqZCx"
+GetMember
+Push "gotoAndStop"
+CallMethod
+Pop
+Push 0, "windowMC"
+GetVariable
+Push "gxyAWm"
+GetMember
+Push "fqqZCx"
+GetMember
+Push "legs"
+GetMember
+Push "play"
+CallMethod
+Pop
+Push "windowMC"
+GetVariable
+Push "crossHairMC"
+GetMember
+Push "_x", "windowMC"
+GetVariable
+Push "colorPickerMC"
+GetMember
+Push "_width"
+GetMember
+ToInteger
+RandomNumber
+Push "windowMC"
+GetVariable
+Push "colorPickerMC"
+GetMember
+Push "_x"
+GetMember
+Add2
+SetMember
+Push "windowMC"
+GetVariable
+Push "crossHairMC"
+GetMember
+Push "_y", "windowMC"
+GetVariable
+Push "colorPickerMC"
+GetMember
+Push "_height"
+GetMember
+ToInteger
+RandomNumber
+Push "windowMC"
+GetVariable
+Push "colorPickerMC"
+GetMember
+Push "_y"
+GetMember
+Add2
+SetMember
+Push "KONGREGATE.COM", 1, "domainName"
+GetVariable
+Push "indexOf"
+CallMethod
+Push -1
+Equals2
+Not
+Not
+If loc28b3
+Push 0, "kongregatePressCreateAccount"
+CallFunction
+Pop
+loc28b3:Push "windowMC"
+GetVariable
+Push "eulaNoticeText0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "eulaNoticeText1"
+GetMember
+Push "text", "accountText"
+GetVariable
+Push 19
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "replyDataEULA", 0, "LoadVars"
+NewObject
+DefineLocal
+Push "sendDataEULA", 0, "LoadVars"
+NewObject
+DefineLocal
+Push "POST", "replyDataEULA"
+GetVariable
+Push "eulaURL"
+GetVariable
+Push 3, "sendDataEULA"
+GetVariable
+Push "sendAndLoad"
+CallMethod
+Pop
+Push "replyDataEULA"
+GetVariable
+Push "onLoad"
+DefineFunction2 "", 1, 3, false, false, true, false, true, false, false, true, false, 2, "success" {
+Push register2
+Not
+If loc299f
+Push "windowMC"
+GetVariable
+Push "eulaText0"
+GetMember
+Push "text", "windowMC"
+GetVariable
+Push "eulaText1"
+GetMember
+Push "text", register1, "eulatext"
+GetMember
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+loc299f:SetMember
+}
+DefineFunction2 "showAccountTextBoxes", 1, 5, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "windowMC"
+GetVariable
+Push "usernameText"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "pass0Text"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "pass1Text"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "email0Text"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "email1Text"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "colorPickerMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnOKMC"
+GetMember
+Push "_visible", register1
+StoreRegister 7
+SetMember
+Push register7
+StoreRegister 6
+SetMember
+Push register6
+StoreRegister 5
+SetMember
+Push register5
+StoreRegister 4
+SetMember
+Push register4
+StoreRegister 3
+SetMember
+Push register3
+StoreRegister 2
+SetMember
+Push register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "showVerifyTextBoxes", 1, 5, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "window3MC"
+GetVariable
+Push "usernameText"
+GetMember
+Push "_visible", "window3MC"
+GetVariable
+Push "pass0Text"
+GetMember
+Push "_visible", "window3MC"
+GetVariable
+Push "pass1Text"
+GetMember
+Push "_visible", "window3MC"
+GetVariable
+Push "email0Text"
+GetMember
+Push "_visible", "window3MC"
+GetVariable
+Push "email1Text"
+GetMember
+Push "_visible", "window3MC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", "window3MC"
+GetVariable
+Push "btnOKMC"
+GetMember
+Push "_visible", register1
+StoreRegister 6
+SetMember
+Push register6
+StoreRegister 5
+SetMember
+Push register5
+StoreRegister 4
+SetMember
+Push register4
+StoreRegister 3
+SetMember
+Push register3
+StoreRegister 2
+SetMember
+Push register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "showLogInTextBoxes", 1, 4, false, false, true, false, true, false, true, false, false, 1, "b" {
+Push "windowMC"
+GetVariable
+Push "BTNadvancedMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "BTNloginVerifyMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "usernameText"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "pass0Text"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnXMC"
+GetMember
+Push "_visible", "windowMC"
+GetVariable
+Push "btnOKMC"
+GetMember
+Push "_visible", register1
+StoreRegister 5
+SetMember
+Push register5
+StoreRegister 4
+SetMember
+Push register4
+StoreRegister 3
+SetMember
+Push register3
+StoreRegister 2
+SetMember
+Push register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "displayCreateAccountMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push "_x", 123, "_y", 10, 2
+InitObject
+Push 200001, "window2MC", "window304CreateAccountMessageMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "displayVerifyAccountMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push "_x", 123, "_y", 10, 2
+InitObject
+Push 200003, "window2MC", "window304VerifyAccountMessageMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "displayVerificationSentMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push "_x", 123, "_y", 10, 2
+InitObject
+Push 200003, "window2MC", "window304VerificationSentMessageMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction2 "displayLogInMessage", 1, 3, false, true, true, false, true, false, true, false, false, 2, "msg" {
+Push "_x", 123, "_y", 10, 2
+InitObject
+Push 200001, "window2MC", "window304LogInMessageMC", 4, register1, "attachMovie"
+CallMethod
+Pop
+Push "window2MC"
+GetVariable
+Push "windowShow", 2, "zqggLX"
+CallFunction
+Pop
+Push "window2MC"
+GetVariable
+Push "msgText0"
+GetMember
+Push "text", "window2MC"
+GetVariable
+Push "msgText1"
+GetMember
+Push "text", register2
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+}
+DefineFunction "closeCreateAccountMessage", 0 {
+Push true, 1, "showAccountTextBoxes"
+CallFunction
+Pop
+}
+DefineFunction "closeVerifyAccountMessage", 0 {
+Push true, 1, "showVerifyTextBoxes"
+CallFunction
+Pop
+}
+DefineFunction "closeVerificationSentMessage", 0 {
+Push 0, "window3MC"
+GetVariable
+Push "windowClose"
+CallMethod
+Pop
+Push "loginKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "addListener"
+CallMethod
+Pop
+}
+DefineFunction "closeLogInMessage", 0 {
+Push true, 1, "showLogInTextBoxes"
+CallFunction
+Pop
+}
+DefineFunction "pressCloseSpecialOffer", 0 {
+Push "specialOfferMC"
+GetVariable
+Push "_visible", false
+SetMember
+Push "specialOffer", false
+SetVariable
+}
+DefineFunction "pressCredits", 0 {
+Push "windowMC"
+GetVariable
+Push null
+Equals2
+PushDuplicate
+Not
+If loc3080
+Pop
+Push "window2MC"
+GetVariable
+Push null
+Equals2
+loc3080:Not
+If loc30f0
+Push 0, "SFXSATheme"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push 0, "windowMC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push 0, "window2MC"
+GetVariable
+Push "removeMovieClip"
+CallMethod
+Pop
+Push "loginKeyListener"
+GetVariable
+Push 1, "Key"
+GetVariable
+Push "removeListener"
+CallMethod
+Pop
+GoToLabel "creditsFrame"
+}
+loc30f0:Stop
+Push "", 19, "BEST"
+SetProperty
+StopSounds
+Push "isCurrentVersion"
+GetVariable
+If loc313e
+Push "gotoFrame", "deadEnd"
+SetVariable
+Push "msgText", "versionNotCurrentText"
+GetVariable
+SetVariable
+GoToLabel "preReturnFrame"
+Jump loc314d
+loc313e:Push 0, "checkForClientUpdate"
+CallFunction
+Pop
+loc314d:Push "titleVersionMC"
+GetVariable
+Push "versionText"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "versionText0"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "versionText1"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "versionText2"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "versionText3"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "reflectionMC"
+GetMember
+Push "versionText"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "reflectionMC"
+GetMember
+Push "versionText0"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "reflectionMC"
+GetMember
+Push "versionText1"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "reflectionMC"
+GetMember
+Push "versionText2"
+GetMember
+Push "text", "titleVersionMC"
+GetVariable
+Push "reflectionMC"
+GetMember
+Push "versionText3"
+GetMember
+Push "text", "v ", "gameVersion"
+GetVariable
+Add2
+StoreRegister 8
+SetMember
+Push register8
+StoreRegister 7
+SetMember
+Push register7
+StoreRegister 6
+SetMember
+Push register6
+StoreRegister 5
+SetMember
+Push register5
+StoreRegister 4
+SetMember
+Push register4
+StoreRegister 3
+SetMember
+Push register3
+StoreRegister 2
+SetMember
+Push register2
+StoreRegister 1
+SetMember
+Push register1
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "titleBG"
+GetVariable
+Push "_visible", "titleMenuMC"
+GetVariable
+Push "_visible", "windowPingMC"
+GetVariable
+Push "_visible", "titleVersionMC"
+GetVariable
+Push "_visible", "title00MC"
+GetVariable
+Push "_visible", "instructionsMC"
+GetVariable
+Push "_visible", "loadGameMC"
+GetVariable
+Push "_visible", 0
+StoreRegister 5
+SetMember
+Push register5
+StoreRegister 4
+SetMember
+Push register4
+StoreRegister 3
+SetMember
+Push register3
+StoreRegister 2
+SetMember
+Push register2
+StoreRegister 1
+SetMember
+Push register1
+StoreRegister 0
+SetMember
+Push register0
+SetMember
+Push "specialOffer"
+GetVariable
+If loc332a
+Push "specialOfferMC"
+GetVariable
+Push "_visible", false
+SetMember
+loc332a:Push "introBypassed", false
+DefineLocal
+Push "userInitiatedBypass", false
+DefineLocal
+Push "gameArea", 0
+SetVariable
+Push "KONGREGATE.COM", 1, "domainName"
+GetVariable
+Push "indexOf"
+CallMethod
+Push -1
+Equals2
+Not
+Not
+If loc3420
+Push "titleMenuMC"
+GetVariable
+Push "createAccountBTNMC"
+GetMember
+Push "_visible", false
+SetMember
+Push "sFontName", 1, 0, 2, "tDummy"
+GetVariable
+Push "getTextFormat"
+CallMethod
+Push "font"
+GetMember
+DefineLocal
+Push "titleMenuMC"
+GetVariable
+Push "checkBoxLoginKongregate"
+GetMember
+With {
+Push "fontSize", 8
+SetVariable
+Push "color", "0xA1CAFF"
+SetVariable
+Push true, "embedFonts", 2, "setStyle"
+CallFunction
+Pop
+Push "sFontName"
+GetVariable
+Push "fontFamily", 2, "setStyle"
+CallFunction
+Pop
+}
+Jump loc3437
+loc3420:Push "titleMenuMC"
+GetVariable
+Push "checkBoxLoginKongregate"
+GetMember
+Push "_visible", false
+SetMember
+loc3437:Push "skipIntro"
+GetVariable
+Not
+If loc345c
+Push true, 1, "bypassSAIntro"
+CallFunction
+Pop
+Jump loc3486
+loc345c:Push 0, "SFXSATheme"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+Push 0, "SFXSATheme"
+GetVariable
+Push "start"
+CallMethod
+Pop
+loc3486:Push "titleAction"
+GetVariable
+Push "quickStart"
+Equals2
+Not
+If loc34da
+Push "titleAction", null
+SetVariable
+Push 0, "pressQuickStart"
+CallFunction
+Pop
+Push "SAIntroMC"
+GetVariable
+Push "_visible", 0
+SetMember
+Push 0, "SFXSATheme"
+GetVariable
+Push "stop"
+CallMethod
+Pop
+loc34da:Push "loginKeyListener", 0, "Object"
+NewObject
+SetVariable
+Push "loginKeyListener"
+GetVariable
+Push "onKeyDown"
+DefineFunction "", 0 {
+Push "pressedKey", 0, "Key"
+GetVariable
+Push "getAscii"
+CallMethod
+SetVariable
+Push "pressedKey"
+GetVariable
+Push 13
+Equals2
+Not
+If loc353f
+Push 0, "pressLogInOK"
+CallFunction
+Pop
+}
+loc353f:SetMember

@@ -1,0 +1,38 @@
+StrictMode 213
+Less2
+Try {
+If loc001b
+Push false
+loc001b:If loc0025
+Jump loc0078
+loc0025:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}+" , "{invalid_utf8=136}%" , "\x05" , "_parent" , "windowBGMC" , "this" , "out" , "zqggLX" , "{invalid_utf8=153}\x02" , "\x0e"  {
+Jump loc00ee
+loc0078:ConstantPool "_parent", "windowBGMC", "this", "out", "zqggLX"
+Push "_parent"
+GetVariable
+Push "windowBGMC"
+GetMember
+Push "this"
+GetVariable
+Push "out", 3, "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "zqggLX"
+CallMethod
+Pop
+Jump loc01fe
+}
+Less2
+Try {
+}
+Jump loc01fe
+}
+Jump loc01fe
+}
+}
+loc00ee:PrevFrame
+StoreRegister 152
+SetTarget "t{invalid_utf8=182}\"{invalid_utf8=215}\x1eYv{invalid_utf8=177}{invalid_utf8=231}.{invalid_utf8=186}{invalid_utf8=228}(H5{invalid_utf8=189}[/*sE{invalid_utf8=205}v\x1c\x16{invalid_utf8=129}\x18V{invalid_utf8=163}{invalid_utf8=202}x{invalid_utf8=162}O{invalid_utf8=153}V{invalid_utf8=165}{invalid_utf8=210}{invalid_utf8=214}g)d{invalid_utf8=241}\x0f\x1e`Ɇ{invalid_utf8=175}9\x19{invalid_utf8=245}D\x01M>{invalid_utf8=179}\'t{invalid_utf8=135}D{invalid_utf8=194}\x13,|{invalid_utf8=187}S@{invalid_utf8=230}{invalid_utf8=190}{invalid_utf8=244}{invalid_utf8=200}${invalid_utf8=155}<{invalid_utf8=208})\x16@{invalid_utf8=209}0{invalid_utf8=201}Q\x1f${invalid_utf8=158}$~h{invalid_utf8=140}{invalid_utf8=241}1{invalid_utf8=239}5{invalid_utf8=159}u{invalid_utf8=192}*{invalid_utf8=236}\\\x19u\x1d{invalid_utf8=244}{invalid_utf8=150}OP0{invalid_utf8=201}P\x1eN/\x13g{invalid_utf8=191}䘹{invalid_utf8=209}{invalid_utf8=207}{invalid_utf8=180}{invalid_utf8=200}%{invalid_utf8=190}{invalid_utf8=209}\'{invalid_utf8=145}˄{invalid_utf8=180}{invalid_utf8=242}){invalid_utf8=189}\"{invalid_utf8=246}{invalid_utf8=179}{invalid_utf8=222}{invalid_utf8=118}{invalid_utf8=219}>\x13{invalid_utf8=157}?{invalid_utf8=207}2{invalid_utf8=130}˼\x13){invalid_utf8=150}{invalid_utf8=198}{invalid_utf8=215}C{invalid_utf8=243}{invalid_utf8=188}{invalid_utf8=152}W]{invalid_utf8=144}S`\x03{invalid_utf8=223}{invalid_utf8=244}{invalid_utf8=205}UŎ{%{invalid_utf8=201}{invalid_utf8=244}{invalid_utf8=220}{invalid_utf8=221}{invalid_utf8=201}{invalid_utf8=195}{invalid_utf8=233}{invalid_utf8=154}{invalid_utf8=200}){invalid_utf8=198}{invalid_utf8=222}{invalid_utf8=150}\x1b{invalid_utf8=192}{invalid_utf8=244}׆r{invalid_utf8=183}\x03ӥ{invalid_utf8=147}Z]\x07{invalid_utf8=200}{invalid_utf8=204}!${invalid_utf8=217}{invalid_utf8=211}{invalid_utf8=173}p Y{invalid_utf8=150}\n]{invalid_utf8=167}{invalid_utf8=233}r{invalid_utf8=140}{invalid_utf8=225}y{invalid_utf8=129}{invalid_utf8=148}\x0b{invalid_utf8=143}eF{invalid_utf8=193}{invalid_utf8=231}I{invalid_utf8=156}{invalid_utf8=187}N&{invalid_utf8=178}{invalid_utf8=166}b{invalid_utf8=220}?{invalid_utf8=149}7\x11L,{invalid_utf8=147}{invalid_utf8=168}{invalid_utf8=135}.t{invalid_utf8=246}{invalid_utf8=140}M4kcc%{invalid_utf8=150}{invalid_utf8=233}4۷{invalid_utf8=128}{invalid_utf8=246}τ"
+loc01fe:

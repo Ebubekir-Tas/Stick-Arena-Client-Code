@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Stop
+Jump loc0055
+}
+Push null, "this"
+GetVariable
+Push "out", 3, "_parent"
+GetVariable
+Push "zqggLX"
+CallMethod
+Pop
+Jump loc0055
+}
+InitObject
+loc0055:

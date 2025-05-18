@@ -1,0 +1,20 @@
+StrictMode 213
+Less2
+Try {
+InstanceOf
+BitURShift
+RandomNumber
+Jump loc0045
+}
+Push constant11
+GetMember
+Push constant12
+GetVariable
+Push constant13, 3, constant0
+GetVariable
+Push constant0
+GetMember
+Push constant14
+CallMethod
+Pop
+loc0045:}

@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Play
+Jump loc001d
+}
+Jump loc001d
+}
+Add
+loc001d:

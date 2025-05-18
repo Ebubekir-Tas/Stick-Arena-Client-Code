@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+GetVariable
+Enumerate2
+InitObject
+SetProperty
+Jump loc001e
+}
+GotoFrame2 false, true, 
+}
+loc001e:

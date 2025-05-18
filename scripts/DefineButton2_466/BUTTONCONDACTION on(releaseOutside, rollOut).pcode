@@ -1,0 +1,16 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0020
+}
+BitURShift
+ToString
+Greater
+BitURShift
+Greater
+BitOr
+BitURShift
+DefineLocal2
+BitLShift
+BitLShift
+loc0020:}

@@ -1,0 +1,3 @@
+1st
+--- RECORDSEPARATOR ---
+2nd

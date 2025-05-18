@@ -1,0 +1,20 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0024
+}
+SetTarget2
+SetTarget2
+StrictEquals
+Extends
+BitURShift
+SetTarget2
+StrictEquals
+SetTarget2
+Less2
+BitOr
+BitRShift
+TypeOf
+Extends
+BitURShift
+loc0024:}

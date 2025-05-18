@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Push 0, constant3
+GetVariable
+Push constant4
+CallMethod
+Pop
+}
+}

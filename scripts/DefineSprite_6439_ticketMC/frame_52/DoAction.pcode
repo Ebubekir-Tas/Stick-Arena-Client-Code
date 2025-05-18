@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+TypeOf
+StopSounds
+WaitForFrame2 4
+Jump loc001e
+}
+BitAnd
+Equals
+loc001e:}

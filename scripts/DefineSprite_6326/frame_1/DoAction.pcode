@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+GetMember
+GetUrl "{invalid_utf8=174}{invalid_utf8=213}2wԬh+{invalid_utf8=128}{invalid_utf8=255}\t\x1a", ""
+Jump loc002c
+}
+StoreRegister 98
+}
+loc002c:

@@ -1,0 +1,9 @@
+this list displays 
+--- RECORDSEPARATOR ---
+all 
+--- RECORDSEPARATOR ---
+players
+--- RECORDSEPARATOR ---
+ in the 
+--- RECORDSEPARATOR ---
+lobby.

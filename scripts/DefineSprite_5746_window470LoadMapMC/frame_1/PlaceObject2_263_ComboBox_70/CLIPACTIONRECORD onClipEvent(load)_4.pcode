@@ -1,0 +1,16 @@
+StrictMode 213
+Less2
+Try {
+Jump loc003b
+}
+ConstantPool "\x01\x02\x03"
+StrictMode 213
+Less2
+Try {
+Jump loc003b
+}
+Jump loc003b
+}
+}
+InitObject
+loc003b:

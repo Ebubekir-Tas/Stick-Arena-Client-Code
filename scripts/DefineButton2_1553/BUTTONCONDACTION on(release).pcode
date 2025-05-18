@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001c
+}
+And
+StringExtract
+GotoFrame2 false, true, 
+}
+loc001c:

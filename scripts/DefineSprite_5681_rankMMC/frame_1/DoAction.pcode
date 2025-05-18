@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+If loc0024
+ConstantPool "\x01\x02\x03"
+Jump loc0029
+loc0024:Jump loc0035
+loc0029:Stop
+Jump loc0035
+}
+Jump loc0035
+}
+Subtract
+loc0035:

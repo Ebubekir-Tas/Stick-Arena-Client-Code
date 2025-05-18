@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Increment
+BitOr
+BitURShift
+Equals2
+BitRShift
+Extends
+BitLShift
+BitOr
+Increment
+StrictEquals
+Extends
+BitURShift
+}
+}

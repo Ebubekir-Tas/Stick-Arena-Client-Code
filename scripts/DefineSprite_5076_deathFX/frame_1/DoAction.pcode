@@ -1,0 +1,41 @@
+StrictMode 213
+Less2
+Try {
+StrictEquals
+CharToAscii
+Jump loc0039
+}
+PrevFrame
+ToggleQuality
+Play
+ToggleQuality
+Stop
+ToggleQuality
+ToggleQuality
+ToggleQuality
+StopSounds
+ToggleQuality
+Play
+ToggleQuality
+Add
+ToggleQuality
+Subtract
+ToggleQuality
+Multiply
+ToggleQuality
+Play
+ToggleQuality
+Divide
+ToggleQuality
+Subtract
+ToggleQuality
+Equals
+ToggleQuality
+Play
+ToggleQuality
+Less
+ToggleQuality
+Subtract
+Stop
+ToggleQuality
+loc0039:}

@@ -1,0 +1,32 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0030
+}
+StackSwap
+GetMember
+SetMember
+Increment
+Decrement
+CallMethod
+NewMethod
+InstanceOf
+Enumerate2
+RandomNumber
+MBStringLength
+CharToAscii
+AsciiToChar
+GetTime
+MBStringExtract
+MBCharToAscii
+MBAsciiToChar
+SetTarget2
+StringAdd
+Modulo
+ImplementsOp
+NewObject
+SetProperty
+CloneSprite
+RemoveSprite
+Throw
+loc0030:}

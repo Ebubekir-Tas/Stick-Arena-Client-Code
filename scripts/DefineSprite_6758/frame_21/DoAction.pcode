@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+Not
+Jump loc0024
+}
+Add2
+Stop
+NewObject
+InitArray
+Jump loc0024
+}
+BitLShift
+BitOr
+StackSwap
+InitObject
+loc0024:

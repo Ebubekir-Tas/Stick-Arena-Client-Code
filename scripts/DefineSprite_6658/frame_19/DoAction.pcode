@@ -1,0 +1,14 @@
+StrictMode 213
+Less2
+Try {
+Jump loc0069
+}
+If loc0020
+Jump loc0068
+loc0020:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}{invalid_utf8=238}\x11\x07" , "{invalid_utf8=197}\nidle" , "{invalid_utf8=191}\x06\x06" , "" , "" , "\x06\x01" , "R\x1a" , "@" , "\x02\x07\x01" , "{invalid_utf8=197}\nkill"  {
+Jump loc0069
+loc0068:Stop
+}
+}
+loc0069:

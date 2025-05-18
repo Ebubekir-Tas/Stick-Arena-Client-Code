@@ -1,0 +1,17 @@
+the 
+--- RECORDSEPARATOR ---
+arena list
+--- RECORDSEPARATOR ---
+ 
+--- RECORDSEPARATOR ---
+displays all 
+--- RECORDSEPARATOR ---
+public
+--- RECORDSEPARATOR ---
+ games with 
+--- RECORDSEPARATOR ---
+open spots 
+--- RECORDSEPARATOR ---
+(private and full 
+--- RECORDSEPARATOR ---
+games are hidden).

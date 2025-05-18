@@ -1,0 +1,24 @@
+StrictMode 213
+Less2
+Try {
+Jump loc006c
+}
+Push constant3, -47, register1, constant3
+GetMember
+Push 173
+Subtract
+Push 2
+Divide
+Add2
+Push register1, constant3
+GetMember
+Push 230
+Subtract
+Push 2, constant6
+GetVariable
+Push constant7
+CallMethod
+ToInteger
+SetMember
+SetMember
+loc006c:}

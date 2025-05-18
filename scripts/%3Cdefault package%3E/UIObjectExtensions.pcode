@@ -1,0 +1,41 @@
+StrictMode 213
+Less2
+Try {
+GetMember
+Push constant8, constant0
+GetVariable
+Push constant1
+GetMember
+Push constant7
+GetMember
+Push constant8
+GetMember
+Decrement
+SetMember
+Push constant6, constant0
+GetVariable
+Push constant1
+GetMember
+Push constant2
+GetMember
+Push 3, constant5
+GetVariable
+Push constant9
+CallMethod
+Pop
+Jump loc00c4
+}
+If loc006c
+Jump loc00b1
+loc006c:ConstantPool "\x02\x01"
+DefineFunction "\x1b{invalid_utf8=153}\x02", 14, "{invalid_utf8=136}\x07" , "\x01" , "\x02\x01" , "\x01" , "{invalid_utf8=142}{invalid_utf8=255}{invalid_utf8=238}\x11{invalid_utf8=137}\x06" , "{invalid_utf8=213}H{invalid_utf8=143}\x02\x03" , "{invalid_utf8=150}\x02" , "\x05" , "{invalid_utf8=157}\x02" , "\x05" , "{invalid_utf8=136}\x06" , "\x01" , "\x01\x02\x03" , "{invalid_utf8=150}\x02"  {
+Jump loc00c4
+loc00b1:StrictMode 213
+Less2
+Try {
+}
+InitArray
+BitOr
+}
+}
+loc00c4:

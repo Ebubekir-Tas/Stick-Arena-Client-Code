@@ -1,0 +1,13 @@
+StrictMode 213
+Less2
+Try {
+PushDuplicate
+BitOr
+BitRShift
+Extends
+Greater
+InstanceOf
+BitURShift
+MBStringLength
+}
+}

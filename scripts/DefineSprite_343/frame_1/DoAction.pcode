@@ -1,0 +1,12 @@
+StrictMode 213
+Less2
+Try {
+ImplementsOp
+ImplementsOp
+ImplementsOp
+Jump loc001c
+}
+Greater
+GetVariable
+Add
+loc001c:}

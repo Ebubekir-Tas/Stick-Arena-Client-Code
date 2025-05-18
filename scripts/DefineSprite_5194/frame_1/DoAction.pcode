@@ -1,0 +1,11 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001b
+}
+Enumerate2
+BitURShift
+AsciiToChar
+StackSwap
+InitObject
+loc001b:}

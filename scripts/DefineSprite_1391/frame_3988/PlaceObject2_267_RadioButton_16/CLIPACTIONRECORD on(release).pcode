@@ -1,0 +1,9 @@
+StrictMode 213
+Less2
+Try {
+CallMethod
+Pop
+Jump loc0019
+}
+Stop
+loc0019:}

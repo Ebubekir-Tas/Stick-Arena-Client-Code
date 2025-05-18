@@ -1,0 +1,32 @@
+StrictMode 213
+Less2
+Try {
+Subtract
+Subtract
+And
+And
+Or
+StringEquals
+StringLength
+StringExtract
+StringExtract
+StringExtract
+Multiply
+Less
+Pop
+ToInteger
+StringLength
+ToInteger
+Not
+StringLength
+StringExtract
+StringLength
+With {
+Jump loc0034
+}
+Jump loc0036
+}
+}
+loc0034:NewObject
+NewObject
+loc0036:

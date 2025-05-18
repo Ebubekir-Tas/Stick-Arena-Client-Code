@@ -1,0 +1,18 @@
+StrictMode 213
+Less2
+Try {
+GetVariable
+Push constant5
+CallMethod
+Pop
+Jump loc003c
+}
+Try {
+InitArray
+Jump loc003c
+}
+Jump loc003c
+}
+GotoFrame 16355
+RemoveSprite
+loc003c:}

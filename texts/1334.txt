@@ -1,0 +1,9 @@
+the badge beside a 
+--- RECORDSEPARATOR ---
+player's name 
+--- RECORDSEPARATOR ---
+denotes their 
+--- RECORDSEPARATOR ---
+rank
+--- RECORDSEPARATOR ---
+.

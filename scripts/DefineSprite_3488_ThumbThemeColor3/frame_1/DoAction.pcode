@@ -1,0 +1,10 @@
+StrictMode 213
+Less2
+Try {
+Jump loc001a
+}
+BitURShift
+BitURShift
+InitObject
+MBStringLength
+loc001a:}

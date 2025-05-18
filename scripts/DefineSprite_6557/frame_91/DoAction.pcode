@@ -1,0 +1,17 @@
+StrictMode 213
+Less2
+Try {
+WaitForFrame2 10
+Jump loc0048
+}
+If loc002d
+ConstantPool "\x01\x02\x03"
+Jump loc0032
+loc002d:Jump loc0048
+loc0032:StrictMode 213
+Less2
+Try {
+If loc0048
+}
+}
+loc0048:

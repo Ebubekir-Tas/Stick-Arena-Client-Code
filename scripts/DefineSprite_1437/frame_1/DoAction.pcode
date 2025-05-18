@@ -1,0 +1,32 @@
+StrictMode 213
+Less2
+Try {
+Jump loc00b0
+}
+ConstantPool "\x01\x02\x03"
+ConstantPool "_parent", "pressCreateGame", "lobbyButtonBGMC", "this", "release", "zqggLX"
+Push 0, "_parent"
+GetVariable
+Push "pressCreateGame"
+CallMethod
+Pop
+Push "_parent"
+GetVariable
+Push "lobbyButtonBGMC"
+GetMember
+Push "this"
+GetVariable
+Push "release", 3, "_parent"
+GetVariable
+Push "zqggLX"
+CallMethod
+Pop
+Jump loc00b0
+}
+RemoveSprite
+Trace
+StartDrag
+EndDrag
+StringLess
+Throw
+loc00b0:

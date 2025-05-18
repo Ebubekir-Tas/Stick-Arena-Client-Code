@@ -1,0 +1,13 @@
+to 
+--- RECORDSEPARATOR ---
+chat
+--- RECORDSEPARATOR ---
+, type 
+--- RECORDSEPARATOR ---
+your message and 
+--- RECORDSEPARATOR ---
+press 
+--- RECORDSEPARATOR ---
+enter
+--- RECORDSEPARATOR ---
+.
