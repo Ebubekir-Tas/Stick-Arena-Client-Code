@@ -1,0 +1,65 @@
+ConstantPool "_parent", "_name", "gxyAWm", "_root", "uName", "1", "playerName", "extractedDigits", "charAt", "isTournamentWinner", "getName"
+Stop
+Push "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_name"
+GetMember
+Push "gxyAWm"
+Equals2
+Not
+If loc00ac
+Push "_root"
+GetVariable
+Push "uName"
+GetMember
+Push "1"
+Equals2
+Not
+If loc00a7
+GotoFrame 1
+loc00a7:Jump loc0167
+loc00ac:Push "playerName", "_parent"
+GetVariable
+Push "_parent"
+GetMember
+Push "_parent"
+GetMember
+Push "_name"
+GetMember
+DefineLocal
+Push "extractedDigits", 6, 1, "playerName"
+GetVariable
+Push "charAt"
+CallMethod
+Push 7, 1, "playerName"
+GetVariable
+Push "charAt"
+CallMethod
+Add2
+Push 8, 1, "playerName"
+GetVariable
+Push "charAt"
+CallMethod
+Add2
+DefineLocal
+Push "isTournamentWinner", "extractedDigits"
+GetVariable
+Push 1, "_root"
+GetVariable
+Push "getName"
+CallMethod
+Push "1"
+Equals2
+DefineLocal
+Push "isTournamentWinner"
+GetVariable
+Not
+If loc0162
+GotoFrame 1
+Jump loc0167
+loc0162:GotoFrame 0
+loc0167:
